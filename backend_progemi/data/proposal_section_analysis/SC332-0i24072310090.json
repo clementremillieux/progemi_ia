@@ -1,0 +1,222 @@
+{
+  "groupes_produits": [
+    {
+      "nom": "TUBAGE SANITAIRES",
+      "sous_groupes_produits": [
+        {
+          "nom": "Tuyau de ventilation primaire",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Alimentation eau chaude eau froide et evacuation pour un appareil sanitaire en attente",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Alimentation générale avec régulateur de pression et robinet de coupure",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Robinet de puisage avec raccord au nez",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Alimentation et évacuation lave linge / lave vaiselle",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "WC",
+      "sous_groupes_produits": [
+        {
+          "nom": "RDC et étage",
+          "sous_groupes_produits": [
+            {
+              "nom": "ARDOSA 2 CUVETTE SUSPENDUE SANS BRIDE NOIR MAT",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "ARDOSA 2 ABATTANT FREIN DE CHUTE DÉCLIPSABLE NOIR",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "BATI-SUPPORT DUOFIX UP320 AUTOPORTANT",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Plaque de declenchement SIGMA01 noir foncé",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Forfait prestation pose et fourniture alimentation eau froide / evacuation",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Lave mains",
+          "sous_groupes_produits": [
+            {
+              "nom": "Lave mains Lulu laqué, vasque céramique noire",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Coloris champagne 006MA poignées chromées",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Mitigeur Lavabo minimal vidage chromé",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Forfait prestation pose et fourniture alimentation eau froide / evacuation",
+              "sous_groupes_produits": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Salle de bain étage",
+      "sous_groupes_produits": [
+        {
+          "nom": "Meuble",
+          "sous_groupes_produits": [
+            {
+              "nom": "BENTO - Caisson meuble vasque H75 - L80 - tiroirs - Poignée BANDEAU CHROMÉE",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "COLORIS DU MEUBLE TAUPE EXTRA MAT 050",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Plan vasque LUNA L80 Céramique Blanc brillant",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "SPERANZA mitigeur lavabo bas chromé sans vidage",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Bonde lavabo avec trop plein chromé",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "MIROIR LED RING D.60",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "ACCESSOIRE WALL PORTE SECHE CHEVEUX",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Forfait prestation",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Douche",
+          "sous_groupes_produits": [
+            {
+              "nom": "LUNA RECEVEUR 140X90 BLANC",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Bonde grand débit",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Ensemble de pieds réglables",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "PAROI ARTY SOLO DOUCHE OUVERTE 140 VT PROFILE ARGENT SATIN",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Forfait prestation",
+              "sous_groupes_produits": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Salle de bain rdc",
+      "sous_groupes_produits": [
+        {
+          "nom": "Douche",
+          "sous_groupes_produits": [
+            {
+              "nom": "LUNA RECEVEUR 180X90 BLANC",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Bonde grand débit",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Ensemble de pieds réglables",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Forfait prestation",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Meuble",
+          "sous_groupes_produits": [
+            {
+              "nom": "Caisson meuble vasque BENTO L100 centré - tiroirs - POIGNEE BANDEAU CHROMÉE COLORIS DU MEUBLE LAQUE EXTRA MAT TAUPE 050",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Plan vasque LUNA BLANC P46 L102 céramique",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "SPERANZA mitigeur lavabo bas chromé sans vidage",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "BONDE LAVABO AVEC TROP-PLEIN CHROMÉ",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Miroir LED RING D.100",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "ACCESSOIRE WALL PORTE SECHE CHEVEUX",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Forfait prestation",
+              "sous_groupes_produits": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

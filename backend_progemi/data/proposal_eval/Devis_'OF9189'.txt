@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "checked": 5,
+    "ok": 5,
+    "nok": 0,
+    "details": {
+      "devis_id": "✅",
+      "devis_date": "✅",
+      "devis_total_ht": "✅",
+      "devis_total_ttc": "✅",
+      "devis_total_tva": "✅"
+    }
+  },
+  "entities": {
+    "total_actual": 88,
+    "total_compared": 26,
+    "price_ok": 26,
+    "quantity_ok": 26,
+    "vat_ok": 26,
+    "lot_ok": 26,
+    "subcount_ok": 26,
+    "percent_entities_compared": 29.55,
+    "percent_price_ok": 100.0,
+    "percent_quantity_ok": 100.0,
+    "percent_vat_ok": 100.0,
+    "percent_lot_ok": 100.0,
+    "percent_subcount_ok": 100.0
+  }
+}
+
+=== LOGS ===
+🔎 Vérification des métadonnées :
+  devis_id: OF9189 == OF9189 ✅
+  devis_date: 29/01/25 == 29/01/25 ✅
+  devis_total_ht: 27711.68 == 27711.68 ✅
+  devis_total_ttc: 33254.02 == 33254.02 ✅
+  devis_total_tva: 5542.34 == 5542.34 ✅
+
+📦 Comparaison des produits :
+  ▶ Produit[0] (GARAGE) :
+    - price_ht: 274.45 == 274.45 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 2 == 2 ✅
+      ▶ Produit[0] (VA ET VIENT ENCASTRE APPAREILLAGE BLANC) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (PRISE DE COURANT 2 POLES+TERRE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[1] (CELLIER) :
+    - price_ht: 819.98 == 819.98 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 5 == 5 ✅
+      ▶ Produit[0] (VA ET VIENT ENCASTRE APPAREILLAGE BLANC) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (PRISE DE COURANT 2 POLES+TERRE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PRISE 2P+T SPECIALISEE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (LIGNE CHAUFFE EAU) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[4] (ALIMENTATION POMPE A CHALEUR -32A + PROTECTION) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[2] (WC 1) :
+    - price_ht: 154.64 == 154.64 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 2 == 2 ✅
+      ▶ Produit[0] (SIMPLE ALLUMAGE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[3] (DEGT 1) :
+    - price_ht: 88.75 == 88.75 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 1 == 1 ✅
+      ▶ Produit[0] (SIMPLE ALLUMAGE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[4] (CUISINE) :
+    - price_ht: 1802.33 == 1802.33 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 6 == 6 ✅
+      ▶ Produit[0] (VA ET VIENT ENCASTRE APPAREILLAGE BLANC) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (SIMPLE ALLUMAGE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PRISE DE COURANT 2 POLES+TERRE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 8.0 == 8.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (PRISE 2P+T SPECIALISEE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[4] (SORTIE DE CABLE 32 A MONO.) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[5] (FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 8.0 == 8.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[5] (HALL) :
+    - price_ht: 1286.63 == 1286.63 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 4 == 4 ✅
+      ▶ Produit[0] (TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (PRISE DE COURANT 2 POLES+TERRE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 3.0 == 3.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+
+📊 Résumé des métriques :
+  - Entités totales           : 88
+  - Entités comparées         : 26 (29.55%) ❌
+  - Prix OK                   : 26/26 (100.0%) ✅
+  - Quantité OK               : 26/26 (100.0%) ✅
+  - TVA OK                    : 26/26 (100.0%) ✅
+  - Lot OK                    : 26/26 (100.0%) ✅
+  - Sous-produits count OK    : 26/26 (100.0%) ✅

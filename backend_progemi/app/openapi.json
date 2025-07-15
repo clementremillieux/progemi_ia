@@ -1,0 +1,1873 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FastAPI",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/api/users/new_user": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "New User",
+        "description": "Create a new user with the provided user ID.",
+        "operationId": "new_user_api_users_new_user_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewUserInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "409": {
+            "description": "User already exists"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_user": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get User",
+        "description": "Retrieve user information based on the provided user ID.",
+        "operationId": "get_user_api_users_get_user_get",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetUserInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "User does not exist"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/delete_user": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Delete User",
+        "description": "Delete a user based on the provided user ID.",
+        "operationId": "delete_user_api_users_delete_user_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteUserInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/new_project": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "New Project",
+        "description": "Create a new project for the given user.",
+        "operationId": "new_project_api_users_new_project_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewProjectInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/delete_project": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Delete Project",
+        "description": "Delete a project for the given user.",
+        "operationId": "delete_project_api_users_delete_project_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteProjectInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_all_projects": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get All Projects",
+        "description": "Retrieve all projects name associated with a user.",
+        "operationId": "get_all_projects_api_users_get_all_projects_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllProjectsInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array",
+                  "title": "Response Get All Projects Api Users Get All Projects Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/upload_proposal": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Upload Proposal",
+        "description": "Upload a proposal file for the given user & project.",
+        "operationId": "upload_proposal_api_users_upload_proposal_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_upload_proposal_api_users_upload_proposal_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_proposal": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get Proposal",
+        "description": "Return a proposal file for the given user & project.",
+        "operationId": "get_proposal_api_users_get_proposal_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProposalInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/delete_proposal": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Delete Proposal",
+        "description": "Delete a proposal for the given user & project.",
+        "operationId": "delete_proposal_api_users_delete_proposal_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteProposalInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_all_proposals_infos": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get All Proposals",
+        "description": "Retrieve all proposals associated with a project for a user.",
+        "operationId": "get_all_proposals_api_users_get_all_proposals_infos_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllProposalsInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/ProposalInfos"
+                  },
+                  "type": "array",
+                  "title": "Response Get All Proposals Api Users Get All Proposals Infos Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_project_packs": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get Project Packs",
+        "description": "Retrieve all packs associated with a project for a user.",
+        "operationId": "get_project_packs_api_users_get_project_packs_get",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProjectPacksInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array",
+                  "title": "Response Get Project Packs Api Users Get Project Packs Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/update_project_packs": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Update Project Packs",
+        "description": "Update the packs associated with a project for a user.",
+        "operationId": "update_project_packs_api_users_update_project_packs_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateProjectPacksInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_proposal_extracted_object": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get Proposal Extracted Object",
+        "description": "Retrieve the structured proposal object for a given proposal title.",
+        "operationId": "get_proposal_extracted_object_api_users_get_proposal_extracted_object_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProposalExtractedObjectInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProposalWithPolygonAndValidation-Output"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/set_proposal_extracted_object": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Set Proposal Extracted Object",
+        "description": "Set the structured proposal object for a given proposal title.",
+        "operationId": "set_proposal_extracted_object_api_users_set_proposal_extracted_object_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetProposalExtractedObjectInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProposalWithPolygonAndValidation-Output"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_proposal_object": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get Proposal Object",
+        "description": "Retrieve a structured proposal object for a given proposal title.",
+        "operationId": "get_proposal_object_api_users_get_proposal_object_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateProposalObjectInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProposalWithPolygonAndValidation-Output"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/create_proposal_object_validation": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Create Proposal Object Validation",
+        "description": "Retrieve the validation report for a given proposal title.",
+        "operationId": "create_proposal_object_validation_api_users_create_proposal_object_validation_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateProposalObjectValidationInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ValidationReport"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_proposal_object_validation": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get Proposal Object Validation",
+        "description": "Retrieve the validation report for a given proposal title.",
+        "operationId": "get_proposal_object_validation_api_users_get_proposal_object_validation_get",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProposalObjectValidationInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ValidationReport"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Body_upload_proposal_api_users_upload_proposal_post": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name"
+          },
+          "file": {
+            "type": "string",
+            "format": "binary",
+            "title": "File"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "file"
+        ],
+        "title": "Body_upload_proposal_api_users_upload_proposal_post"
+      },
+      "CreateProposalObjectInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "proposal_title": {
+            "type": "string",
+            "title": "Proposal Title",
+            "description": "Title of the proposal to analyze and structure"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "proposal_title"
+        ],
+        "title": "CreateProposalObjectInput",
+        "description": "Parameters for getting a structured proposal object."
+      },
+      "CreateProposalObjectValidationInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "proposal_title": {
+            "type": "string",
+            "title": "Proposal Title",
+            "description": "Title of the proposal to analyze and structure"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "proposal_title"
+        ],
+        "title": "CreateProposalObjectValidationInput",
+        "description": "Parameters for creating a proposal object validation."
+      },
+      "DeleteProjectInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project to delete"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name"
+        ],
+        "title": "DeleteProjectInput",
+        "description": "Parameters for deleting a project."
+      },
+      "DeleteProposalInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "proposal_title": {
+            "type": "string",
+            "title": "Proposal Title",
+            "description": "Title of the proposal to delete"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "proposal_title"
+        ],
+        "title": "DeleteProposalInput",
+        "description": "Parameters for deleting a proposal."
+      },
+      "DeleteUserInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user to delete"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email"
+        ],
+        "title": "DeleteUserInput",
+        "description": "Parameters for deleting a user."
+      },
+      "GetAllProjectsInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user to retrieve projects for"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email"
+        ],
+        "title": "GetAllProjectsInput",
+        "description": "Parameters for getting all projects of a user."
+      },
+      "GetAllProposalsInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name"
+        ],
+        "title": "GetAllProposalsInput",
+        "description": "Parameters for getting all proposals of a project."
+      },
+      "GetProjectPacksInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name"
+        ],
+        "title": "GetProjectPacksInput",
+        "description": "Parameters for getting all packs of a project."
+      },
+      "GetProposalExtractedObjectInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "proposal_title": {
+            "type": "string",
+            "title": "Proposal Title",
+            "description": "Title of the proposal to retrieve"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "proposal_title"
+        ],
+        "title": "GetProposalExtractedObjectInput",
+        "description": "Parameters for getting a structured proposal object."
+      },
+      "GetProposalInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "proposal_id": {
+            "$ref": "#/components/schemas/PydanticObjectId",
+            "description": "ID of the proposal to retrieve"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "proposal_id"
+        ],
+        "title": "GetProposalInput",
+        "description": "Parameters for getting a proposal."
+      },
+      "GetProposalObjectValidationInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "proposal_title": {
+            "type": "string",
+            "title": "Proposal Title",
+            "description": "Title of the proposal to analyze and structure"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "proposal_title"
+        ],
+        "title": "GetProposalObjectValidationInput",
+        "description": "Parameters for getting a proposal object validation."
+      },
+      "GetUserInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user to retrieve"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email"
+        ],
+        "title": "GetUserInput",
+        "description": "Parameters for getting a user."
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "IncoherenceKind": {
+        "type": "string",
+        "enum": [
+          "product_ht_mismatch",
+          "product_tva_mismatch",
+          "product_ttc_mismatch",
+          "product_extra_cost",
+          "total_ht_mismatch",
+          "total_tva_mismatch",
+          "total_ttc_mismatch",
+          "total_extra_cost_mismatch"
+        ],
+        "title": "IncoherenceKind",
+        "description": "Enum representing the kind of incoherence found during validation."
+      },
+      "NewProjectInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the new project"
+          },
+          "packs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Packs",
+            "description": "List of pack names associated with the project"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "packs"
+        ],
+        "title": "NewProjectInput",
+        "description": "Parameters for creating a new project."
+      },
+      "NewUserInput": {
+        "properties": {
+          "user_name": {
+            "type": "string",
+            "title": "User Name",
+            "description": "Name of the new user"
+          },
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the new user"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_name",
+          "user_email"
+        ],
+        "title": "NewUserInput",
+        "description": "Parameters for creating a new user."
+      },
+      "ProductWithPolygonAndValidation-Input": {
+        "properties": {
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "description": "Label du produit"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "description": "Description du produit"
+          },
+          "quantite": {
+            "type": "number",
+            "title": "Quantite",
+            "description": "Quantit\u00e9 du produit"
+          },
+          "unitee_quantite": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unitee Quantite",
+            "description": "Unit\u00e9 de la quantit\u00e9 du produit (ex: pi\u00e8ce, m\u00e8tre, etc.)"
+          },
+          "price_unitaire_ht": {
+            "type": "number",
+            "title": "Price Unitaire Ht",
+            "description": "Prix unitaire hors taxe d'un produit"
+          },
+          "tva": {
+            "$ref": "#/components/schemas/TVA",
+            "description": "Taxe sur la valeur ajout\u00e9e du sous-produit"
+          },
+          "eco_participation": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eco Participation",
+            "description": "Montant de l'\u00e9co participation du produit"
+          },
+          "sous_produits": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/ProductWithPolygonAndValidation-Input"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sous Produits",
+            "description": "Nested sub-products with polygons/validation"
+          },
+          "lot": {
+            "type": "string",
+            "title": "Lot",
+            "description": "Lot auquel appartient le produit"
+          },
+          "polygon": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array",
+            "title": "Polygon",
+            "description": "Polygon associated with the product for visualization (list of points)"
+          },
+          "page": {
+            "type": "integer",
+            "title": "Page",
+            "description": "Page number associated with the polygon, if applicable"
+          },
+          "issue": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue",
+            "description": "Issue or validation error associated with the product"
+          }
+        },
+        "type": "object",
+        "required": [
+          "label",
+          "description",
+          "quantite",
+          "unitee_quantite",
+          "price_unitaire_ht",
+          "tva",
+          "eco_participation",
+          "lot",
+          "polygon",
+          "page"
+        ],
+        "title": "ProductWithPolygonAndValidation",
+        "description": "A product with an associated polygon and validation information."
+      },
+      "ProductWithPolygonAndValidation-Output": {
+        "properties": {
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "description": "Label du produit"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "description": "Description du produit"
+          },
+          "quantite": {
+            "type": "number",
+            "title": "Quantite",
+            "description": "Quantit\u00e9 du produit"
+          },
+          "unitee_quantite": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unitee Quantite",
+            "description": "Unit\u00e9 de la quantit\u00e9 du produit (ex: pi\u00e8ce, m\u00e8tre, etc.)"
+          },
+          "price_unitaire_ht": {
+            "type": "number",
+            "title": "Price Unitaire Ht",
+            "description": "Prix unitaire hors taxe d'un produit"
+          },
+          "tva": {
+            "$ref": "#/components/schemas/TVA",
+            "description": "Taxe sur la valeur ajout\u00e9e du sous-produit"
+          },
+          "eco_participation": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eco Participation",
+            "description": "Montant de l'\u00e9co participation du produit"
+          },
+          "sous_produits": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/ProductWithPolygonAndValidation-Output"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sous Produits",
+            "description": "Nested sub-products with polygons/validation"
+          },
+          "lot": {
+            "type": "string",
+            "title": "Lot",
+            "description": "Lot auquel appartient le produit"
+          },
+          "polygon": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array",
+            "title": "Polygon",
+            "description": "Polygon associated with the product for visualization (list of points)"
+          },
+          "page": {
+            "type": "integer",
+            "title": "Page",
+            "description": "Page number associated with the polygon, if applicable"
+          },
+          "issue": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue",
+            "description": "Issue or validation error associated with the product"
+          }
+        },
+        "type": "object",
+        "required": [
+          "label",
+          "description",
+          "quantite",
+          "unitee_quantite",
+          "price_unitaire_ht",
+          "tva",
+          "eco_participation",
+          "lot",
+          "polygon",
+          "page"
+        ],
+        "title": "ProductWithPolygonAndValidation",
+        "description": "A product with an associated polygon and validation information."
+      },
+      "Project": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "description": "Name of the project"
+          },
+          "proposals": {
+            "items": {
+              "$ref": "#/components/schemas/Proposal"
+            },
+            "type": "array",
+            "title": "Proposals",
+            "description": "List of proposals associated with the project"
+          },
+          "packs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Packs",
+            "description": "List of pack names associated with the project"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "packs"
+        ],
+        "title": "Project",
+        "description": "Project schema."
+      },
+      "Proposal": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "description": "Title of the proposal"
+          },
+          "status": {
+            "$ref": "#/components/schemas/ProposalStatus",
+            "description": "Status of the proposal",
+            "default": "pending"
+          },
+          "pdf_id": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PydanticObjectId"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "ID of the PDF file associated with the proposal"
+          },
+          "proposal_str": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Proposal Str",
+            "description": "String representation of the proposal from OCR"
+          },
+          "extracted_object": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ProposalWithPolygonAndValidation-Output"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Extracted object from the proposal, containing structured data"
+          },
+          "validation_object": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ValidationReport"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Validation report for the proposal, containing validation results"
+          }
+        },
+        "type": "object",
+        "required": [
+          "title"
+        ],
+        "title": "Proposal",
+        "description": "Proposal schema."
+      },
+      "ProposalInfos": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "description": "Title of the proposal"
+          },
+          "status": {
+            "$ref": "#/components/schemas/ProposalStatus",
+            "description": "Status of the proposal",
+            "default": "pending"
+          },
+          "pdf_id": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PydanticObjectId"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "ID of the PDF file associated with the proposal"
+          }
+        },
+        "type": "object",
+        "required": [
+          "title"
+        ],
+        "title": "ProposalInfos",
+        "description": "Proposal information schema."
+      },
+      "ProposalStatus": {
+        "type": "string",
+        "enum": [
+          "pending",
+          "processed",
+          "accepted"
+        ],
+        "title": "ProposalStatus",
+        "description": "Enumeration for proposal status."
+      },
+      "ProposalWithPolygonAndValidation-Input": {
+        "properties": {
+          "devis_total_ht": {
+            "type": "number",
+            "title": "Devis Total Ht",
+            "description": "Total hors taxe du devis"
+          },
+          "devis_total_ttc": {
+            "type": "number",
+            "title": "Devis Total Ttc",
+            "description": "Total toutes taxes comprises du devis"
+          },
+          "devis_total_tva": {
+            "type": "number",
+            "title": "Devis Total Tva",
+            "description": "Total de la TVA du devis"
+          },
+          "devis_eco_participation": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Devis Eco Participation",
+            "description": "Montant de l'\u00e9co participation du devis"
+          },
+          "devis_produits": {
+            "items": {
+              "$ref": "#/components/schemas/ProductWithPolygonAndValidation-Input"
+            },
+            "type": "array",
+            "title": "Devis Produits",
+            "description": "List of products in the proposal with associated polygons and validation information"
+          },
+          "issue_ht": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Ht",
+            "description": "Issue or validation error associated with the total HT"
+          },
+          "issue_ttc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Ttc",
+            "description": "Issue or validation error associated with the total TTC"
+          },
+          "issue_tva": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Tva",
+            "description": "Issue or validation error associated with the total TVA"
+          },
+          "issue_additional_cost": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Additional Cost",
+            "description": "Issue or validation error associated with the additional cost"
+          }
+        },
+        "type": "object",
+        "required": [
+          "devis_total_ht",
+          "devis_total_ttc",
+          "devis_total_tva",
+          "devis_eco_participation",
+          "devis_produits"
+        ],
+        "title": "ProposalWithPolygonAndValidation",
+        "description": "A proposal with associated polygons and validation information."
+      },
+      "ProposalWithPolygonAndValidation-Output": {
+        "properties": {
+          "devis_total_ht": {
+            "type": "number",
+            "title": "Devis Total Ht",
+            "description": "Total hors taxe du devis"
+          },
+          "devis_total_ttc": {
+            "type": "number",
+            "title": "Devis Total Ttc",
+            "description": "Total toutes taxes comprises du devis"
+          },
+          "devis_total_tva": {
+            "type": "number",
+            "title": "Devis Total Tva",
+            "description": "Total de la TVA du devis"
+          },
+          "devis_eco_participation": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Devis Eco Participation",
+            "description": "Montant de l'\u00e9co participation du devis"
+          },
+          "devis_produits": {
+            "items": {
+              "$ref": "#/components/schemas/ProductWithPolygonAndValidation-Output"
+            },
+            "type": "array",
+            "title": "Devis Produits",
+            "description": "List of products in the proposal with associated polygons and validation information"
+          },
+          "issue_ht": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Ht",
+            "description": "Issue or validation error associated with the total HT"
+          },
+          "issue_ttc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Ttc",
+            "description": "Issue or validation error associated with the total TTC"
+          },
+          "issue_tva": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Tva",
+            "description": "Issue or validation error associated with the total TVA"
+          },
+          "issue_additional_cost": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Issue Additional Cost",
+            "description": "Issue or validation error associated with the additional cost"
+          }
+        },
+        "type": "object",
+        "required": [
+          "devis_total_ht",
+          "devis_total_ttc",
+          "devis_total_tva",
+          "devis_eco_participation",
+          "devis_produits"
+        ],
+        "title": "ProposalWithPolygonAndValidation",
+        "description": "A proposal with associated polygons and validation information."
+      },
+      "PydanticObjectId": {
+        "type": "string",
+        "maxLength": 24,
+        "minLength": 24,
+        "pattern": "^[0-9a-f]{24}$",
+        "example": "5eb7cf5a86d9755df3a6c593"
+      },
+      "SetProposalExtractedObjectInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "description": "Title of the proposal to update"
+          },
+          "extracted_object": {
+            "$ref": "#/components/schemas/ProposalWithPolygonAndValidation-Input",
+            "description": "Structured data extracted from the proposal"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "title",
+          "extracted_object"
+        ],
+        "title": "SetProposalExtractedObjectInput",
+        "description": "Parameters for setting a structured proposal object."
+      },
+      "TVA": {
+        "type": "string",
+        "enum": [
+          "TVA 20%",
+          "TVA 10%",
+          "TVA 5.5%",
+          "TVA 2.1%",
+          "TVA 0%"
+        ],
+        "title": "TVA",
+        "description": "Repr\u00e9sente une taxe sur la valeur ajout\u00e9e dans le devis."
+      },
+      "UpdateProjectPacksInput": {
+        "properties": {
+          "user_email": {
+            "type": "string",
+            "format": "email",
+            "title": "User Email",
+            "description": "Email of the user"
+          },
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project"
+          },
+          "packs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Packs",
+            "description": "List of new pack names associated with the project"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_email",
+          "project_name",
+          "packs"
+        ],
+        "title": "UpdateProjectPacksInput",
+        "description": "Parameters for updating the project packs."
+      },
+      "User": {
+        "properties": {
+          "_id": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PydanticObjectId"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "description": "Name of the user"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "title": "Email",
+            "description": "Email of the user"
+          },
+          "projects": {
+            "items": {
+              "$ref": "#/components/schemas/Project"
+            },
+            "type": "array",
+            "title": "Projects",
+            "description": "List of projects associated with the user"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "email"
+        ],
+        "title": "User",
+        "description": "User schema."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "ValidationReport": {
+        "properties": {
+          "computed_total_ht": {
+            "type": "number",
+            "title": "Computed Total Ht"
+          },
+          "computed_total_tva": {
+            "type": "number",
+            "title": "Computed Total Tva"
+          },
+          "computed_total_ttc": {
+            "type": "number",
+            "title": "Computed Total Ttc"
+          },
+          "computed_total_cout_additionnel": {
+            "type": "number",
+            "title": "Computed Total Cout Additionnel"
+          },
+          "logs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Logs"
+          },
+          "errors": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Errors"
+          }
+        },
+        "type": "object",
+        "required": [
+          "computed_total_ht",
+          "computed_total_tva",
+          "computed_total_ttc",
+          "computed_total_cout_additionnel",
+          "logs",
+          "errors"
+        ],
+        "title": "ValidationReport",
+        "description": "Report the results of the proposal object validation."
+      }
+    }
+  }
+}

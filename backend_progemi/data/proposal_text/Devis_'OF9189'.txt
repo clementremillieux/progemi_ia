@@ -1,0 +1,52 @@
+Devis n° OF9189
+Date : 29/01/25
+
+╔══ ELECTRICITE ══╗
+  • GARAGE (x1.0) — 274,45 € HT | TVA 20%
+    • VA ET VIENT ENCASTRE APPAREILLAGE BLANC (x1.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • PRISE DE COURANT 2 POLES+TERRE (x2.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+  • CELLIER (x1.0) — 819,98 € HT | TVA 20%
+    • VA ET VIENT ENCASTRE APPAREILLAGE BLANC (x1.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • PRISE DE COURANT 2 POLES+TERRE (x2.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • PRISE 2P+T SPECIALISEE (x2.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • LIGNE CHAUFFE EAU (x1.0) — 0,00 € HT | TVA 20%
+      monophasé
+    • ALIMENTATION POMPE A CHALEUR -32A + PROTECTION (x1.0) — 0,00 € HT | TVA 20%
+  • WC 1 (x1.0) — 154,64 € HT | TVA 20%
+    • SIMPLE ALLUMAGE (x1.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH (x1.0) — 0,00 € HT | TVA 20%
+      orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W / Optique : 60° dichroïque anti éblouissement
+  • DEGT 1 (x1.0) — 88,75 € HT | TVA 20%
+    • SIMPLE ALLUMAGE (x1.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+  • CUISINE (x1.0) — 1 802,33 € HT | TVA 20%
+    • VA ET VIENT ENCASTRE APPAREILLAGE BLANC (x1.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • SIMPLE ALLUMAGE (x2.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • PRISE DE COURANT 2 POLES+TERRE (x8.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • PRISE 2P+T SPECIALISEE (x2.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • SORTIE DE CABLE 32 A MONO. (x1.0) — 0,00 € HT | TVA 20%
+      cuisson
+    • FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH (x8.0) — 0,00 € HT | TVA 20%
+      orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W / Optique : 60° dichroïque anti éblouissement
+  • HALL (x1.0) — 1 286,63 € HT | TVA 20%
+    • TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE (x1.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • PRISE DE COURANT 2 POLES+TERRE (x1.0) — 0,00 € HT | TVA 20%
+      appareillage encastré blanc type dooxie
+    • FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH (x3.0) — 0,00 € HT | TVA 20%
+      orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W / Optique : 60° dichroïque anti éblouissement
+    • LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL (x1.0) — 0,00 € HT | TVA 20%
+
+Total TVA : 5 542,34 €
+Total HT  : 27 711,68 €
+Total TTC : 33 254,02 €

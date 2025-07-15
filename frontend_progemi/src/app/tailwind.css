@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family-sans: "var(--font-poppins)", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Colors */
+  --color-border: #E6E7EA;
+  
+  --color-primary-99: #E8F7FF;
+  --color-primary-95: #D5F0FF;
+  --color-primary-90: #B3E1FF;
+  --color-primary-80: #85CAFF;
+  --color-primary-70: #56A4FF;
+  --color-primary-60: #2F7EFF;
+  --color-primary-50: #0C51FF;
+  --color-primary-40: #0046FE;
+  --color-primary-30: #0640CD;
+  --color-primary-20: #103D9F;
+  --color-primary-10: #0A225C;
+  
+  --color-neutral-99: #F5F6F6;
+  --color-neutral-95: #E4E6E9;
+  --color-neutral-90: #CCD1D5;
+  --color-neutral-80: #A9B1B7;
+  --color-neutral-70: #7E8892;
+  --color-neutral-60: #636C77;
+  --color-neutral-50: #555B66;
+  --color-neutral-40: #494E56;
+  --color-neutral-30: #40444A;
+  --color-neutral-20: #393B40;
+  --color-neutral-950: #232529;
+  
+  --color-success-99: #ECFDF4;
+  --color-success-95: #D1FAE2;
+  --color-success-90: #A7F3CB;
+  --color-success-80: #6EE7AF;
+  --color-success-70: #33D48E;
+  --color-success-60: #10C27B;
+  --color-success-50: #04975F;
+  --color-success-40: #04784F;
+  --color-success-30: #065F40;
+  --color-success-20: #064E36;
+  --color-success-950: #022C1F;
+  
+  --color-error-99: #FFF1F1;
+  --color-error-95: #FFE2E1;
+  --color-error-90: #FFC8C7;
+  --color-error-80: #FFA2A0;
+  --color-error-70: #FF5C58;
+  --color-error-60: #F8403B;
+  --color-error-50: #E5221D;
+  --color-error-40: #C11814;
+  --color-error-30: #A01714;
+  --color-error-20: #841B18;
+  --color-error-950: #480907;
+  
+  --color-warning-99: #FFFEAA;
+  --color-warning-95: #FFFBC5;
+  --color-warning-90: #FFF787;
+  --color-warning-80: #FFED48;
+  --color-warning-70: #FFDE1E;
+  --color-warning-60: #F5B903;
+  --color-warning-50: #DF9300;
+  --color-warning-40: #B96804;
+  --color-warning-800: #96500A;
+  --color-warning-20: #7B420C;
+  --color-warning-950: #472201;
+  
+  --color-secondary-99: #F1FAFE;
+  --color-secondary-95: #E2F3FC;
+  --color-secondary-90: #BEE8F9;
+  --color-secondary-80: #85D6F4;
+  --color-secondary-70: #45C0EB;
+  --color-secondary-60: #27B2E3;
+  --color-secondary-50: #0F89BA;
+  --color-secondary-40: #0D6D97;
+  --color-secondary-30: #0F5C7D;
+  --color-secondary-20: #124C68;
+  --color-secondary-950: #0C3145;
+}
+
+:root {
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-poppins), sans-serif;
+}

@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "backend-progemi"
+version = "0.1.0"
+description = ""
+authors = ["clementremillieux <clement.remillieux@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+scikit-image = "^0.25.1"
+langchain-openai = "^0.3.3"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+python-dotenv = "^1.0.1"
+azure-ai-documentintelligence = "^1.0.0"
+langchain = "^0.3.23"
+ipykernel = "^6.29.5"
+mistralai = "^1.8.2"
+reportlab = "^4.4.1"
+fastapi = "^0.115.14"
+beanie = "^1.30.0"
+motor = "^3.7.1"
+pydantic = { extras = ["email"], version = "^2.11.7" }
+uvicorn = "^0.35.0"
+python-multipart = "^0.0.20"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,100 @@
+{
+  "groupes_produits": [
+    {
+      "nom": "TRAVAUX SANITAIRES",
+      "sous_groupes_produits": [
+        {
+          "nom": "Alimentation d'eau principale",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Production d'eau chaude",
+          "sous_groupes_produits": [
+            {
+              "nom": "CHAUFFE EAU ELECTRIQUE",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "COLLECTEUR SANITAIRE",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Cuisine",
+          "sous_groupes_produits": [
+            {
+              "nom": "EVIER",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "LAVE-VAISSELLE",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Buanderie",
+          "sous_groupes_produits": [
+            {
+              "nom": "ADOUCISSEUR",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "LAVE-LINGE",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Salle d'eau 1",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "WC 1",
+          "sous_groupes_produits": [
+            {
+              "nom": "TOILETTES",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Salle d'eau étage",
+          "sous_groupes_produits": [
+            {
+              "nom": "DOUCHE",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "PAROI DE DOUCHE",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Extérieurs",
+          "sous_groupes_produits": [
+            {
+              "nom": "ROBINET DE PUISAGE",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Fournitures",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "WC 2",
+          "sous_groupes_produits": [
+            {
+              "nom": "TOILETTES",
+              "sous_groupes_produits": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

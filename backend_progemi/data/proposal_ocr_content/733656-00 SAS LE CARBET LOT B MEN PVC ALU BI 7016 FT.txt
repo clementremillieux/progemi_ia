@@ -1,0 +1,1395 @@
+<figure>
+
+Ibatistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+Date de première édition du devis 11/07/2024
+
+REFERENCE :
+SAS LE CARBET - LOT B/ MEN PVC ALU BI 7016 FT
+Nº Client Facture : 071031
+
+Tel : 02 40 04 43 45 - Email : fgendreau@adenov.net
+
+V/Suivi Devis : Danièle ANNE
+Tel : 02 72 62 91 30
+Email : danne@batistyl.fr
+
+V/Commercial(e) : Arnaud MARTY
+Tel : 02 72 62 91 30 Port : 06 71 92 57 51
+Fax : 02 51 81 19 19 Email : amarty@batistyl.fr
+
+Date de réception de la demande client : 05/07/2024
+
+M ANTHONY PELARIC
+8 RUE DU PARC
+44140 LE BIGNON
+
+Adresse de livraison :
+
+ADENOV HABITAT / SAS LE CARBET- LOT B
+19 RUE DES AIRES
+
+44140 LE BIGNON
+
+Tous les croquis sont en vue intérieure sauf mention contraire.
+Dessins non contractuels. Ce devis est valable jusqu'au
+12/11/2024.
+Tout devis signé avec modification manuscrite fera l'objet d'une
+nouvelle version de devis qui vous sera retournée pour une
+nouvelle validation signée avant passage en commande.
+
+
+<figure>
+
+CI_RI
+
+CZ_R1
+
+,
+
+350
+
+</figure>
+
+
+2000
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>001</td>
+<td>Localisation : SEJOUR ORIGINE Menuiserie ALU gamme Tentation 2 coulissant bi-rails FRANCE® GARANTIE CERIB 13 0014 Châssis coulissant 2 vantaux Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 2000 mm Pose sous Coffre Tunnel Batistyl renforce Largeur entre tapées 2000 mm Hauteur d'allège : 1100 mm Dormant monobloc de 160 Couleur intérieure : 9016S - Blanc trafic satiné / Couleur extérieure : 7016FT - Gris anthracite finition texturée Type de fixation : pattes équerres pour doublage de 160 Appui monobloc de 180 mm Sens d'ouverture : OJ à gauche Type de quincaillerie : Crémone standard Hauteur poignée/sol fini : 1397 mm Poignée intérieure : Poignées SLIDE blanches (OJ + SF) Vitrage : 4-20WENoirArgon-4EclazLumi (avec intercalaire WE Swisspacer Ultimate) Cette menuiserie bénéficie d'un classement au vent V*A2 conformément au DTA en vigueur.</td>
+<td>1</td>
+<td rowspan="2">720,37€</td>
+<td>720,37€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td>Coef. thermique Uw = 1,69 W/(m2.K) * Facteur solaire Sw Hiver = 0,53 Facteur solaire Sw Eté = 0,56 Transmission lumineuse TLw = 61 % * .</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A NOTER HAUTEUR DE POIGNEE NON CONFORME A LA NORME PMR ; HAUTEUR D ALLEGE TROP IMPORTANTE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>001</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 1/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+Ibatistyl
+HABITAT
+
+</figure>
+
+
+1050
+
+
+<figure>
+
+V1/R1
+
+</figure>
+
+
+500
+
+
+<figure>
+
+C1_R1
+
+C2_R1
+
+N
+
+10
+
+</figure>
+
+
+1600
+
+Devis nº D733656-00
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td rowspan="2">002</td>
+<td rowspan="3">Repère : RDC / Localisation : SDE ORIGINE Menuiserie PVC gamme Kyoto droite (70 mm) FRANCE® GARANTIE CERIB 13 0014 Chassis 1 vantail OB Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 500 mm Hauteur d'allège : 1100 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016 Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Droite tirant Avec rejet d'eau PVC Type de quincaillerie : Crémone Hauteur poignée/sol fini : 1308 mm Poignée intérieure : Poignée New York Sécustik blanche Fiches type OB blanches Renforts ouvrant 100% Vitrage : 44-2Depoliacide-16WENoirArgon-4EclazLumi Coef. thermique Uw = 1,40 W/(m2.K) * Facteur solaire Sw Hiver = 0,35 Facteur solaire Sw Eté = 0,39 Transmission lumineuse TLw = 59 % * .</td>
+<td rowspan="3">1</td>
+<td rowspan="2">311,97€</td>
+<td>311,97€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A NOTER HAUTEUR DE POIGNEE NON CONFORME A LA NORME PMR ; HAUTEUR D ALLEGE TROP IMPORTANTE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>002</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>003</td>
+<td>Repère : RDC / Localisation : CH1 ORIGINE Menuiserie ALU gamme Tentation 2 coulissant bi-rails FRANCE® GARANTIE CERIB 13 0014 Baie coulissante 2 vantaux Pose en applique intérieure Cotes tableau, H = 2150 mm x L = 1600 mm Pose sous Coffre Tunnel Batistyl Largeur entre tapées 1600 mm Dormant monobloc de 160 Couleur intérieure : 9016S - Blanc trafic satiné / Couleur extérieure : 7016FT - Gris anthracite finition texturée Type de fixation : pattes équerres pour doublage de 160 Seuil encastré de 50 mm (en plus de la hauteur de la baie) Appui monobloc de 180 mm Sens d'ouverture : OJ à droite Type de quincaillerie : Crémone standard Hauteur poignée/sol fini : 1046 mm Poignée intérieure : Poignées 20° SYMBIOSE blanches (OJ + SF) Vitrage : 4-20WENoirArgon-4EclazLumi (avec intercalaire WE Swisspacer Ultimate) Largeur de passage calculée : 615 mm Cette menuiserie bénéficie d'un classement au vent V*A2 conformément au DTA en vigueur.</td>
+<td>1</td>
+<td>958,54€</td>
+<td>958,54€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td>Coef. thermique Uw = 1,51 W/(m2.K) * Facteur solaire Sw Hiver = 0,59 Facteur solaire Sw Eté = 0,61 Transmission lumineuse TLw = 68 % * .</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>003</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 2/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+Ibatistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+2150
+
+
+<figure>
+
+1
+
+1050
+
+3000
+
+</figure>
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>004</td>
+<td>Localisation : SEJOUR ORIGINE Menuiserie ALU gamme Tentation 2 coulissant bi-rails FRANCE® GARANTIE CERIB 13 0014 Baie coulissante 2 vantaux</td>
+<td>1</td>
+<td>1 658,63€</td>
+<td>1 658,63€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td>Pose en applique intérieure Cotes tableau, H = 2150 mm x L = 3000 mm Pose sous Coffre Tunnel Batistyl renforcé Largeur entre tapées 3000 mm Dormant monobloc de 160 Couleur intérieure : 9016S - Blanc trafic satiné / Couleur extérieure : 7016FT - Gris anthracite finition texturée Type de fixation : pattes équerres pour doublage de 160 Seuil encastré de 50 mm (en plus de la hauteur de la baie) Appui monobloc de 180 mm Sens d'ouverture : OJ à droite Type de quincaillerie : Crémone standard Hauteur poignée/sol fini : 1046 mm Poignée intérieure : Poignées 20° SYMBIOSE blanches (OJ + SF) Vitrage : 8-16WENoirArgon-4EclazLumi (avec intercalaire WE Swisspacer Ultimate) Largeur de passage calculée : 1315 mm Cette menuiserie bénéficie d'un classement au vent V*A2 conformément au DTA en vigueur.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2">Coef. thermique Uw = 1,51 W/(m2.K) * Facteur solaire Sw Hiver = 0,60 Facteur solaire Sw Eté = 0,62 Transmission lumineuse TLw = 67 % * .</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td>004</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td rowspan="2">005</td>
+<td rowspan="2">Localisation : CUISINE ORIGINE Menuiserie ALU gamme Tentation 2 coulissant bi-rails FRANCE GARANTIE CERIB 13 0014 Châssis coulissant 2 vantaux Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 2000 mm Pose sous Coffre Tunnel Batistyl renforce Largeur entre tapées 2000 mm Hauteur d'allège : 1100 mm Dormant monobloc de 160 Couleur intérieure : 9016S - Blanc trafic satiné / Couleur extérieure : 7016FT - Gris anthracite finition texturée Type de fixation : pattes équerres pour doublage de 160 Appui monobloc de 180 mm Sens d'ouverture : OJ à gauche Type de quincaillerie : Crémone standard Hauteur poignée/sol fini : 1397 mm Poignée intérieure : Poignées SLIDE blanches (OJ + SF) Vitrage : 4-20WENoirArgon-4EclazLumi (avec intercalaire WE Swisspacer Ultimate) Cette menuiserie bénéficie d'un classement au vent V*A2 conformément au DTA en vigueur.</td>
+<td rowspan="2">1</td>
+<td rowspan="2">720,37€</td>
+<td>720,37€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Coef. thermique Uw = 1,69 W/(m2.K) * Facteur solaire Sw Hiver = 0,53 Facteur solaire Sw Eté = 0,56 Transmission lumineuse TLw = 61 % * .</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A NOTER HAUTEUR DE POIGNEE NON CONFORME A LA NORME PMR ; HAUTEUR D ALLEGE TROP IMPORTANTE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>005</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 3/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+1050
+
+
+<figure>
+
+CI_RI
+
+CZ_R1
+
+0
+
+350
+
+</figure>
+
+
+2000
+
+<!-- PageBreak -->
+
+
+<figure>
+
+Ibatistyl
+HABITAT
+
+</figure>
+
+
+1050
+
+
+<figure>
+
+V1 R1
+
+</figure>
+
+
+500
+
+E
+
+
+<figure>
+
+V1 R1
+
+</figure>
+
+
+500
+
+Devis nº D733656-00
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>006</td>
+<td rowspan="2">Repère : RDC / Localisation : WC 1 ORIGINE Menuiserie PVC gamme Kyoto droite (70 mm) FRANCE® GARANTIE CERIB 13 0014 Chassis 1 vantail OB Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 500 mm Hauteur d'allège : 1100 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016 Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Gauche tirant Avec rejet d'eau PVC Type de quincaillerie : Crémone Hauteur poignée/sol fini : 1308 mm Poignée intérieure : Poignée New York Sécustik blanche Fiches type OB blanches Renforts ouvrant 100% Vitrage : 44-2Depoliacide-16WENoirArgon-4EclazLumi Coef. thermique Uw = 1,40 W/(m2.K) * Facteur solaire Sw Hiver = 0,35 Facteur solaire Sw Eté = 0,39 Transmission lumineuse TLw = 59 % * .</td>
+<td rowspan="2">1</td>
+<td rowspan="2">311,97€</td>
+<td>311,97€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A NOTER HAUTEUR DE POIGNEE NON CONFORME A LA NORME PMR ; HAUTEUR D ALLEGE TROP IMPORTANTE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>006</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>007</td>
+<td rowspan="2">Localisation : CELLIER ORIGINE Menuiserie PVC gamme Kyoto droite (70 mm) FRANCE® GARANTIE CERIB 13 0014 Chassis 1 vantail OB Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 500 mm Hauteur d'allège : 1100 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016 Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Gauche tirant Avec rejet d'eau PVC Type de quincaillerie : Crémone Hauteur poignée/sol fini : 1308 mm Poignée intérieure : Poignée New York Sécustik blanche Fiches type OB blanches Renforts ouvrant 100% Vitrage : 44-2Depoliacide-16WENoirArgon-4EclazLumi Coef. thermique Uw = 1,40 W/(m2.K) * Facteur solaire Sw Hiver = 0,35 Facteur solaire Sw Eté = 0,39 Transmission lumineuse TLw = 59 % * .</td>
+<td rowspan="2">1</td>
+<td rowspan="2">311,97€</td>
+<td>311,97€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A NOTER HAUTEUR DE POIGNEE NON CONFORME A LA NORME PMR ; HAUTEUR D ALLEGE TROP IMPORTANTE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>007</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 4/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+batistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+1050
+
+
+<figure>
+
+V1_R1
+
+VY R1
+
+</figure>
+
+
+1600
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>008</td>
+<td>Repère : R+1 / Localisation : CH2 ORIGINE Menuiserie PVC gamme Kyoto droite (70 mm) FRANCE® GARANTIE CERIB 13 0014 Chassis 2 vantaux Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 1600 mm Pose sous Coffre Tunnel Batistyl Largeur entre tapées 1600 mm Hauteur d'allège : 1000 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016 Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Droite tirant Avec rejet d'eau PVC Type de quincaillerie : Crémone Hauteur poignée/sol fini : 1253 mm Poignée intérieure : Poignée New York Sécustik blanche Fiches blanches Compris Houssette Compris releveur sur ouvrant journalier Renforts ouvrant 100% Vitrage : 4-20WENoirArgon-4EclazLumi Hauteur poignée conforme à la règlementation PMR Facteur solaire Sw Hiver = 0,48 Facteur solaire Sw Eté = 0,49 Transmission lumineuse TLw = 57 % * Coef. thermique Uw = 1,40 W/(m2.K) * .</td>
+<td>1</td>
+<td>467,04€</td>
+<td>467,04€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td>A CONFIRMER : HAUTEUR D'ALLEGE ? 1000 MM SUR PLAN MAIS ELLE DEVRAIT ETRE A 1100 - SI ALLEGE A 1100 MM=&gt; HAUTEUR DE POIGNEE NE RESPECTERA PAS LA HAUTEUR PMR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>08</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 5/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tél. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+batistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+1050
+
+
+<figure>
+
+V1_R1
+
+VY R1
+
+</figure>
+
+
+1600
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>009</td>
+<td>Repère : R+1 / Localisation : CH3 ORIGINE Menuiserie PVC gamme Kyoto droite (70 mm) FRANCE® GARANTIE CERIB 13 0014 Chassis 2 vantaux Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 1600 mm Pose sous Coffre Tunnel Batistyl Largeur entre tapées 1600 mm Hauteur d'allège : 1000 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016 Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Droite tirant Avec rejet d'eau PVC Type de quincaillerie : Crémone Hauteur poignée/sol fini : 1253 mm Poignée intérieure : Poignée New York Secustik blanche Fiches blanches Compris Houssette Compris releveur sur ouvrant journalier Renforts ouvrant 100% Vitrage : 4-20WENoirArgon-4EclazLumi Hauteur poignée conforme à la règlementation PMR Facteur solaire Sw Hiver = 0,48 Facteur solaire Sw Eté = 0,49 Transmission lumineuse TLw = 57 % * Coef. thermique Uw = 1,40 W/(m2.K) * .</td>
+<td>1</td>
+<td>467,04€</td>
+<td>467,04€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td>A CONFIRMER : HAUTEUR D'ALLEGE ? 1000 MM SUR PLAN MAIS ELLE DEVRAIT ETRE A 1100 - SI ALLEGE A 1100 MM=&gt; HAUTEUR DE POIGNEE NE RESPECTERA PAS LA HAUTEUR PMR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>009 9</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 6/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+batistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+1050
+
+
+<figure>
+
+V1_R1
+
+VAR1
+
+</figure>
+
+
+1600
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>010</td>
+<td>Repère : R+1 / Localisation : CH4 ORIGINE Menuiserie PVC gamme Kyoto droite (70 mm) FRANCE® GARANTIE CERIB 13 0014</td>
+<td>1</td>
+<td>467,04€</td>
+<td>467,04€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td>Chassis 2 vantaux</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="4">Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 1600 mm Pose sous Coffre Tunnel Batistyl Largeur entre tapées 1600 mm Hauteur d'allège : 1000 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016</td>
+<td rowspan="7"></td>
+<td rowspan="4"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="3">Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Droite tirant Avec rejet d'eau PVC</td>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Type de quincaillerie : Crémone</td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Hauteur poignée/sol fini : 1253 mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Poignée intérieure : Poignée New York Sécustik blanche</td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Fiches blanches</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Compris Houssette</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Compris releveur sur ouvrant journalier</td>
+<td rowspan="3"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2">Renforts ouvrant 100% Vitrage : 4-20WENoirArgon-4EclazLumi Vitrage : 4-20WENoirArgon-4EclazLumi Hauteur poignée conforme à la règlementation PMR</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="3">Facteur solaire Sw Hiver = 0,48 Facteur solaire Sw Eté = 0,49 Transmission lumineuse TLw = 57 % * Coef. thermique Uw = 1,40 W/(m2.K) * .</td>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A CONFIRMER : HAUTEUR D'ALLEGE ? 1000 MM SUR PLAN MAIS ELLE DEVRAIT ETRE A 1100 - SI ALLEGE A 1100 MM=&gt; HAUTEUR DE POIGNEE NE RESPECTERA PAS LA HAUTEUR PMR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>010</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>010</td>
+<td>Repère : R+1 / Localisation : CH4 ORIGINE VARIANTE FRANCE® GARANTIE II CERIB 13 0014</td>
+<td>0</td>
+<td>491,77€</td>
+<td>0,00€</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Menuiserie PVC gamme Kyoto droite (70 mm) Chassis 2 vantaux OB</td>
+<td rowspan="3"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2">Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 1600 mm Pose sous Coffre Tunnel Batistyl</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2">Largeur entre tapées 1600 mm Hauteur d'allège : 1000 mm</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2">Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016</td>
+<td rowspan="6"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="4">Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Droite tirant Avec rejet d'eau PVC</td>
+<td rowspan="4"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="3"></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Type de quincaillerie : Crémone</td>
+<td rowspan="5"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Hauteur poignée/sol fini : 1253 mm</td>
+<td rowspan="4"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2">Poignée intérieure : Poignée New York Sécustik blanche Fiches blanches</td>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Compris Houssette</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2">Compris releveur sur ouvrant journalier Renforts ouvrant 100% Vitrage : 4-20WENoirArgon-4EclazLumi Hauteur poignée conforme à la règlementation PMR</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Facteur solaire Sw Hiver = 0,48 Facteur solaire Sw Eté = 0,49 Transmission lumineuse TLw = 57 % *</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+<figure>
+
+VI_R1
+
+VỊČR1
+
+</figure>
+
+
+1600
+
+<!-- PageNumber="Page : 7/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+batistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td></td>
+<td>Coef. thermique Uw = 1,40 W/(m2.K) * .</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A CONFIRMER : HAUTEUR D'ALLEGE ? 1000 MM SUR PLAN MAIS ELLE DEVRAIT ETRE A 1100 - SI ALLEGE A 1100 MM=&gt; HAUTEUR DE POIGNEE NE RESPECTERA PAS LA HAUTEUR PMR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>010</td>
+<td>Eco-contribution</td>
+<td>0</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td></td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 8/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+Ibatistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+%
+
+
+<figure>
+
+V1_R1
+
+</figure>
+
+
+800
+
+<!-- PageNumber="8" -->
+
+
+<figure>
+
+V1_R1
+
+</figure>
+
+
+800
+
+<!-- PageNumber="Page : 9/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>011 11</td>
+<td rowspan="3">Repère : R+1 / Localisation : SDB ORIGINE Menuiserie PVC gamme Kyoto droite (70 mm) FRANCE® GARANTIE CERIB 13 0014 Chassis 1 vantail Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 800 mm Hauteur d'allège : 1000 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016 Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Gauche tirant Avec rejet d'eau PVC Type de quincaillerie : Crémone Hauteur poignée/sol fini : 1253 mm Poignée intérieure : Poignée New York Sécustik blanche Fiches blanches Compris releveur sur ouvrant journalier Renforts ouvrant 100% Vitrage : 44-2Depoliacide-16WENoirArgon-4EclazLumi Hauteur poignée conforme à la règlementation PMR Coef. thermique Uw = 1,40 W/(m2.K) * Facteur solaire Sw Hiver = 0,41 Facteur solaire Sw Eté = 0,45 Transmission lumineuse TLw = 59 % * . A CONFIRMER : HAUTEUR D'ALLEGE ? 1000 MM SUR PLAN MAIS ELLE DEVRAIT ETRE A 1100 - SI ALLEGE A 1100 MM=&gt; HAUTEUR DE POIGNEE NE RESPECTERA PAS LA HAUTEUR PMR</td>
+<td rowspan="2">1</td>
+<td rowspan="2">346,76€</td>
+<td rowspan="2">346,76€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>011</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>011</td>
+<td>Repère : R+1 / Localisation : SDB ORIGINE VARIANTE FRANCE® GARANTIE CERIB 13 0014 Menuiserie PVC gamme Kyoto droite (70 mm) Chassis 1 vantail OB Pose en applique intérieure Cotes tableau, H = 1050 mm x L = 800 mm Hauteur d'allège : 1000 mm Dormant doublage 160 Couleur intérieure : Blanc / Couleur extérieure : Plaxe gris anthracite Ral 7016 Type de fixation : Patte équerre 155x70 (standard) Parcloses arrondies pour un remplissage de 28mm Appui monobloc de 180 / Renforts dormant 100% Sens d'ouverture : Gauche tirant Avec rejet d'eau PVC Type de quincaillerie : Crémone Hauteur poignée/sol fini : 1253 mm Poignée intérieure : Poignée New York Sécustik blanche Fiches type OB blanches Compris releveur sur ouvrant journalier Renforts ouvrant 100% Vitrage : 44-2Depoliacide-16WENoirArgon-4EclazLumi Hauteur poignée conforme à la règlementation PMR Coef. thermique Uw = 1,40 W/(m2.K) * Facteur solaire Sw Hiver = 0,41 Facteur solaire Sw Eté = 0,45 Transmission lumineuse TLw = 59 % * .</td>
+<td>0</td>
+<td>375,86€</td>
+<td>0,00€</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A CONFIRMER : HAUTEUR D'ALLEGE ? 1000 MM SUR PLAN MAIS ELLE DEVRAIT ETRE A 1100 - SI ALLEGE A 1100 MM=&gt; HAUTEUR DE POIGNEE NE RESPECTERA PAS LA HAUTEUR PMR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+batistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>011</td>
+<td>Eco-contribution</td>
+<td>0</td>
+<td>2,25€</td>
+<td>2,25€</td>
+<td></td>
+</tr>
+<tr>
+<td>014</td>
+<td>Localisation : PIECE DE VIE Accessoires pour volets roulants Hauteur tableau : 1050 mm Largeur entre tapée : 2000 mm Avec sous-face de 200mm : Blanc PVC Coulisses de 41x30 : Gris ral 7016 FT / Commande : Sans inverseur</td>
+<td>2</td>
+<td>0,00€</td>
+<td>0,00€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td rowspan="2">015</td>
+<td rowspan="2">Repère : RDC / Localisation : CH1 Accessoires pour volets roulants Hauteur tableau : 2150 mm + seuil encastré de 50 mm Largeur entre tapée : 1600 mm Avec sous-face de 200mm : Blanc PVC Coulisses de 41x30 : Gris ral 7016 FT / Commande : Sans inverseur</td>
+<td>1</td>
+<td>0,00€</td>
+<td>0,00€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">016</td>
+<td rowspan="2">Localisation : PIECE DE VIE Accessoires pour volets roulants Hauteur tableau : 2150 mm + seuil encastré de 50 mm Largeur entre tapée : 3000 mm Avec sous-face de 200mm : Blanc PVC Coulisses de 41x30 : Gris ral 7016 FT / Commande : Sans inverseur</td>
+<td rowspan="2">1</td>
+<td rowspan="2">0,00€</td>
+<td>0,00€</td>
+<td rowspan="2">20 %</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td>017</td>
+<td rowspan="2">Repère : R+1 / Localisation : CH2/CH3 /CH4 Accessoires pour volets roulants Hauteur tableau : 1050 mm Largeur entre tapée : 1600 mm Avec sous-face de 200mm : Blanc PVC Coulisses de 41x30 : Gris ral 7016 FT / Commande : Sans inverseur</td>
+<td>3</td>
+<td>0,00€</td>
+<td>0,00€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>018</td>
+<td>Localisation : PE Porte d'entrée ACIER ( Dormant Bois capotage 48mm ) Modèle ELECTRO ( GERVAIS ) PE 1 Vantail</td>
+<td>1</td>
+<td>951,13€</td>
+<td>951,13€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="3">Pose Applique Cotes Tableau H = 2150 mm x Cotes Tableau L = 900 mm Sens d'ouverture (vue int) : Droite tirant Type de dormant : Dormant standard 45x48 mm avec ailes int de 8 mm incluses Tapée de 160 mm Ouvrant de 52 mm Bicolor Coloris Int : Blanc RAL 9016 satiné / Couleur Ext : Gris 7016 sablé Quincaillerie : Ensemble aluminium ton argent sur rosace (E16R) Cache fiche blanc CF12 Crémone automatique 4 points (de base) avec Cylindre standard 3 clés compris Seuil PMR Pattes de fixations fournies Information complémentaire : Aucune</td>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Le coefficient Thermique Ud de cette porte vous sera fourni sur demande.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>018</td>
+<td>Eco-contribution</td>
+<td>1</td>
+<td>1,72€</td>
+<td>1,72€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 10/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+batistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+
+<table>
+<tr>
+<th>Rep.</th>
+<th>Désignation</th>
+<th>Qté</th>
+<th>PU HT</th>
+<th>Total HT</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td rowspan="2">021 1</td>
+<td rowspan="2">Localisation : GARAGE Porte de Garage a enroulement ALU Modèle ROLLE 75 NC ( VOLTECH ) Cotes Tableau Hauteur tableau x Largeur tableau H = 2120 mm x L = 2400 mm Pose D : enroulement intérieur, montage intérieur Equipé d'un palier fixe Modèle caisson : Pan coupé de 300mm / Couleur caisson : Gris Ral 7016 Coulisses : Type 1 - URF 100 percées en façade (droite et gauche) / Couleur coulisses : Gris Ral 7016 Tablier : Lame 75E de 75x20 avec embout Standard /Couleur tablier : Gris Ral 7016 Couleur lame finale : Noir fonce approchant RAL 9005 Position sortie de câble : Nº2 - Sortie dessus caisson, à gauche vue int. Position sortie de manoeuvre : Avec manoeuvre de secours INTERIEURE uniquement (de base) Kit Centrale Rollixo IO avec Barre Palpeuse emeteur Radio, 1 manoeuvre de secours Intérieur, 1 Buzzer alarme, 2 Keygo 4 canaux et 1 Stop chute Livraison : Tablier montee dans le coffre. Retombée de linteau : 690 mm Ecoinçon gauche (vue intérieure) : 200 mm / Ecoinçon droite (vue intérieure) : 200 mm</td>
+<td rowspan="2">2</td>
+<td rowspan="2">1 667,36€</td>
+<td rowspan="2">3 334,72€</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>A NOTER : PORTE SECTIONNELLES NON RÉALISABLE CAR PAS ASSEZ DE REOULEMENT POUR POSITIONNEMENT DOS A DOS</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>021 1</td>
+<td>Eco-contribution</td>
+<td>2</td>
+<td>1,47€</td>
+<td>2,94€</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+Nos services et nos agences en région seront fermés pour cause de congés du lundi 5 août au vendredi 23
+août inclus.
+
+(*) => Performances données pour des dimensions ACOTHERM
+Pour en savoir plus : voir Espace Pro - Performances sur notre site internet <www.batistyl-habitat.fr/-espace-pro-/>
+
+Compte tenu du champ d'application de la filière de REP Bâtiment (responsabilité élargie du producteur de produits et matériaux de construction et de
+rénovation du bâtiment), les prix figurant sur ce devis sont susceptibles de subir des variations générées par la tarification évolutive des barèmes d'éco-
+contribution dus en application du code de l'environnement, et en particulier du mécanisme de répercussion sans réfaction de l'éco-contribution prévu
+par l'article R. 543-290-3 de ce code. Dès lors, le client accepte expressément que le prix des produits et matériaux de construction du bâtiment
+figurant sur le présent devis soient réévalués pour tenir compte du montant d'éco-contribution en vigueur à la date de facturation des produits et
+matériaux concernés.
+
+Afin de valider votre commande, merci de bien vouloir nous faire parvenir, à l'adresse précisée en bas de page, ce devis signé
+ainsi que vos 2 chèques :
+
+\- 1 chèque d'acompte de 30% soit 3981 euros TTC, encaissable à la commande avec une facture d'acompte.
+
+\- 1 chèque de 70% du solde de la commande soit 9287,34 euros TTC, encaissable 8 jours après la livraison.
+
+<!-- PageNumber="Page : 11/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021
+
+<!-- PageBreak -->
+
+
+<figure>
+
+batistyl
+HABITAT
+
+</figure>
+
+
+Devis nº D733656-00
+
+
+# BON POUR ACCEPTATION À NOUS RETOURNER SIGNÉ
+
+Référence chantier : SAS LE CARBET - LOT B/ MEN PVC ALU BI 7016 FT
+
+Date : 11/07/2024
+
+Nombre de pages 12/12
+
+Ce devis est établi pour la fourniture seule de la menuiserie et de fermeture, sur la base des éléments transmis en une
+seule et même livraison (sauf mention contraire).
+
+Tout devis signé avec modification manuscrite fera l'objet d'une nouvelle version de devis qui vous sera retournée
+pour une nouvelle validation signee avant passage en commande.
+
+Ce devis est exprimé en euros.
+
+L'offre est réalisée selon les conditions générales de vente Batistyl communiquées et acceptées par le client y compris le
+franco de port, sous réserve de la typologie du client et de la zone géographique.
+
+Le délai de livraison sera indiqué sur la confirmation de délai.
+
+En cas de litige, le tribunal de commerce du siège social de Batistyl est seul compétent.
+
+Lieu de livraison :
+
+Contact Livraison :
+
+Téléphone :
+
+Le client reconnait avoir pris connaissance des conditions générales de
+vente consultables sur notre site internet <CGV Batistyl Habitat.pdf> et les
+accepter comme partie intégrante du contrat.
+
+Bon pour commande.
+
+Fait à :
+
+Le :
+
+Signature :
+
+
+<table>
+<tr>
+<td>Total Hors-Taxes</td>
+<td>11 056,96€</td>
+</tr>
+<tr>
+<td>Dont éco-contribution HT</td>
+<td>29,41€</td>
+</tr>
+<tr>
+<td>20 %</td>
+<td>2211,38€</td>
+</tr>
+<tr>
+<td>Montant TTC</td>
+<td>13 268,34€</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 12/12" -->
+<!-- PageFooter="www.batistyl.fr" -->
+
+BATISTYL MENUISERIES - NANTES - Zone de Ragon - 2 rue Lavoisier - 44119 TREILLIERES
+contact44.treillieres@batistyl.fr - Tel. 02 72 62 91 30 - Fax 02 51 81 19 19
+SAS au capital de 2 502 830 - RCS Angers B 408599 975 - NAF : 2223Z - SIRET : 408 599 975 00021

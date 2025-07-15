@@ -1,0 +1,200 @@
+=
+
+
+<figure>
+
+Peixoto
+Henri & Fis
+
+SAHL
+
+Maçonnerie Générale
+Carrelage
+
+ANGRESSE - SODATS HOSSEGOR
+
+</figure>
+
+
+SARL PEIXOTO HENRI ET FILS
+MACONNERIE CARRELAGE
+
+300 AV DE LA MAIRIE
+40150 ANGRESSE
+Tél : 05.58.43.50.76
+Fax : 05.58.43.90.61
+R.C.S. : DAX448519892
+N.I.I. : FR448519892
+Date de validité : 11/01/2025
+
+DEVIS
+
+
+<table>
+<tr>
+<th>Nº devis</th>
+<th>Date</th>
+<th>Code client</th>
+</tr>
+<tr>
+<td>DC1358</td>
+<td>11/12/2024</td>
+<td>CHAINE</td>
+</tr>
+</table>
+
+
+CHAINE DES ARTISANS COTE SUD
+650 ROUTE DE BAYONNE
+
+40230 BENNESSE MAREMNE
+
+
+<table>
+<tr>
+<th>Quantité</th>
+<th>Description</th>
+<th>Prix unitaire HT</th>
+<th>Total HT</th>
+</tr>
+<tr>
+<td></td>
+<td>CHANTIER VOULAND A SEIGNOSSE</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>INSTALLATION CHANTIER FF</td>
+<td>150,00</td>
+<td>150,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE SOUCHE + CHAPEAU DE CHEMINEE FF</td>
+<td>320,00</td>
+<td>320,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>PROTECTION + CAMOUFLAGE TERRASSE ET ALENTOUR POUR DEMOLITION FF</td>
+<td>410,00</td>
+<td>410,00</td>
+</tr>
+<tr>
+<td>3,00</td>
+<td>DEMOLITION" PIGNON EXISTANT AVEC EVACUATION ET NETTOYAGE ET ECHAFFAUDAGE U</td>
+<td>596,60</td>
+<td>1 789,80</td>
+</tr>
+<tr>
+<td>2,00</td>
+<td>DEMOLITION DES COTES SABLIERES U</td>
+<td>320,00</td>
+<td>640,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>PREPARATION DES SUPPORTS FF</td>
+<td>420,00</td>
+<td>420,00</td>
+</tr>
+<tr>
+<td>1,35</td>
+<td>ARASE AU MEME NIVEAU EN PERIPHERIE CHAINAGE DE 20 M3</td>
+<td>865,00</td>
+<td>1 167,75</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>SCIAGE DRESSAGE DES DEMI PIGNONS A CONSERVER FF</td>
+<td>560,00</td>
+<td>560,00</td>
+</tr>
+<tr>
+<td>4,00</td>
+<td>RACCORD ENDUIT CONTRE MUR EN BOIS U</td>
+<td>94,00</td>
+<td>376,00</td>
+</tr>
+<tr>
+<td>15,00</td>
+<td>Frai de taxes pour decheterie t</td>
+<td>26,00</td>
+<td>390,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>SOCLE EN BETON POUR DEPART ESCALIER FF</td>
+<td>180,00</td>
+<td>180,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>SONDAGE REPERAGE DU RESEAU EU EXISTANT FF</td>
+<td>210,00</td>
+<td>210,00</td>
+</tr>
+<tr>
+<td>12,00</td>
+<td>CANALISATION PVC DE 100 POUR EVAC.EAUX USEES ML</td>
+<td>18,00</td>
+<td>216,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>RACCORDEMENT sur réseau EXISTANT F</td>
+<td>180,00</td>
+<td>180,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>TRANCHEE + GAINES EN 90 DU COMPTEUR VERS ANGLE MAISON FF</td>
+<td>390,00</td>
+<td>390,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>NETTOYAGE FIN DE CHANTIER</td>
+<td>110,00</td>
+<td>110,00</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th>% TVA</th>
+<th>Base</th>
+<th>Montant TVA</th>
+</tr>
+<tr>
+<td>20,00%</td>
+<td>7 509,55</td>
+<td>1 501,91</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th>Total HT</th>
+<th>Total TVA</th>
+<th>Total TTC</th>
+</tr>
+<tr>
+<td>7 509,55</td>
+<td>1 501,91</td>
+<td>9 011,46</td>
+</tr>
+</table>
+
+
+Net à payer
+
+9 011,46
+
+Cachet et signature précédés de "BON POUR ACCORD"
+
+<!-- PageFooter="Société à responsabilité limitée au capital de 7 500,00 euros - SIRET : 44851989200013" -->
+<!-- PageNumber="1/1" -->

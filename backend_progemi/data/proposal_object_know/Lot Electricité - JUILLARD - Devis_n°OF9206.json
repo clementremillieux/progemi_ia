@@ -1,0 +1,506 @@
+{
+  "devis_id": "OF9206",
+  "devis_date": "04/02/25",
+  "devis_total_ht": 12486.42,
+  "devis_total_ttc": 14983.7,
+  "devis_total_tva": 2497.28,
+  "devis_coup_additionnel": null,
+  "devis_produits": [
+    {
+      "label": "salon",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 955.19,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE POUR LAMPE SUPPLEMENTAIRE",
+          "description": "LIGNE POUR LAMPE SUPPLEMENTAIRE",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "quantite": 11.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE RJ45- CAT6 (grade 3)",
+          "description": "PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "entrée",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 86.79,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "sas",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 69.95,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "SIMPLE ALLUMAGE (appareillage encastre blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "cuisine",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 988.8,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "quantite": 8.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE RJ45- CAT6 (grade 3)",
+          "description": "PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE 2P+T SPECIALISEE",
+          "description": "PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "SORTIE DE CABLE 32 A MONO.",
+          "description": "SORTIE DE CABLE 32 A MONO.(cuisson)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "bain",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 565.74,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE POUR LAMPE SUPPLEMENTAIRE",
+          "description": "LIGNE POUR LAMPE SUPPLEMENTAIRE",
+          "quantite": 3.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE 2P+T SPECIALISEE",
+          "description": "PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "chambre 2",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 543.35,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "quantite": 6.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE RJ45- CAT6 (grade 3)",
+          "description": "PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "chambre 1",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 605.78,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "quantite": 7.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE RJ45- CAT6 (grade 3)",
+          "description": "PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "cave",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 150.24,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "remplacement réglette en réglette led",
+          "description": "remplacement réglette en réglette led",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "garage",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 150.24,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "remplacement réglette en réglette led",
+          "description": "remplacement réglette en réglette led",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "vmc",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1266.42,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture",
+          "description": "VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture (non compris caisson d'habillage si besoin) 1WC+1BAIN+1CUISINE Puissance max : 48 W Niveau sonore à la bouche cuisine (PV) : Lw : 33 dB(A) Lp (2m) : 19 dB(A) ErP : Classe B it Hygrocosy BC 2 - VMC hygroréglable basse conso - Hygro B T3-T- rejet existant en facade",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B",
+          "description": "FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B (non compris trou dans menuiserie)",
+          "quantite": 3.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "chauffage",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 4327.68,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "ALIMENTATION +SECHE SERVIETTES DE TYPE ADELIS 750W BLC BRILLANT",
+          "description": "ALIMENTATION +SECHE SERVIETTES DE TYPE ADELIS 750W BLC BRILLANT",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "CHAUFFAGE - ECS"
+        },
+        {
+          "label": "LIGNE + PANNEAU RAYONNANT",
+          "description": "LIGNE + PANNEAU RAYONNANT Radiateur Agilia horizontal blanc",
+          "quantite": 4.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "CHAUFFAGE - ECS"
+        }
+      ],
+      "lot": "CHAUFFAGE - ECS"
+    },
+    {
+      "label": "divers",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 2776.24,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "Tableau de communication Grade 3 TV e RJ45",
+          "description": "Tableau de communication Grade 3 TV e RJ45, a La zone attenante permet d'installer tous types d'actifs tels que box internet, box domotique",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "TABLEAU ELECTRIQUE DE PROTECTION",
+          "description": "TABLEAU ELECTRIQUE DE PROTECTION COMPRENANT DISJONCTEUR MODULAIRE ET PROTECTION DIFFERENTIELLE",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIAISON EQUIPOTENTIELLE PRINCIPALE",
+          "description": "LIAISON EQUIPOTENTIELLE PRINCIPALE",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE CHAUFFE EAU",
+          "description": "LIGNE CHAUFFE EAU (monophasé)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "pour la coop",
+      "description": "*** POUR LA COOP NE PAS MODIFER NOTRE OFFRE ***",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": null,
+      "lot": "COOPERATIVE"
+    }
+  ]
+}

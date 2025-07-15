@@ -1,0 +1,998 @@
+{
+  "devis_id": "OF9189",
+  "devis_date": "29/01/25",
+  "devis_total_ht": 27711.68,
+  "devis_total_ttc": 33254.02,
+  "devis_total_tva": 5542.34,
+  "devis_coup_additionnel": null,
+  "devis_produits": [
+    {
+      "label": "GARAGE",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 274.45,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "CELLIER",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 819.98,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE 2P+T SPECIALISEE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE CHAUFFE EAU",
+          "description": "monophasé",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "ALIMENTATION POMPE A CHALEUR -32A + PROTECTION",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "WC 1",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 154.64,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH",
+          "description": "orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W | Optique : 60° dichroïque anti éblouissement",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "DEGT 1",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 88.75,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "CUISINE",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1802.33,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 8.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE 2P+T SPECIALISEE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "SORTIE DE CABLE 32 A MONO.",
+          "description": "cuisson",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH",
+          "description": "orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W | Optique : 60° dichroïque anti éblouissement",
+          "quantite": 8.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "HALL",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1286.63,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH",
+          "description": "orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W | Optique : 60° dichroïque anti éblouissement",
+          "quantite": 3.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "REPAS",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1607.1,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 6.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "SEJOUR",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 4075.69,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 7.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE TV SIMPLE",
+          "description": "appareillage encastré blanc type dooxie - non compris antenne",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE RJ45- CAT6 (grade 3)",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH",
+          "description": "orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W | Optique : 60° dichroïque anti éblouissement",
+          "quantite": 8.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL",
+          "description": "",
+          "quantite": 3.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "BUREAU",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1826.37,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 4.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE RJ45- CAT6 (grade 3)",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH",
+          "description": "orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W | Optique : 60° dichroïque anti éblouissement",
+          "quantite": 6.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "CHAMBRE 4",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1144.57,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 3.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE RJ45- CAT6 (grade 3)",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "DRESSING",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1173.95,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VA ET VIENT ENCASTRE APPAREILLAGE BLANC",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 3.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "ALIMENTATION POUR VOLET VELUX",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "SdB",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1269.58,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2 POLES+TERRE",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH",
+          "description": "orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W | Optique : 60° dichroïque anti éblouissement",
+          "quantite": 4.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "LIAISON EQUIPOTENTIELLE SECONDAIRE",
+          "description": "salle de bain ou autre",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "ALIMENTATION +SECHE SERVIETTES DE TYPE DORIS 750W BLANC",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "ALIMENTATION POUR VOLET VELUX",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "EXTERIEUR",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 911.3,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "SIMPLE ALLUMAGE A VOYANT",
+          "description": "appareillage encastré blanc type dooxie",
+          "quantite": 4.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "PRISE DE COURANT 2P+T ENCASTREE ETANCHE BLANCHE TYPE PLEXO",
+          "description": "",
+          "quantite": 3.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "SONNETTE DEUX TONS",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "ETAGE",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 2216.95,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "LIGNE SOUS MOULURE + PANNEAU RAYONNANT AGILIA HORIZONTAL",
+          "description": "dégagement wc",
+          "quantite": 2.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "ALIMENTATION SOUS MOULURE +SECHE SERVIETTES DE TYPE DORIS 750W BLANC",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "LOCAL PISCINE",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 675.16,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "PRISE 2P+T SAILLIE ETANCHE",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "SIMPLE ALLUMAGE SAILLIE ETANCHE",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "ALIMENTATION PISCINE -32A",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "DIVERS",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 5140.07,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "Tableau de communication Grade 3 TV équipé de 8 connecteurs RJ45, avec DTI, filtre-maître et répartiteur TV sur RJ45 4 sorties + La zone attenante permet d'installer tous types d'actifs tels que box internet, box domotique y compris support type GTL",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "TABLEAU ELECTRIQUE DE PROTECTION COMPRENANT DISJONCTEUR MODULAIRE ET PROTECTION DIFFERENTIELLE",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "GOULOTTE TECHNIQUE DU LOGEMENT",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "Dépose repérage des circuits et mise en sécurité récupération des installation étage.",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "REPASSAGE FIBRE ET REGAINAGE (prévoir intervention opérateur pour resoudage fibre).",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "VMC",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 2164.04,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture",
+          "description": "(non compris caisson d'habillage si besoin) Puissance max : 48 W Niveau sonore à la bouche cuisine (PV) : Lw : 33 dB(A) Lp (2m) : 19 dB(A) ErP : Classe B it Hygrocosy BC 2 - VMC hygroréglable basse conso - Hygro B T3-T",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        },
+        {
+          "label": "FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B",
+          "description": "( non compris trou dans menuiserie)",
+          "quantite": 5.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "DOMOTIQUE",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 1080.12,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "PILOTAGE ADISTANCE .DU CHAUFFAGE DE TYPE TYBOX 2000",
+          "description": "",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "DIVERS",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "cheminement du principal gainage par le sol du rdc sur l'ensemble du projet prévoir a minima 7 cm épaisseur + chappe de ravoirage et passage entre solive en faux plafond type lambris",
+          "description": "",
+          "quantite": 0.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "ELECTRICITE"
+        }
+      ],
+      "lot": "ELECTRICITE"
+    },
+    {
+      "label": "pour la coop",
+      "description": "",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "POUR LA COOP NE PAS MODIFER NOTRE OFFRE'",
+          "description": "",
+          "quantite": 0.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "COOPERATIVE"
+        }
+      ],
+      "lot": "COOPERATIVE"
+    }
+  ]
+}

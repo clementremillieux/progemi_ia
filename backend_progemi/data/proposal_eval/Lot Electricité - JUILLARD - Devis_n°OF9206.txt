@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "checked": 5,
+    "ok": 5,
+    "nok": 0,
+    "details": {
+      "devis_id": "✅",
+      "devis_date": "✅",
+      "devis_total_ht": "✅",
+      "devis_total_ttc": "✅",
+      "devis_total_tva": "✅"
+    }
+  },
+  "entities": {
+    "total_actual": 45,
+    "total_compared": 44,
+    "price_ok": 44,
+    "quantity_ok": 44,
+    "vat_ok": 44,
+    "lot_ok": 44,
+    "subcount_ok": 43,
+    "percent_entities_compared": 97.78,
+    "percent_price_ok": 100.0,
+    "percent_quantity_ok": 100.0,
+    "percent_vat_ok": 100.0,
+    "percent_lot_ok": 100.0,
+    "percent_subcount_ok": 97.73
+  }
+}
+
+=== LOGS ===
+🔎 Vérification des métadonnées :
+  devis_id: OF9206 == OF9206 ✅
+  devis_date: 04/02/25 == 04/02/25 ✅
+  devis_total_ht: 12486.42 == 12486.42 ✅
+  devis_total_ttc: 14983.7 == 14983.7 ✅
+  devis_total_tva: 2497.28 == 2497.28 ✅
+
+📦 Comparaison des produits :
+  ▶ Produit[0] (salon) :
+    - price_ht: 955.19 == 955.19 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 4 == 4 ✅
+      ▶ Produit[0] (SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (LIGNE POUR LAMPE SUPPLEMENTAIRE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 11.0 == 11.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[1] (entrée) :
+    - price_ht: 86.79 == 86.79 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 1 == 1 ✅
+      ▶ Produit[0] (VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[2] (sas) :
+    - price_ht: 69.95 == 69.95 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 1 == 1 ✅
+      ▶ Produit[0] (SIMPLE ALLUMAGE (appareillage encastre blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[3] (cuisine) :
+    - price_ht: 988.8 == 988.8 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 5 == 5 ✅
+      ▶ Produit[0] (SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 8.0 == 8.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[4] (SORTIE DE CABLE 32 A MONO.(cuisson)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[4] (bain) :
+    - price_ht: 565.74 == 565.74 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 4 == 4 ✅
+      ▶ Produit[0] (SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (LIGNE POUR LAMPE SUPPLEMENTAIRE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 3.0 == 3.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[5] (chambre 2) :
+    - price_ht: 543.35 == 543.35 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 3 == 3 ✅
+      ▶ Produit[0] (VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 6.0 == 6.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[6] (chambre 1) :
+    - price_ht: 605.78 == 605.78 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 3 == 3 ✅
+      ▶ Produit[0] (VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 7.0 == 7.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[7] (cave) :
+    - price_ht: 150.24 == 150.24 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 1 == 1 ✅
+      ▶ Produit[0] (remplacement réglette en réglette led) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[8] (garage) :
+    - price_ht: 150.24 == 150.24 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 1 == 1 ✅
+      ▶ Produit[0] (remplacement réglette en réglette led) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[9] (vmc) :
+    - price_ht: 1266.42 == 1266.42 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 2 == 2 ✅
+      ▶ Produit[0] (VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture (non compris caisson d'habillage si besoin) 1WC+1BAIN+ 1CUISINE Puissance max : 48 W Niveau sonore à la bouche cuisine ( PV) : Lw : 33 dB(A) Lp (2m) : 19 dB(A) ErP : Classe B it Hygrocosy BC 2 - VMC hygroréglable basse conso - Hygro B T3-T- rejet existant en facade) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B ( non compris trou dans menuiserie)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 3.0 == 3.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[10] (chauffage) :
+    - price_ht: 4327.68 == 4327.68 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.CHAUFFAGE_ECS == Lot.CHAUFFAGE_ECS ✅
+    - sous_produits count: 2 == 2 ✅
+      ▶ Produit[0] (ALIMENTATION +SECHE SERVIETTES DE TYPE ADELIS 750W BLC BRILLANT) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.CHAUFFAGE_ECS == Lot.CHAUFFAGE_ECS ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (LIGNE + PANNEAU RAYONNANT Radiateur Agilia horizontal blanc) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 4.0 == 4.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.CHAUFFAGE_ECS == Lot.CHAUFFAGE_ECS ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[11] (divers) :
+    - price_ht: 2776.24 == 2776.24 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+    - sous_produits count: 4 == 4 ✅
+      ▶ Produit[0] (Tableau de communication Grade 3 TV e RJ45, a La zone attenante permet d'installer tous types d'actifs tels que box internet, box domotique) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (TABLEAU ELECTRIQUE DE PROTECTION COMPRENANT DISJONCTEUR MODULAIRE ET PROTECTION DIFFERENTIELLE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (LIAISON EQUIPOTENTIELLE PRINCIPALE) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (LIGNE CHAUFFE EAU (monophasé)) :
+        - price_ht: 0.0 == 0.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.ELECTRICITE == Lot.ELECTRICITE ✅
+        - sous_produits count: 0 == 0 ✅
+  ▶ Produit[12] (pour la coop) :
+    - price_ht: 0.0 == 0.0 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.COOPERATIVE == Lot.COOPERATIVE ✅
+    - sous_produits count: 1 != 0 ❌
+
+📊 Résumé des métriques :
+  - Entités totales           : 45
+  - Entités comparées         : 44 (97.78%) ❌
+  - Prix OK                   : 44/44 (100.0%) ✅
+  - Quantité OK               : 44/44 (100.0%) ✅
+  - TVA OK                    : 44/44 (100.0%) ✅
+  - Lot OK                    : 44/44 (100.0%) ✅
+  - Sous-produits count OK    : 43/44 (97.73%) ❌

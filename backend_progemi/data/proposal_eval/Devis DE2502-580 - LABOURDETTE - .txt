@@ -1,0 +1,542 @@
+{
+  "metadata": {
+    "checked": 3,
+    "ok": 1,
+    "nok": 2,
+    "details": {
+      "devis_total_ht": "❌",
+      "devis_total_ttc": "✅",
+      "devis_total_tva": "❌"
+    }
+  },
+  "entities": {
+    "total_actual": 88,
+    "total_compared": 83,
+    "price_ok": 80,
+    "quantity_ok": 82,
+    "vat_ok": 83,
+    "lot_ok": 83,
+    "subcount_ok": 80,
+    "percent_entities_compared": 94.32,
+    "percent_price_ok": 96.39,
+    "percent_quantity_ok": 98.8,
+    "percent_vat_ok": 100.0,
+    "percent_lot_ok": 100.0,
+    "percent_subcount_ok": 96.39
+  }
+}
+
+=== LOGS ===
+🔎 Vérification des métadonnées :
+  devis_total_ht: 15036.99 != 15030.65 ❌
+  devis_total_ttc: 16540.69 == 16540.69 ✅
+  devis_total_tva: 1503.7 != 1503.07 ❌
+
+📦 Comparaison des produits :
+  ▶ Produit[0] (TRAVAUX SANITAIRES) :
+    - price_ht: 6824.9 == 6824.9 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 10% == TVA 10% ✅
+    - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+    - sous_produits count: 7 == 7 ✅
+      ▶ Produit[0] (Préparation) :
+        - price_ht: 1395.0 == 1395.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 2 == 2 ✅
+          ▶ Produit[0] (Mise en sécurité et pose d'un robinet de chantier.) :
+            - price_ht: 135.0 == 135.0 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 0 == 0 ✅
+          ▶ Produit[1] (Dépose de la chaudière et de 13 radiateurs et mise en décharge. Découpe des alimentations départs et retours à fleur de cloison.) :
+            - price_ht: 1260.0 == 1260.0 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (Production d'eau chaude) :
+        - price_ht: 1124.17 == 1124.17 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 1 == 1 ✅
+          ▶ Produit[0] (Chauffe eau électrique ATLANTIC stable 300L blindé) :
+            - price_ht: 1124.17 == 1124.17 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 == 4 ✅
+              ▶ Produit[0] (Chauffe-eau électrique CHAUFFEO 300 l, résistance blindée vertical sur socle, classe C réf. 022130) :
+                - price_ht: 648.99 == 648.99 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Groupe de sécurité coudé Sider) :
+                - price_ht: 31.2 == 31.2 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Siphon de groupe de sécurité avec déflecteur 26x34 Réf 887718) :
+                - price_ht: 3.98 == 3.98 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Main d'œuvre déplacement et garantie) :
+                - price_ht: 440.0 == 440.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (Buanderie) :
+        - price_ht: 126.7 == 126.7 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 1 == 1 ✅
+          ▶ Produit[0] (Alimentation eau froide et évacuation machine à laver avec siphon.) :
+            - price_ht: 126.7 == 126.7 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 == 4 ✅
+              ▶ Produit[0] (Robinet machine à laver) :
+                - price_ht: 6.37 == 6.37 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Té laiton à souder 14-1/2 femelle) :
+                - price_ht: 2.32 == 2.32 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Siphon machine à laver simple, sortie horizontale) :
+                - price_ht: 8.01 == 8.01 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Main d'œuvre alimentation robinet machine à laver) :
+                - price_ht: 110.0 == 110.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (WC 1) :
+        - price_ht: 1593.24 == 1593.24 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 2 == 2 ✅
+          ▶ Produit[0] (TOILETTES) :
+            - price_ht: 886.57 == 886.57 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 == 4 ✅
+              ▶ Produit[0] (Bâti-support RAPID SL autoportant H 1,13 m réf 38340001) :
+                - price_ht: 248.9 == 248.9 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Plaque de commande WC SKATE AIR blanc alpin réf 38505SH0) :
+                - price_ht: 48.77 == 48.77 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Pack WC suspendu sans bride Alterna Concerto 3) :
+                - price_ht: 193.9 == 193.9 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Raccordement toilettes) :
+                - price_ht: 395.0 == 395.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+          ▶ Produit[1] (LAVE-MAINS) :
+            - price_ht: 706.67 == 706.67 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 3 == 3 ✅
+              ▶ Produit[0] (Ensemble PICCOLO lave-mains céramique sur meuble 235 x 425) :
+                - price_ht: 174.67 == 174.67 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Mitigeur GROHE Eurosmart taille M) :
+                - price_ht: 92.0 == 92.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Raccordement meuble) :
+                - price_ht: 440.0 == 440.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+      ▶ Produit[4] (Cuisine) :
+        - price_ht: 1091.67 == 1091.67 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 2 == 2 ✅
+          ▶ Produit[0] (Évier – Alimentation eau froide/chaude et évacuation (hors raccordement)) :
+            - price_ht: 0.0 != 385.0 ❌
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 1 == 1 ✅
+              ▶ Produit[0] (Main d'œuvre) :
+                - price_ht: 385.0 == 385.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+          ▶ Produit[1] (Lave-vaisselle – alimentation, évacuation et raccordement) :
+            - price_ht: 706.67 == 706.67 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 3 == 3 ✅
+              ▶ Produit[0] (Ensemble PICCOLO lave-mains céramique sur meuble 235 x 425) :
+                - price_ht: 174.67 == 174.67 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Mitigeur GROHE Eurosmart taille M) :
+                - price_ht: 92.0 == 92.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Raccordement meuble) :
+                - price_ht: 440.0 == 440.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+      ▶ Produit[5] (Garage) :
+        - price_ht: 385.0 == 385.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 1 == 1 ✅
+          ▶ Produit[0] (Évier – alimentation eau froide/chaude et évacuation (hors raccordement)) :
+            - price_ht: 0.0 != 385.0 ❌
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 1 == 1 ✅
+              ▶ Produit[0] (Main d'œuvre) :
+                - price_ht: 385.0 == 385.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+      ▶ Produit[6] (WC étage) :
+        - price_ht: 1109.12 == 1109.12 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 1 == 1 ✅
+          ▶ Produit[0] (TOILETTES étage – alimentation et raccordement WC suspendu) :
+            - price_ht: 1109.12 == 1109.12 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 == 4 ✅
+              ▶ Produit[0] (Bâti-support RAPID SL 82 cm réf 38587000) :
+                - price_ht: 471.46 == 471.46 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Plaque de commande WC SKATE AIR blanc alpin réf 38505SH0) :
+                - price_ht: 48.77 == 48.77 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Pack WC suspendu sans bride Alterna Concerto 3) :
+                - price_ht: 193.9 == 193.9 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Raccordement toilettes) :
+                - price_ht: 395.0 == 395.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+  ▶ Produit[1] (TRAVAUX SANITAIRES STUDIO) :
+    - price_ht: 8205.75 == 8205.75 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 10% == TVA 10% ✅
+    - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+    - sous_produits count: 4 != 3 ❌
+      ▶ Produit[0] (Alimentation d'eau principale) :
+        - price_ht: 495.1 == 495.1 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 1 != 4 ❌
+          ▶ Produit[0] (Alimentation en eau de l'alimentation existante jusqu'au studio (hors tranchée)) :
+            - price_ht: 495.1 != 13.88 ❌
+            - quantite: 1.0 != 2.0 ❌
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 != 0 ❌
+      ▶ Produit[1] (Production d'eau chaude) :
+        - price_ht: 1285.43 == 1285.43 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 3 == 3 ✅
+          ▶ Produit[0] (Chauffe eau électrique ATLANTIC plat 80 l stéatite) :
+            - price_ht: 965.6 == 965.6 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 6 == 6 ✅
+              ▶ Produit[0] (Chauffe-eau ATLANTIC Linéo plat 80 l) :
+                - price_ht: 449.02 == 449.02 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Groupe de sécurité droit SFR) :
+                - price_ht: 19.81 == 19.81 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Siphon groupe de sécurité 26x34 réf 887718) :
+                - price_ht: 3.98 == 3.98 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Trépied universel quadripode 50-200 l réf 009231) :
+                - price_ht: 47.21 == 47.21 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[4] (Fixations chauffe-eau 10x120) :
+                - price_ht: 5.58 == 5.58 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[5] (Main d'œuvre déplacement et garantie) :
+                - price_ht: 440.0 == 440.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+          ▶ Produit[1] (Collecteur sanitaire eau froide) :
+            - price_ht: 166.41 == 166.41 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 3 == 3 ✅
+              ▶ Produit[0] (Collecteur sanitaire MF3/4 – 5 sorties 1/2) :
+                - price_ht: 49.91 == 49.91 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Raccord PER à sertir Ø16 écrou libre 1/2) :
+                - price_ht: 1.3 == 1.3 ✅
+                - quantite: 5.0 == 5.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Main d'œuvre déplacement et garantie) :
+                - price_ht: 110.0 == 110.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+          ▶ Produit[2] (Collecteur sanitaire eau chaude) :
+            - price_ht: 153.42 == 153.42 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 3 == 3 ✅
+              ▶ Produit[0] (Collecteur sanitaire MF3/4 – 4 sorties 1/2) :
+                - price_ht: 38.22 == 38.22 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Raccord PER à sertir Ø16 écrou libre 1/2) :
+                - price_ht: 1.3 == 1.3 ✅
+                - quantite: 4.0 == 4.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Main d'œuvre déplacement et garantie) :
+                - price_ht: 110.0 == 110.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (Salle de bain) :
+        - price_ht: 5058.79 == 5058.79 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 10% == TVA 10% ✅
+        - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+        - sous_produits count: 4 == 4 ✅
+          ▶ Produit[0] (TOILETTES) :
+            - price_ht: 886.57 == 886.57 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 == 4 ✅
+              ▶ Produit[0] (Bâti-support RAPID SL autoportant réf 38340001) :
+                - price_ht: 248.9 == 248.9 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Plaque de commande WC SKATE AIR blanc alpin) :
+                - price_ht: 48.77 == 48.77 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Pack WC suspendu sans bride Alterna Concerto 3) :
+                - price_ht: 193.9 == 193.9 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Raccordement toilettes) :
+                - price_ht: 395.0 == 395.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+          ▶ Produit[1] (Meuble vasque double) :
+            - price_ht: 2157.08 == 2157.08 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 == 4 ✅
+              ▶ Produit[0] (Meuble CONCERTO 120 cm double vasques laqué blanc) :
+                - price_ht: 1127.33 == 1127.33 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Mitigeur lavabo GROHE Eurosmart taille M) :
+                - price_ht: 92.0 == 92.0 ✅
+                - quantite: 2.0 == 2.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Miroir BRUGES 120 x 70 double éclairage LED) :
+                - price_ht: 295.75 == 295.75 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Raccordement meuble) :
+                - price_ht: 550.0 == 550.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+          ▶ Produit[2] (Baignoire) :
+            - price_ht: 1135.69 == 1135.69 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 5 == 5 ✅
+              ▶ Produit[0] (Baignoire rectangulaire CONCERTO 3 170 x 70 acrylique) :
+                - price_ht: 266.15 == 266.15 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Mitigeur thermostatique bain/douche GROHE Grotherm 800) :
+                - price_ht: 196.3 == 196.3 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Barre de douche GROHE Tempesta 100) :
+                - price_ht: 90.19 == 90.19 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Vidage de baignoire Hansgrohe Flexaplus) :
+                - price_ht: 88.05 == 88.05 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[4] (Raccordement baignoire) :
+                - price_ht: 495.0 == 495.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+          ▶ Produit[3] (Douche à l'italienne) :
+            - price_ht: 879.45 == 879.45 ✅
+            - quantite: 1.0 == 1.0 ✅
+            - tva: TVA 10% == TVA 10% ✅
+            - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+            - sous_produits count: 4 == 4 ✅
+              ▶ Produit[0] (Siphon de sol 150 x 150 grille inox réf 683001) :
+                - price_ht: 103.18 == 103.18 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[1] (Mitigeur thermostatique douche GROHE Grotherm 800) :
+                - price_ht: 196.3 == 196.3 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[2] (Barre de douche GROHE Tempesta 100) :
+                - price_ht: 84.95 == 84.95 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+              ▶ Produit[3] (Raccordement douche) :
+                - price_ht: 495.0 == 495.0 ✅
+                - quantite: 1.0 == 1.0 ✅
+                - tva: TVA 10% == TVA 10% ✅
+                - lot: Lot.SANITAIRE == Lot.SANITAIRE ✅
+                - sous_produits count: 0 == 0 ✅
+
+📊 Résumé des métriques :
+  - Entités totales           : 88
+  - Entités comparées         : 83 (94.32%) ❌
+  - Prix OK                   : 80/83 (96.39%) ❌
+  - Quantité OK               : 82/83 (98.8%) ❌
+  - TVA OK                    : 83/83 (100.0%) ✅
+  - Lot OK                    : 83/83 (100.0%) ✅
+  - Sous-produits count OK    : 80/83 (96.39%) ❌

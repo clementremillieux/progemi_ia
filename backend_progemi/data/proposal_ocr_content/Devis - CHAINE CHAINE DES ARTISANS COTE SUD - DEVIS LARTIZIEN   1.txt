@@ -1,0 +1,763 @@
+<figure>
+
+Peixoto
+Henri & Fis
+
+SAHL
+
+Maçonnerie Générale
+Carrelage
+ANGRESSE - SOORTS HOSSEGOR
+
+</figure>
+
+
+SARL PEIXOTO HENRI ET FILS
+MACONNERIE CARRELAGE
+
+300 AV DE LA MAIRIE
+40150 ANGRESSE
+Tél : 05.58.43.50.76
+Fax : 05.58.43.90.61
+R.C.S. : DAX448519892
+N.I.I. : FR448519892
+Date de validité : 16/01/2025
+
+DEVIS
+
+
+<table>
+<tr>
+<th>Nº devis</th>
+<th>Date</th>
+<th>Code client</th>
+</tr>
+<tr>
+<td>DC1361</td>
+<td>16/12/2024</td>
+<td>CHAINE</td>
+</tr>
+</table>
+
+
+CHAINE DES ARTISANS COTE SUD
+650 ROUTE DE BAYONNE
+
+40230 BENNESSE MAREMNE
+
+
+<table>
+<tr>
+<th>Quantité</th>
+<th>Description</th>
+<th>Prix unitaire HT</th>
+<th>Total HT</th>
+</tr>
+<tr>
+<td></td>
+<td>chantier MME LARTIZIEN A SEIGNOSSE</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>INSTALLATION CHANTIER FF</td>
+<td>620,00</td>
+<td>620,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DU PLANCHER BOIS EN TERRASSE FF</td>
+<td>880,00</td>
+<td>880,00</td>
+</tr>
+<tr>
+<td>3,00</td>
+<td>DECOUPAGE DU BARDAGE BOIS FACADE NORD FF</td>
+<td>320,00</td>
+<td>960,00</td>
+</tr>
+<tr>
+<td>8,00</td>
+<td>DEPOSE DE L ENSEMBLE DES FENETRES ET PORTES EXTERIEURES U</td>
+<td>80,00</td>
+<td>640,00</td>
+</tr>
+<tr>
+<td>12,00</td>
+<td>DEPOSE DES VOLETS EXTERIEURS U</td>
+<td>60,00</td>
+<td>720,00</td>
+</tr>
+<tr>
+<td>30,00</td>
+<td>DEPOSE DES BANDEAUX BOIS ML</td>
+<td>18,00</td>
+<td>540,00</td>
+</tr>
+<tr>
+<td>4,00</td>
+<td>OUVERTURE A CREER FENETRE COTE OUEST PREPARATION, DEMOLITION, REPRISE LINTEAUX, EVACUATION DES GRAVATS, RACCORD ET ENDUITS DES TABLEAUX ET FACADES, FF</td>
+<td>790,00</td>
+<td>3 160,00</td>
+</tr>
+<tr>
+<td>16,00</td>
+<td>DEMOLITION MUR FACADE AU DROIT DE L EXTENSION SOUBASSEMENT ET POTEAUX M2</td>
+<td>80,00</td>
+<td>1 280,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION ALLEGE POUR PORTE FENETRE CUISINE FF</td>
+<td>360,00</td>
+<td>360,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE INSTALLATION ELECTRIQUE CHAUFFAGE ET BALLON ECS FF</td>
+<td>1 460,00</td>
+<td>1 460,00</td>
+</tr>
+<tr>
+<td>4,00</td>
+<td>DEPOSE DES SANITAIRES U</td>
+<td>80,00</td>
+<td>320,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DU RESEAU PLOMBERIE ALIM CUIVRE + EVAC PVC FF</td>
+<td>695,00</td>
+<td>695,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION DE LA MEZZANINE + SOUS FACE FF</td>
+<td>880,00</td>
+<td>880,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION STRUCTURE BOIS / BRIQUE EN COURBE SOUS MEZZANINE FF</td>
+<td>726,00</td>
+<td>726,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOS ESCALIER ACCES MEZZANINE FF</td>
+<td>310,00</td>
+<td>310,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION DES CLOISONS ESXISTANTES SUIVANT PLAN FF</td>
+<td>820,00</td>
+<td>820,00</td>
+</tr>
+<tr>
+<td>15,00</td>
+<td>DEMOLITION PLANCHER GRENIER AU DESSUS SDB ET CUISINE M2</td>
+<td>37,00</td>
+<td>555,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION TOTALE CUISINE FF</td>
+<td>620,00</td>
+<td>620,00</td>
+</tr>
+<tr>
+<td>2,00</td>
+<td>OUVERTURE A CREER DANS MUR DE REFEND AVEC PREPARATION, DEMOLITION, REPRISE LINTEAUX, EVACUATION DES GRAVATS, RACCORD ETC FF</td>
+<td>980,00</td>
+<td>1 960,00</td>
+</tr>
+<tr>
+<td>7,00</td>
+<td>DEMOLITION MUR ENTRE CHAMBRES AVEC ETAIEMENT M2</td>
+<td>55,00</td>
+<td>385,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DU CARRELAGE MURS FF</td>
+<td>420,00</td>
+<td>420,00</td>
+</tr>
+<tr>
+<td>6,00</td>
+<td>DEPOSE BLOC PORTE INTERIEURS U</td>
+<td>80,00</td>
+<td>480,00</td>
+</tr>
+<tr>
+<td>120,00</td>
+<td>DEPOSE DU DOUBLAGE SURRAMPANTS ISOLATION COMPRIS M2</td>
+<td>24,60</td>
+<td>2 952,00</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<figure>
+
+Peixoto
+Henri & Fis
+
+SARL
+
+Maçonnerie Générale
+Carrelage
+ANGRESSE - SOORTS HOSSEGOR
+
+</figure>
+
+
+SARL PEIXOTO HENRI ET FILS
+MACONNERIE CARRELAGE
+
+300 AV DE LA MAIRIE
+40150 ANGRESSE
+Tél : 05.58.43.50.76
+Fax : 05.58.43.90.61
+R.C.S. : DAX448519892
+N.I.I. : FR448519892
+Date de validité : 16/01/2025
+
+DEVIS
+
+
+<table>
+<tr>
+<th>Nº devis</th>
+<th>Date</th>
+<th>Code client</th>
+</tr>
+<tr>
+<td>DC1361</td>
+<td>16/12/2024</td>
+<td>CHAINE</td>
+</tr>
+</table>
+
+
+CHAINE DES ARTISANS COTE SUD
+650 ROUTE DE BAYONNE
+
+40230 BENNESSE MAREMNE
+
+
+<table>
+<tr>
+<th>Quantité</th>
+<th>Description</th>
+<th>Prix unitaire HT</th>
+<th>Total HT</th>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DES DOUBLAGES LAMBRIS MURAUX AVEC ISOLANTS EN FACADE NORD ET OUEST FF</td>
+<td>1 620,00</td>
+<td>1 620,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DE LINSERT FF</td>
+<td>420,00</td>
+<td>420,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION DE LA MACONNERIE EN PARTIE BASSE CHEMINEE + CONDUITE FF POULAILLER</td>
+<td>1 125,00</td>
+<td>1 125,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DE LA TOITURE TUILES MECANIQUES + CHARPENTE FF</td>
+<td>890,00</td>
+<td>890,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DES MURS BOIS COMPRIS PORTE FF</td>
+<td>820,00</td>
+<td>820,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION DES 2 MURS EN MACONNERIE FF GRANGE</td>
+<td>780,00</td>
+<td>780,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DECOUPAGE DU BARDAGE BOIS EN FACADE AU DROIT DES NOUVELLES OUVERTURES FF</td>
+<td>890,00</td>
+<td>890,00</td>
+</tr>
+<tr>
+<td>4,00</td>
+<td>DEPOSE DES HUISSERIES BOIS ET BAIE ALU FF</td>
+<td>120,00</td>
+<td>480,00</td>
+</tr>
+<tr>
+<td>3,00</td>
+<td>OUVERTURE A CREER EN FACDE AU DROIT DE FUTURE PORTE VERS EXTENTION SOUBASSEMENT MACONNERIE + MUR BOIS AVEC PREPARATION, DEMOLITION, EVACUATION DES GRAVATS, RACCORD , FF</td>
+<td>890,00</td>
+<td>2 670,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE INSTALLATION ELECTRIQUE + APPAREIL CHAUFFAGE + BALLON ECS FF</td>
+<td>980,00</td>
+<td>980,00</td>
+</tr>
+<tr>
+<td>3,00</td>
+<td>DEPOSE DES SANITAIRES U</td>
+<td>80,00</td>
+<td>240,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DU RESEAU PLOMBERIE ALIM CUIVRE + EVC PVC FF</td>
+<td>595,00</td>
+<td>595,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEMOLITION DES CLOISONNEMENT INTERIEURS FF</td>
+<td>320,00</td>
+<td>320,00</td>
+</tr>
+<tr>
+<td>2,00</td>
+<td>DEPOSE DES BLOCS PORTES INTERIEUR U</td>
+<td>80,00</td>
+<td>160,00</td>
+</tr>
+<tr>
+<td>40,00</td>
+<td>DEPOSE DES DOUBLAGES SUR RAMPANTS COMPRIS ISOLANTS M2</td>
+<td>24,60</td>
+<td>984,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE KITCHENETTE FF</td>
+<td>380,00</td>
+<td>380,00</td>
+</tr>
+<tr>
+<td>30,00</td>
+<td>DEPOSE PARQUETS + SOLIVES M2</td>
+<td>35,00</td>
+<td>1 050,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>DEPOSE DE LA MEZZANINE DESSUS CUISINE FF</td>
+<td>792,00</td>
+<td>792,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>EVACUATION ET MISE EN DECHETTERIE FF TERRASSEMENT</td>
+<td>1 920,00</td>
+<td>1 920,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>INSTALLATION + IMPLANTATION FF RESEAUX</td>
+<td>895,00</td>
+<td>895,00</td>
+</tr>
+<tr>
+<td>64,00</td>
+<td>REALISATION DE TRANCHEES DE LA MAISON AL EGOUT ML</td>
+<td>12,00</td>
+<td>768,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>FOURNITURE ET POSE DES RESEAUX ET GAINES SUIVANT BESOIN FF PARKING + VOIE</td>
+<td>6 048,00</td>
+<td>6 048,00</td>
+</tr>
+<tr>
+<td>80,00</td>
+<td>TERASSEMENT EN PLEINE MASSE + DEBLAI DES TERRES M3</td>
+<td>22,00</td>
+<td>1 760,00</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<figure>
+
+Peixoto
+Henri & Fis
+
+SAHL
+
+Maçonnerie Générale
+Carrelage
+ANGRESSE - SOORTS HOSSEGOR
+
+</figure>
+
+
+SARL PEIXOTO HENRI ET FILS
+MACONNERIE CARRELAGE
+
+300 AV DE LA MAIRIE
+40150 ANGRESSE
+Tél : 05.58.43.50.76
+Fax : 05.58.43.90.61
+R.C.S. : DAX448519892
+N.I.I. : FR448519892
+Date de validité : 16/01/2025
+
+DEVIS
+
+
+<table>
+<tr>
+<th>Nº devis</th>
+<th>Date</th>
+<th>Code client</th>
+</tr>
+<tr>
+<td>DC1361</td>
+<td>16/12/2024</td>
+<td>CHAINE</td>
+</tr>
+</table>
+
+
+CHAINE DES ARTISANS COTE SUD
+650 ROUTE DE BAYONNE
+
+40230 BENNESSE MAREMNE
+
+
+<table>
+<tr>
+<th>Quantité</th>
+<th>Description</th>
+<th>Prix unitaire HT</th>
+<th>Total HT</th>
+</tr>
+<tr>
+<td>430,00</td>
+<td>REALISATION EMPIERREMENT + COMPACTAGE M2 EXTENTION</td>
+<td>25,50</td>
+<td>10 965,00</td>
+</tr>
+<tr>
+<td>25,00</td>
+<td>TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3</td>
+<td>22,00</td>
+<td>550,00</td>
+</tr>
+<tr>
+<td>18,00</td>
+<td>FOUILLE EN RIGOLE POUR FONDATIONS ML ANNEXE</td>
+<td>18,00</td>
+<td>324,00</td>
+</tr>
+<tr>
+<td>14,00</td>
+<td>TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3</td>
+<td>22,00</td>
+<td>308,00</td>
+</tr>
+<tr>
+<td>25,00</td>
+<td>FOUILLE EN RIGOLE POUR FONDATIONS ML PISCINE</td>
+<td>18,00</td>
+<td>450,00</td>
+</tr>
+<tr>
+<td>85,00</td>
+<td>TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3 BASSIN</td>
+<td>22,00</td>
+<td>1 870,00</td>
+</tr>
+<tr>
+<td>11,00</td>
+<td>TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3 TERRASSE EXT</td>
+<td>22,00</td>
+<td>242,00</td>
+</tr>
+<tr>
+<td>40,00</td>
+<td>TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3</td>
+<td>22,00</td>
+<td>880,00</td>
+</tr>
+<tr>
+<td>185,75</td>
+<td>EVACUATION DES TERRES EXCEDENTAIRES FF</td>
+<td>18,00</td>
+<td>3 343,50</td>
+</tr>
+<tr>
+<td>185,75</td>
+<td>Frai de taxes pour decheterie t MACONNERIE GO</td>
+<td>15,00</td>
+<td>2 786,25</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>INSTALLATION + IMPLANTATION FF EXTENTION</td>
+<td>1 220,00</td>
+<td>1 220,00</td>
+</tr>
+<tr>
+<td>7,00</td>
+<td>SEMELLES FILANTES M3</td>
+<td>329,90</td>
+<td>2 309,30</td>
+</tr>
+<tr>
+<td>25,00</td>
+<td>BLOCS A BANCHER DE 0.20 EPAISSEUR M2</td>
+<td>98,00</td>
+<td>2 450,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>ARASE B A FF</td>
+<td>880,00</td>
+<td>880,00</td>
+</tr>
+<tr>
+<td>39,00</td>
+<td>PLANCHER HOURDIS ISOLANT 16+4 M 1 M2</td>
+<td>105,50</td>
+<td>4 114,50</td>
+</tr>
+<tr>
+<td>4,00</td>
+<td>BLOCS A BANCHER DE 0.20 EPAISSEUR M2</td>
+<td>98,00</td>
+<td>392,00</td>
+</tr>
+<tr>
+<td>19,00</td>
+<td>ENDUIT DES MURS DE SOUBASSEMENT M2 BASSIN</td>
+<td>28,00</td>
+<td>532,00</td>
+</tr>
+<tr>
+<td>5,20</td>
+<td>REPRISE EN SOUS OEUVRE PARTIELLE DU SUIVANT LONGUEUR DU BASSIN ML</td>
+<td>112,50</td>
+<td>585,00</td>
+</tr>
+<tr>
+<td>10,00</td>
+<td>BLOCS A BANCHER DE 0.20 EPAISSEUR M2</td>
+<td>98,00</td>
+<td>980,00</td>
+</tr>
+<tr>
+<td>13,00</td>
+<td>DALLE S/HERISSON REZ DE CHAUSEE FOND BASSIN M2</td>
+<td>55,50</td>
+<td>721,50</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>ETANCHEITE TYPE SIKATOP 21 FF ANNEXE</td>
+<td>2 860,00</td>
+<td>2 860,00</td>
+</tr>
+<tr>
+<td>3,00</td>
+<td>SEMELLES FILANTES M3</td>
+<td>329,90</td>
+<td>989,70</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<figure>
+
+Peixoto
+Henri & Fis
+
+SAHL
+
+Maçonnerie Générale
+Carrelage
+
+ANGRESSE - SODATS HOSSEGOR
+
+</figure>
+
+
+SARL PEIXOTO HENRI ET FILS
+MACONNERIE CARRELAGE
+
+300 AV DE LA MAIRIE
+40150 ANGRESSE
+Tél : 05.58.43.50.76
+Fax : 05.58.43.90.61
+R.C.S. : DAX448519892
+N.I.I. : FR448519892
+Date de validité : 16/01/2025
+
+DEVIS
+
+
+<table>
+<tr>
+<th>Nº devis</th>
+<th>Date</th>
+<th>Code client</th>
+</tr>
+<tr>
+<td>DC1361</td>
+<td>16/12/2024</td>
+<td>CHAINE</td>
+</tr>
+</table>
+
+
+CHAINE DES ARTISANS COTE SUD
+650 ROUTE DE BAYONNE
+
+40230 BENNESSE MAREMNE
+
+
+<table>
+<tr>
+<th>Quantité</th>
+<th>Description</th>
+<th>Prix unitaire HT</th>
+<th>Total HT</th>
+</tr>
+<tr>
+<td>18,00</td>
+<td>CANALISATION PVC DE 100 POUR EVAC.EAUX USEES ML</td>
+<td>18,00</td>
+<td>324,00</td>
+</tr>
+<tr>
+<td>13,00</td>
+<td>BLOCS A BANCHER DE 0.20 EPAISSEUR M2</td>
+<td>98,00</td>
+<td>1 274,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>ARASE B A FF</td>
+<td>880,00</td>
+<td>880,00</td>
+</tr>
+<tr>
+<td>20,00</td>
+<td>PLANCHER HOURDIS ISOLANT 16+4 M 1 M2</td>
+<td>105,10</td>
+<td>2 102,00</td>
+</tr>
+<tr>
+<td>12,00</td>
+<td>ENDUIT DES MURS DE SOUBASSEMENT M2 PISCINE</td>
+<td>28,00</td>
+<td>336,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>REALISATION D UN CUVELAGE PISCINE 8.50* 3.80 EN BLOC A BANCHER + ENDUIT FF TERRASSE</td>
+<td>17 038,00</td>
+<td>17 038,00</td>
+</tr>
+<tr>
+<td>25,00</td>
+<td>FOUILLE EN RIGOLE POUR FONDATIONS ML</td>
+<td>16,00</td>
+<td>400,00</td>
+</tr>
+<tr>
+<td>3,00</td>
+<td>SEMELLES FILANTES M3</td>
+<td>332,00</td>
+<td>996,00</td>
+</tr>
+<tr>
+<td>10,00</td>
+<td>BLOCS A BANCHER DE 0.20 EPAISSEUR M2</td>
+<td>98,00</td>
+<td>980,00</td>
+</tr>
+<tr>
+<td>115,00</td>
+<td>DALLE S/HERISSON REZ DE CHAUSEE M2</td>
+<td>99,00</td>
+<td>11 385,00</td>
+</tr>
+<tr>
+<td>1,00</td>
+<td>MARCHE EN BETON DROIT EN L COTE OUEST FF BATIEMENT A REHAUSSEMENT DALLE EXISTANTE</td>
+<td>1 495,00</td>
+<td>1 495,00</td>
+</tr>
+<tr>
+<td>101,00</td>
+<td>COUCHE ETANCHE COMPRIS REMONTE HUMIDITE M2</td>
+<td>15,00</td>
+<td>1 515,00</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th>% TVA</th>
+<th>Base</th>
+<th>Montant TVA</th>
+</tr>
+<tr>
+<td>20,00%</td>
+<td>126 807,75</td>
+<td>25 361,55</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th>Total HT</th>
+<th>Total TVA</th>
+<th>Total TTC</th>
+</tr>
+<tr>
+<td>126 807,75</td>
+<td>25 361,55</td>
+<td>152 169,30</td>
+</tr>
+</table>
+
+
+Net à payer
+
+152 169,30
+
+<!-- PageFooter="Cachet et signature précédés de "BON POUR ACCORD"" -->
+<!-- PageFooter="Société à responsabilité limitée au capital de 7 500,00 euros - SIRET : 44851989200013" -->
+<!-- PageNumber="4/4" -->

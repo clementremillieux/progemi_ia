@@ -1,0 +1,141 @@
+{
+  "groupes_produits": [
+    {
+      "nom": "TRAVAUX SANITAIRES",
+      "sous_groupes_produits": [
+        {
+          "nom": "Préparation",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Production d'eau chaude",
+          "sous_groupes_produits": [
+            {
+              "nom": "CHAUFFE EAU ELECTRIQUE",
+              "sous_groupes_produits": [
+                {
+                  "nom": "Chauffe eau électrique ATLANTIC stable 300L blindé",
+                  "sous_groupes_produits": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Buanderie",
+          "sous_groupes_produits": [
+            {
+              "nom": "LAVE-LINGE",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "WC 1",
+          "sous_groupes_produits": [
+            {
+              "nom": "TOILETTES",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "LAVE-MAINS",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Cuisine",
+          "sous_groupes_produits": [
+            {
+              "nom": "EVIER",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "LAVE-VAISSELLE",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Garage",
+          "sous_groupes_produits": [
+            {
+              "nom": "EVIER",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "WC étage",
+          "sous_groupes_produits": [
+            {
+              "nom": "TOILETTES",
+              "sous_groupes_produits": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "TRAVAUX SANITAIRES STUDIO",
+      "sous_groupes_produits": [
+        {
+          "nom": "Alimentation d'eau principale",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Production d'eau chaude",
+          "sous_groupes_produits": [
+            {
+              "nom": "CHAUFFE EAU ELECTRIQUE",
+              "sous_groupes_produits": [
+                {
+                  "nom": "Chauffe eau électrique ATLANTIC plat 80 litres stéatite",
+                  "sous_groupes_produits": null
+                }
+              ]
+            },
+            {
+              "nom": "COLLECTEUR SANITAIRE",
+              "sous_groupes_produits": [
+                {
+                  "nom": "Collecteur eau froide sanitaire",
+                  "sous_groupes_produits": null
+                },
+                {
+                  "nom": "Collecteur eau chaude sanitaire",
+                  "sous_groupes_produits": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Salle de bain",
+          "sous_groupes_produits": [
+            {
+              "nom": "TOILETTES",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "MEUBLE VASQUE",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "BAIGNOIRE",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "DOUCHE",
+              "sous_groupes_produits": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Fournitures",
+      "sous_groupes_produits": null
+    }
+  ]
+}

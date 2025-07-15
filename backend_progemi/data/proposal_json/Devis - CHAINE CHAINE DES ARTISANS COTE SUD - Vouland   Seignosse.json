@@ -1,0 +1,3654 @@
+[
+  {
+    "type": "paragraph",
+    "content": "=",
+    "spans": [
+      {
+        "offset": 0,
+        "length": 1
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          0.0068,
+          0.0481,
+          0.0652,
+          0.0481,
+          0.0652,
+          0.085,
+          0.0068,
+          0.085
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "=",
+        "span": {
+          "offset": 0,
+          "length": 1
+        },
+        "style": {
+          "isHandwritten": false,
+          "color": "#000000",
+          "backgroundColor": "unidentified"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#000000",
+      "backgroundColor": "unidentified"
+    }
+  },
+  {
+    "type": "figure",
+    "id": "1.1",
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          0.3824,
+          0.1443,
+          1.8176,
+          0.1445,
+          1.8175,
+          1.0723,
+          0.3822,
+          1.0721
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "offset": 4,
+        "length": 105
+      }
+    ],
+    "elements": [
+      "/paragraphs/1",
+      "/paragraphs/2",
+      "/paragraphs/3",
+      "/paragraphs/4"
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "SARL PEIXOTO HENRI ET FILS MACONNERIE CARRELAGE",
+    "spans": [
+      {
+        "offset": 112,
+        "length": 47
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          0.2194,
+          1.1301,
+          1.962,
+          1.1275,
+          1.9626,
+          1.4849,
+          0.2199,
+          1.4875
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 112,
+          "length": 47
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "color": "#050505",
+          "backgroundColor": "#fefefe",
+          "similarFontFamily": "Arial, Helvetica, sans-serif"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#050505",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "backgroundColor": "#fefefe"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "300 AV DE LA MAIRIE 40150 ANGRESSE Tél : 05.58.43.50.76 Fax : 05.58.43.90.61 R.C.S. : DAX448519892 N.I.I. : FR448519892 Date de validité : 11/01/2025",
+    "spans": [
+      {
+        "offset": 161,
+        "length": 149
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          0.2163,
+          1.8185,
+          1.648,
+          1.8149,
+          1.6517,
+          3.2957,
+          0.22,
+          3.2993
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 161,
+          "length": 149
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "color": "#4d4d4d",
+          "backgroundColor": "#fefefe",
+          "similarFontFamily": "Arial, Helvetica, Segoe UI, sans-serif",
+          "fontWeight": "normal"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#4d4d4d",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "backgroundColor": "#fefefe"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "DEVIS",
+    "spans": [
+      {
+        "offset": 312,
+        "length": 5
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          5.5242,
+          0.415,
+          6.1279,
+          0.4151,
+          6.1279,
+          0.5943,
+          5.5241,
+          0.5941
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 312,
+          "length": 5
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "color": "#010101",
+          "backgroundColor": "#fefefe",
+          "similarFontFamily": "Arial, Helvetica, sans-serif"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#010101",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "backgroundColor": "#fefefe"
+    }
+  },
+  {
+    "type": "table",
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          3.8948,
+          0.6327,
+          7.7839,
+          0.6324,
+          7.7837,
+          1.1727,
+          3.8944,
+          1.1728
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "rowIndex": 0,
+        "columnIndex": 0,
+        "kind": "columnHeader",
+        "content": "Nº devis",
+        "spans": [
+          {
+            "offset": 337,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 337,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, Segoe UI, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 1,
+        "kind": "columnHeader",
+        "content": "Date",
+        "spans": [
+          {
+            "offset": 355,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 355,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 2,
+        "kind": "columnHeader",
+        "content": "Code client",
+        "spans": [
+          {
+            "offset": 369,
+            "length": 11
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 369,
+              "length": 11
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "DC1358",
+        "spans": [
+          {
+            "offset": 401,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 401,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "11/12/2024",
+        "spans": [
+          {
+            "offset": 417,
+            "length": 10
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 417,
+              "length": 10
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "CHAINE",
+        "spans": [
+          {
+            "offset": 437,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 437,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "CHAINE DES ARTISANS COTE SUD 650 ROUTE DE BAYONNE",
+    "spans": [
+      {
+        "offset": 466,
+        "length": 49
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          3.9419,
+          1.4887,
+          6.3619,
+          1.4898,
+          6.3617,
+          1.9285,
+          3.9417,
+          1.9274
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 466,
+          "length": 49
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "color": "#010101",
+          "backgroundColor": "#fefefe",
+          "similarFontFamily": "Arial, Helvetica, sans-serif"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#010101",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "backgroundColor": "#fefefe"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "40230 BENNESSE MAREMNE",
+    "spans": [
+      {
+        "offset": 517,
+        "length": 22
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          3.9415,
+          2.5506,
+          5.9605,
+          2.5507,
+          5.9605,
+          2.6956,
+          3.9415,
+          2.6955
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 517,
+          "length": 22
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "color": "#010101",
+          "backgroundColor": "#fefefe",
+          "similarFontFamily": "Arial, Helvetica, sans-serif",
+          "fontWeight": "normal"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#010101",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "backgroundColor": "#fefefe"
+    }
+  },
+  {
+    "type": "table",
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          0.1301,
+          3.3883,
+          7.7687,
+          3.3859,
+          7.7724,
+          8.13,
+          0.1336,
+          8.1317
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "rowIndex": 0,
+        "columnIndex": 0,
+        "kind": "columnHeader",
+        "content": "Quantité",
+        "spans": [
+          {
+            "offset": 559,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 559,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "backgroundColor": "#c0c0c0",
+              "similarFontFamily": "Segoe UI, sans-serif"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 1,
+        "kind": "columnHeader",
+        "content": "Description",
+        "spans": [
+          {
+            "offset": 577,
+            "length": 11
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 577,
+              "length": 11
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 2,
+        "kind": "columnHeader",
+        "content": "Prix unitaire HT",
+        "spans": [
+          {
+            "offset": 598,
+            "length": 16
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 598,
+              "length": 16
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, Tahoma, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 3,
+        "kind": "columnHeader",
+        "content": "Total HT",
+        "spans": [
+          {
+            "offset": 624,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 624,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#010101",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "",
+        "spans": [
+          {
+            "offset": 653,
+            "length": 0
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 653,
+              "length": 0
+            },
+            "style": {}
+          }
+        ],
+        "style_summary": {}
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "CHANTIER VOULAND A SEIGNOSSE",
+        "spans": [
+          {
+            "offset": 663,
+            "length": 28
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 663,
+              "length": 28
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#050505",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "",
+        "spans": [
+          {
+            "offset": 701,
+            "length": 0
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 701,
+              "length": 0
+            },
+            "style": {}
+          }
+        ],
+        "style_summary": {}
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "",
+        "spans": [
+          {
+            "offset": 711,
+            "length": 0
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 711,
+              "length": 0
+            },
+            "style": {}
+          }
+        ],
+        "style_summary": {}
+      },
+      {
+        "rowIndex": 2,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 732,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 732,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 2,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "INSTALLATION CHANTIER FF",
+        "spans": [
+          {
+            "offset": 746,
+            "length": 24
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 746,
+              "length": 24
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#050505",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 2,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "150,00",
+        "spans": [
+          {
+            "offset": 780,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 780,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 2,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "150,00",
+        "spans": [
+          {
+            "offset": 796,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 796,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#050505",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 3,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 823,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 823,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 3,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "DEPOSE SOUCHE + CHAPEAU DE CHEMINEE FF",
+        "spans": [
+          {
+            "offset": 837,
+            "length": 38
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 837,
+              "length": 38
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#090909",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Tahoma, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#090909",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 3,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "320,00",
+        "spans": [
+          {
+            "offset": 885,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 885,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 3,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "320,00",
+        "spans": [
+          {
+            "offset": 901,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 901,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 4,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 928,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 928,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 4,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "PROTECTION + CAMOUFLAGE TERRASSE ET ALENTOUR POUR DEMOLITION FF",
+        "spans": [
+          {
+            "offset": 942,
+            "length": 63
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 942,
+              "length": 63
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "similarFontFamily": "Arial, Helvetica, Segoe UI, sans-serif",
+              "color": "#050505",
+              "backgroundColor": "#fefefe",
+              "fontWeight": "bold"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 4,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "410,00",
+        "spans": [
+          {
+            "offset": 1015,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1015,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 4,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "410,00",
+        "spans": [
+          {
+            "offset": 1031,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1031,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 5,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "3,00",
+        "spans": [
+          {
+            "offset": 1058,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1058,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 5,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "DEMOLITION\" PIGNON EXISTANT AVEC EVACUATION ET NETTOYAGE ET ECHAFFAUDAGE U",
+        "spans": [
+          {
+            "offset": 1072,
+            "length": 74
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1072,
+              "length": 74
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#0d0d0d",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#0d0d0d",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 5,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "596,60",
+        "spans": [
+          {
+            "offset": 1156,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1156,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 5,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "1 789,80",
+        "spans": [
+          {
+            "offset": 1172,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1172,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#111111",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#111111",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 6,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "2,00",
+        "spans": [
+          {
+            "offset": 1201,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1201,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#050505",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 6,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "DEMOLITION DES COTES SABLIERES U",
+        "spans": [
+          {
+            "offset": 1215,
+            "length": 32
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1215,
+              "length": 32
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#050505",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 6,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "320,00",
+        "spans": [
+          {
+            "offset": 1257,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1257,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 6,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "640,00",
+        "spans": [
+          {
+            "offset": 1273,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1273,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 7,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 1300,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1300,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 7,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "PREPARATION DES SUPPORTS FF",
+        "spans": [
+          {
+            "offset": 1314,
+            "length": 27
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1314,
+              "length": 27
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#050505",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 7,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "420,00",
+        "spans": [
+          {
+            "offset": 1351,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1351,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 7,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "420,00",
+        "spans": [
+          {
+            "offset": 1367,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1367,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 8,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,35",
+        "spans": [
+          {
+            "offset": 1394,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1394,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 8,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "ARASE AU MEME NIVEAU EN PERIPHERIE CHAINAGE DE 20 M3",
+        "spans": [
+          {
+            "offset": 1408,
+            "length": 52
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1408,
+              "length": 52
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#090909",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#090909",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 8,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "865,00",
+        "spans": [
+          {
+            "offset": 1470,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1470,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 8,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "1 167,75",
+        "spans": [
+          {
+            "offset": 1486,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1486,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 9,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 1515,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1515,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 9,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "SCIAGE DRESSAGE DES DEMI PIGNONS A CONSERVER FF",
+        "spans": [
+          {
+            "offset": 1529,
+            "length": 47
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1529,
+              "length": 47
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#050505",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 9,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "560,00",
+        "spans": [
+          {
+            "offset": 1586,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1586,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 9,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "560,00",
+        "spans": [
+          {
+            "offset": 1602,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1602,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 10,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "4,00",
+        "spans": [
+          {
+            "offset": 1629,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1629,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#050505",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 10,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "RACCORD ENDUIT CONTRE MUR EN BOIS U",
+        "spans": [
+          {
+            "offset": 1643,
+            "length": 35
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1643,
+              "length": 35
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#fefefe",
+              "color": "#050505",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 10,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "94,00",
+        "spans": [
+          {
+            "offset": 1688,
+            "length": 5
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1688,
+              "length": 5
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 10,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "376,00",
+        "spans": [
+          {
+            "offset": 1703,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1703,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 11,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "15,00",
+        "spans": [
+          {
+            "offset": 1730,
+            "length": 5
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1730,
+              "length": 5
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 11,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "Frai de taxes pour decheterie t",
+        "spans": [
+          {
+            "offset": 1745,
+            "length": 31
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1745,
+              "length": 31
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Georgia, serif",
+              "color": "#090909",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#090909",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 11,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "26,00",
+        "spans": [
+          {
+            "offset": 1786,
+            "length": 5
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1786,
+              "length": 5
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 11,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "390,00",
+        "spans": [
+          {
+            "offset": 1801,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1801,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 12,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 1828,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1828,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 12,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "SOCLE EN BETON POUR DEPART ESCALIER FF",
+        "spans": [
+          {
+            "offset": 1842,
+            "length": 38
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1842,
+              "length": 38
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#090909",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#090909",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 12,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "180,00",
+        "spans": [
+          {
+            "offset": 1890,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1890,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 12,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "180,00",
+        "spans": [
+          {
+            "offset": 1906,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1906,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 13,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 1933,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1933,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 13,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "SONDAGE REPERAGE DU RESEAU EU EXISTANT FF",
+        "spans": [
+          {
+            "offset": 1947,
+            "length": 41
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1947,
+              "length": 41
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#050505",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 13,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "210,00",
+        "spans": [
+          {
+            "offset": 1998,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 1998,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 13,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "210,00",
+        "spans": [
+          {
+            "offset": 2014,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2014,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 14,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "12,00",
+        "spans": [
+          {
+            "offset": 2041,
+            "length": 5
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2041,
+              "length": 5
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 14,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "CANALISATION PVC DE 100 POUR EVAC.EAUX USEES ML",
+        "spans": [
+          {
+            "offset": 2056,
+            "length": 47
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2056,
+              "length": 47
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#090909",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#090909",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 14,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "18,00",
+        "spans": [
+          {
+            "offset": 2113,
+            "length": 5
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2113,
+              "length": 5
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 14,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "216,00",
+        "spans": [
+          {
+            "offset": 2128,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2128,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 15,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 2155,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2155,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#050505",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 15,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "RACCORDEMENT sur réseau EXISTANT F",
+        "spans": [
+          {
+            "offset": 2169,
+            "length": 34
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2169,
+              "length": 34
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, Tahoma, sans-serif",
+              "color": "#0d0d0d",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#0d0d0d",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 15,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "180,00",
+        "spans": [
+          {
+            "offset": 2213,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2213,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 15,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "180,00",
+        "spans": [
+          {
+            "offset": 2229,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2229,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 16,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 2256,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2256,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 16,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "TRANCHEE + GAINES EN 90 DU COMPTEUR VERS ANGLE MAISON FF",
+        "spans": [
+          {
+            "offset": 2270,
+            "length": 56
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2270,
+              "length": 56
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#090909",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Georgia, serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#090909",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 16,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "390,00",
+        "spans": [
+          {
+            "offset": 2336,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2336,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 16,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "390,00",
+        "spans": [
+          {
+            "offset": 2352,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2352,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 17,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "1,00",
+        "spans": [
+          {
+            "offset": 2379,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2379,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 17,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "NETTOYAGE FIN DE CHANTIER",
+        "spans": [
+          {
+            "offset": 2393,
+            "length": 25
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2393,
+              "length": 25
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#050505",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 17,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "110,00",
+        "spans": [
+          {
+            "offset": 2428,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2428,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 17,
+        "columnIndex": 3,
+        "kind": "body",
+        "content": "110,00",
+        "spans": [
+          {
+            "offset": 2444,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2444,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#050505",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#050505",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          0.1281,
+          8.6819,
+          2.8508,
+          8.6823,
+          2.8511,
+          9.1989,
+          0.1282,
+          9.1983
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "rowIndex": 0,
+        "columnIndex": 0,
+        "kind": "columnHeader",
+        "content": "% TVA",
+        "spans": [
+          {
+            "offset": 2490,
+            "length": 5
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2490,
+              "length": 5
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "color": "#010101",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 1,
+        "kind": "columnHeader",
+        "content": "Base",
+        "spans": [
+          {
+            "offset": 2505,
+            "length": 4
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2505,
+              "length": 4
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 2,
+        "kind": "columnHeader",
+        "content": "Montant TVA",
+        "spans": [
+          {
+            "offset": 2519,
+            "length": 11
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2519,
+              "length": 11
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "20,00%",
+        "spans": [
+          {
+            "offset": 2551,
+            "length": 6
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2551,
+              "length": 6
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "7 509,55",
+        "spans": [
+          {
+            "offset": 2567,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2567,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "1 501,91",
+        "spans": [
+          {
+            "offset": 2585,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2585,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "color": "#090909",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#090909",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          2.9645,
+          8.6824,
+          7.7775,
+          8.6818,
+          7.7769,
+          9.1949,
+          2.9635,
+          9.1955
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "rowIndex": 0,
+        "columnIndex": 0,
+        "kind": "columnHeader",
+        "content": "Total HT",
+        "spans": [
+          {
+            "offset": 2633,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2633,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 1,
+        "kind": "columnHeader",
+        "content": "Total TVA",
+        "spans": [
+          {
+            "offset": 2651,
+            "length": 9
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2651,
+              "length": 9
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 0,
+        "columnIndex": 2,
+        "kind": "columnHeader",
+        "content": "Total TTC",
+        "spans": [
+          {
+            "offset": 2670,
+            "length": 9
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2670,
+              "length": 9
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "similarFontFamily": "Arial, Helvetica, sans-serif",
+              "backgroundColor": "#c0c0c0"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#c0c0c0"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 0,
+        "kind": "body",
+        "content": "7 509,55",
+        "spans": [
+          {
+            "offset": 2700,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2700,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 1,
+        "kind": "body",
+        "content": "1 501,91",
+        "spans": [
+          {
+            "offset": 2718,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2718,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      },
+      {
+        "rowIndex": 1,
+        "columnIndex": 2,
+        "kind": "body",
+        "content": "9 011,46",
+        "spans": [
+          {
+            "offset": 2736,
+            "length": 8
+          }
+        ],
+        "segments": [
+          {
+            "text": "",
+            "span": {
+              "offset": 2736,
+              "length": 8
+            },
+            "style": {
+              "isHandwritten": false,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "color": "#010101",
+              "backgroundColor": "#fefefe",
+              "similarFontFamily": "Arial, Helvetica, sans-serif"
+            }
+          }
+        ],
+        "style_summary": {
+          "color": "#010101",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "backgroundColor": "#fefefe"
+        }
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "Net à payer",
+    "spans": [
+      {
+        "offset": 2767,
+        "length": 11
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          6.5386,
+          9.2615,
+          7.3735,
+          9.2673,
+          7.3724,
+          9.4263,
+          6.5375,
+          9.4206
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 2767,
+          "length": 11
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "color": "#010101",
+          "similarFontFamily": "Arial, Helvetica, Segoe UI, sans-serif",
+          "backgroundColor": "#c0c0c0"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#010101",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "backgroundColor": "#c0c0c0"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "9 011,46",
+    "spans": [
+      {
+        "offset": 2780,
+        "length": 8
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          7.1272,
+          9.506,
+          7.729,
+          9.5075,
+          7.7286,
+          9.6663,
+          7.1268,
+          9.6649
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 2780,
+          "length": 8
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "color": "#010101",
+          "backgroundColor": "#fefefe",
+          "similarFontFamily": "Arial, Helvetica, sans-serif"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#010101",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "backgroundColor": "#fefefe"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Cachet et signature précédés de \"BON POUR ACCORD\"",
+    "spans": [
+      {
+        "offset": 2790,
+        "length": 49
+      }
+    ],
+    "boundingRegions": [
+      {
+        "pageNumber": 1,
+        "polygon": [
+          0.1782,
+          10.406,
+          3.4484,
+          10.3964,
+          3.4488,
+          10.5391,
+          0.1786,
+          10.5487
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "text": "",
+        "span": {
+          "offset": 2790,
+          "length": 49
+        },
+        "style": {
+          "isHandwritten": false,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "color": "#010101",
+          "backgroundColor": "#fefefe",
+          "similarFontFamily": "Arial, Helvetica, Baskerville, sans-serif"
+        }
+      }
+    ],
+    "style_summary": {
+      "color": "#010101",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "backgroundColor": "#fefefe"
+    }
+  }
+]

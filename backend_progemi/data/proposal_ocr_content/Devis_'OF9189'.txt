@@ -1,0 +1,1161 @@
+<figure>
+
+S
+S.P.E
+TECHNOLOGIE
+
+</figure>
+
+
+Z.A Nº8 de Berhouague
+7 rue Labranère 40530 Labenne
+www.spe-technologie.com - contact@spe-technologie.com
+05.59.45.79.99
+SARL au capital de 10 000 € - R.C.S DAX 508 586 518
+nºTVA FR06508586518 code NAF 4321A
+responsabilité décennale souscrite auprès de MMA DAX - 128623291
+
+ELECTRICITÉ - AUTOMATISME- CONTRÔLE D'ACCÈS - ALARME INTRUSION - VIDEO - DEPANNAGE
+
+OFFRE N° OF9189
+du29/01/25
+
+DESCRIPTION : LABOURDETTE
+
+CHAINE ARTISANS COTE SUD
+385 Route de Bayonne
+40230
+BENESSE MAREMNE
+
+
+<table>
+<tr>
+<th></th>
+<th>DESCRIPTIF</th>
+<th>Quantité</th>
+<th>Prix unit.</th>
+<th>Montant H.T.</th>
+<th>Tva</th>
+</tr>
+<tr>
+<td>1</td>
+<td>GARAGE</td>
+<td>1,00</td>
+<td>274,45</td>
+<td>274,45</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">1.2</td>
+<td rowspan="2">PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)</td>
+<td rowspan="2">2</td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>CELLIER</td>
+<td>1,00</td>
+<td>819,98</td>
+<td>819,98</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2.1</td>
+<td>VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2.2</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>type dooxie)</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2.3</td>
+<td>PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2.4</td>
+<td>LIGNE CHAUFFE EAU (monophasé)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2.5</td>
+<td>ALIMENTATION POMPE A CHALEUR -32A + PROTECTION</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>WC 1</td>
+<td>1,00</td>
+<td>154,64</td>
+<td>154,64</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3.1</td>
+<td>SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3.2</td>
+<td rowspan="2">FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH. orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Optique : 60° dichroïque anti éblouissement</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>DEGT 1</td>
+<td>1,00</td>
+<td>88,75</td>
+<td>88,75</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4.1</td>
+<td>SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>CUISINE</td>
+<td>1,00</td>
+<td>1 802,33</td>
+<td>1 802,33</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5.1</td>
+<td>VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5.2</td>
+<td>SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5.3</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>type dooxie)</td>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5.4</td>
+<td>PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5.5</td>
+<td>SORTIE DE CABLE 32 A MONO.(cuisson)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5.6</td>
+<td>FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH. orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Optique : 60° dichroïque anti éblouissement</td>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+CHAINE ARTISANS COTE SUD
+QEFRE Nº OF9189
+cSage
+
+<!-- PageNumber="Page 1" -->
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th></th>
+<th>DESCRIPTIF</th>
+<th>Quantité</th>
+<th>Prix unit.</th>
+<th>Montant H.T.</th>
+<th>Tva</th>
+</tr>
+<tr>
+<td>6</td>
+<td>HALL</td>
+<td>1,00</td>
+<td>1 286,63</td>
+<td>1 286,63</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6.1</td>
+<td>TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>(appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6.2</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="3">6.3</td>
+<td>FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH- orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm -</td>
+<td></td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W</td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Optique : 60° dichroïque anti éblouissement</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6.4</td>
+<td>LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>REPAS</td>
+<td>1,00</td>
+<td>1 607,10</td>
+<td>1 607,10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7.1</td>
+<td>TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>(appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.2</td>
+<td>VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">7.3</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>type dooxie)</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.4</td>
+<td>LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>SEJOUR</td>
+<td>1,00</td>
+<td>4 075,69</td>
+<td>4 075,69</td>
+<td>1</td>
+</tr>
+<tr>
+<td>8.1</td>
+<td>TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>(appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8.2</td>
+<td>VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8.3</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>type dooxie)</td>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">8.4</td>
+<td>PRISE TV SIMPLE (appareillage encastré blanc type dooxie - non</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>compris antenne)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8.5</td>
+<td>PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="3">8.6</td>
+<td>FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH. orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm -</td>
+<td rowspan="3"></td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Optique : 60° dichroïque anti éblouissement</td>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8.7</td>
+<td>LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>BUREAU</td>
+<td>1,00</td>
+<td>1 826,37</td>
+<td>1 826,37</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9.1</td>
+<td>TELERUPTEUR COMPRENANT 3 BOUTONS POUSSOIR + 1 LAMPE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>(appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">9.2</td>
+<td rowspan="2">PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)</td>
+<td rowspan="2">4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9.3</td>
+<td>PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">9.4</td>
+<td rowspan="2">FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH. orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Optique : 60° dichroïque anti éblouissement</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9.5</td>
+<td>LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>CHAMBRE 4</td>
+<td>1,00</td>
+<td>1 144,57</td>
+<td>1 144,57</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10.1</td>
+<td>VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10.2</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+<!-- PageFooter="CHAINE ARTISANS COTE SUD OFFRE Nº OF9189" -->
+<!-- PageFooter="Sage" -->
+<!-- PageNumber="Page 2" -->
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th></th>
+<th>DESCRIPTIF</th>
+<th>Quantité</th>
+<th>Prix unit.</th>
+<th>Montant H.T.</th>
+<th>Tva</th>
+</tr>
+<tr>
+<td></td>
+<td>type dooxie)</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10.3</td>
+<td>PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10.4</td>
+<td>LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>DRESSING</td>
+<td>1,00</td>
+<td>1 173,95</td>
+<td>1 173,95</td>
+<td>1</td>
+</tr>
+<tr>
+<td>11.1</td>
+<td>VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">11.2</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>type dooxie)</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11.3</td>
+<td>LIGNE + PANNEAU RAYONNANT AGILIA HORIZONTAL</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11.4</td>
+<td>ALIMENTATION POUR VOLET VELUX</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>SdB</td>
+<td>1,00</td>
+<td>1 269,58</td>
+<td>1 269,58</td>
+<td>1</td>
+</tr>
+<tr>
+<td>12.1</td>
+<td>SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12.2</td>
+<td>PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12.3</td>
+<td rowspan="2">FOURNITURE ET POSE SPOT ENCASTRE UNIVERSAL 6W SWITCH. orientable blanc mat RT2020-Flux lumineux : 500 à 600 lm - Températures de couleur : 2700K,3000K,4000K Puissance nominale : 6 W</td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Optique : 60° dichroïque anti éblouissement</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12.4</td>
+<td>LIAISON EQUIPOTENTIELLE SECONDAIRE (salle de bain ou autre)</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12.5</td>
+<td>ALIMENTATION +SECHE SERVIETTES DE TYPE DORIS 750W</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>BLANC</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12.6</td>
+<td>ALIMENTATION POUR VOLET VELUX</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>EXTERIEUR</td>
+<td>1,00</td>
+<td>911,30</td>
+<td>911,30</td>
+<td>1</td>
+</tr>
+<tr>
+<td>13.1</td>
+<td>SIMPLE ALLUMAGE A VOYANT (appareillage encastré blanc type</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>dooxie)</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">13.2</td>
+<td>PRISE DE COURANT 2P+T ENCASTREE ETANCHE BLANCHE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TYPE PLEXO</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13.3</td>
+<td>SONNETTE DEUX TONS</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>ETAGE</td>
+<td>1,00</td>
+<td>2 216,95</td>
+<td>2 216,95</td>
+<td>1</td>
+</tr>
+<tr>
+<td>14.1</td>
+<td>LIGNE SOUS MOULURE + PANNEAU RAYONNANT AGILIA</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>HORIZONTAL (dégagement wc)</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">14.2</td>
+<td rowspan="2">ALIMENTATION SOUS MOULURE +SECHE SERVIETTES DE TYPE DORIS 750W BLANC</td>
+<td rowspan="2">1</td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>LOCAL PISCINE</td>
+<td>1,00</td>
+<td>675,16</td>
+<td>675,16</td>
+<td>1</td>
+</tr>
+<tr>
+<td>15.1</td>
+<td>PRISE 2P+T SAILLIE ETANCHE</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15.2</td>
+<td>SIMPLE ALLUMAGE SAILLIE ETANCHE</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15.3</td>
+<td>ALIMENTATION PISCINE -32A</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>DIVERS</td>
+<td>1,00</td>
+<td>5 140,07</td>
+<td>5 140,07</td>
+<td>1</td>
+</tr>
+<tr>
+<td>16.1</td>
+<td>Tableau de communication Grade 3 TV équipé de 8 connecteurs RJ45, avec DTI, filtre-maître et répartiteur TV sur RJ45 4 sorties + La zone attenante permet d'installer tous types d'actifs tels que box internet, box domotique y compris support type GTL</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">16.2</td>
+<td>TABLEAU ELECTRIQUE DE PROTECTION COMPRENANT</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DISJONCTEUR MODULAIRE ET PROTECTION DIFFERENTIELLE</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16.3</td>
+<td>GOULOTTE TECHNIQUE DU LOGEMENT</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16.4</td>
+<td>Dépose repérage des circuits et mise en sécurité récupération des</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>installation étage.</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16.5</td>
+<td>REPASSAGE FIBRE ET REGAINAGE (prévoir intervention opérateur pour resoudage fibre).</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>VMC</td>
+<td>1,00</td>
+<td>2 164,04</td>
+<td>2 164,04</td>
+<td>1</td>
+</tr>
+</table>
+
+
+<!-- PageFooter="CHAINE ARTISANS COTE SUD OFFRE Nº OF9189" -->
+<!-- PageFooter="sage" -->
+<!-- PageNumber="Page 3" -->
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th></th>
+<th>DESCRIPTIF</th>
+<th>Quantité</th>
+<th>Prix unit.</th>
+<th>Montant H.T.</th>
+<th>Tva</th>
+</tr>
+<tr>
+<td>17.1</td>
+<td>VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture (non compris caisson d'habillage si besoin) Puissance max : 48 W Niveau sonore à la bouche cuisine (PV) : Lw : 33 dB(A) Lp (2m) : 19 dB(A) ErP : Classe B it Hygrocosy BC 2 - VMC hygroréglable basse conso - Hygro B T3-T</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17.2</td>
+<td>FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B ( non compris trou dans menuiserie)</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>DOMOTIQUE</td>
+<td>1,00</td>
+<td>1 080,12</td>
+<td>1 080,12</td>
+<td>1</td>
+</tr>
+<tr>
+<td>18.1</td>
+<td>PILOTAGE ADISTANCE .DU CHAUFFAGE DE TYPE TYBOX 2000</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>DIVERS</td>
+<td>1,00</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>cheminement du principal gainage par le sol du rdc sur l'ensemble du projet prévoir a minima 7 cm épaisseur + chappe de ravoirage et</td>
+<td></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td></td>
+</tr>
+<tr>
+<td>passage entre solive en faux plafond type lambris</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>pour la coop</td>
+<td>1,00</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>POUR LA COOP NE PAS MODIFER NOTRE OFFRE'</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+Nota: code TVA: (1)=20% , (2)= 10,00%
+validité de notre offre : 3 mois
+
+(instabilité financière et délais de nos matières premières)
+
+
+<table>
+<tr>
+<td>Montant Total H.T.</td>
+<td>27 711,68</td>
+</tr>
+<tr>
+<td>Total T.V.A. 20,00 %</td>
+<td>5 542,34</td>
+</tr>
+<tr>
+<td>Montant Total T.T.C.(Euros)</td>
+<td>33 254,02</td>
+</tr>
+</table>
+
+
+# VOTRE ACOMPTE DE 30% DEMANDE A L'ACCEPTATION DE L'OFFRE
+
+coordonnées bancaires : IBAN : FR7610057191110005904850278 - BIC : CMCIFRPP
+
+RAPPEL DES CONDITIONS GENERALES DE VENTE
+
+Prix : les prix indiqués dans le devis et le bon de commande ne concernent que les produits et les prestations de service spécifiquement mentionnés. Si dans le cours de l'exécution du
+chantier, des prestations complémentaires doivent être fournies, elles donneront lieu à une majoration du prix unitaire desdites fournitures, dans l'hypothèse de fournitures
+complémentaires, cela donnera lieu à facturation complémentaire.
+
+Clause de réserve de propriété : le vendeur conserve la propriété des biens vendus jusqu'au paiement effectif de l'intégralité du prix en principal et accessoire. Le défaut du
+paiement d'une quelconque échéance peut entraîner la revendication des biens. Ces dispositions ne font pas obstacle à l'acheteur dès la livraison des risques de perte et de
+détériorations des biens vendus ainsi que des dommages qu'ils pourraient occasionner. La présente clause s'applique également en cas d'ouverture d'une procédure collective de
+l'acheteur.
+
+Attribution de compétence : De convention expresse et en application de l'article 48 du Noveau Code de Procédure Civile, toute contestation du litige sera soumis à défaut d'accord
+entre les parties, au Tribunal de Commerce de DAX. Cette clause s'applique même en cas de référé, de demande ou de pluralité de défendeur et quelque soit le mode et les
+modalités de paiement.
+
+"L'acheteur déclare avoir pris connaissance des conditions générales de vente et de prestations de service."
+
+TVA A TAUX REDUIT (recours contre le client en cas de taux de TVA erroné - arreté du 21/06/11)
+
+En cas de requalification par l'administration fiscale sur le taux de TVA applicable aux travaux réalisés pour mon compte ,
+je m'engage CHAINE
+ARTISANS COTE SUD
+
+à assumer la totalité de la régularisation
+(principal, pénalités, intérêts) et à rembourser l'entreprise rectifiée fiscalement des sommes versées par elle à ce titre.
+
+BON POUR COMMANDE,
+
+(date et signature)
+
+Toute l'équipe SPE TECHNOLOGIE
+vous remercie de votre consultation !.
+Afin d'enregistrer votre commande ,
+merci de nous renvoyer un double de l'offre date et signé .
+
+CHAINE ARTISANS COTE SUD
+OFFRE Nº OF9189
+cSage
+
+<!-- PageNumber="Page 4" -->

@@ -1,0 +1,13 @@
+1- install pyenv => brew add pyenv == pyenv dans terminal
+2- pyenv => 
+    installer python "3.11.9"
+    faire de python 3.11.9 par défault
+3- installer poetry 
+4- lancer vs code dans le dossier backend
+5- init venv : poetry env use 3.11.9   
+6- install package : poetry install
+7- install mongodb : brew install mongodb-community (installer mongodb pour python)
+8- sh scripts/run_mongo_db_mac_os.sh 
+9- poetry run uvicorn app.app:app --host 127.0.0.1 --port 8000 --workers 4
+
+

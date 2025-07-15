@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "checked": 5,
+    "ok": 5,
+    "nok": 0,
+    "details": {
+      "devis_id": "✅",
+      "devis_date": "✅",
+      "devis_total_ht": "✅",
+      "devis_total_ttc": "✅",
+      "devis_total_tva": "✅"
+    }
+  },
+  "entities": {
+    "total_actual": 81,
+    "total_compared": 59,
+    "price_ok": 47,
+    "quantity_ok": 48,
+    "vat_ok": 59,
+    "lot_ok": 36,
+    "subcount_ok": 58,
+    "percent_entities_compared": 72.84,
+    "percent_price_ok": 79.66,
+    "percent_quantity_ok": 81.36,
+    "percent_vat_ok": 100.0,
+    "percent_lot_ok": 61.02,
+    "percent_subcount_ok": 98.31
+  }
+}
+
+=== LOGS ===
+🔎 Vérification des métadonnées :
+  devis_id: DC1361 == DC1361 ✅
+  devis_date: 16/12/2024 == 16/12/2024 ✅
+  devis_total_ht: 126807.75 == 126807.75 ✅
+  devis_total_ttc: 152169.3 == 152169.3 ✅
+  devis_total_tva: 25361.55 == 25361.55 ✅
+
+📦 Comparaison des produits :
+  ▶ Produit[0] (chantier MME LARTIZIEN A SEIGNOSSE) :
+    - price_ht: 0.0 == 0.0 ✅
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.DEMOLITION != Lot.MACONNERIE ❌
+    - sous_produits count: 80 != 58 ❌
+      ▶ Produit[0] (INSTALLATION CHANTIER FF) :
+        - price_ht: 620.0 == 620.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (DEPOSE DU PLANCHER BOIS EN TERRASSE FF) :
+        - price_ht: 880.0 == 880.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (DECOUPAGE DU BARDAGE BOIS FACADE NORD FF) :
+        - price_ht: 320.0 == 320.0 ✅
+        - quantite: 3.0 == 3.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (DEPOSE DE L ENSEMBLE DES FENETRES ET PORTES EXTERIEURES U) :
+        - price_ht: 80.0 == 80.0 ✅
+        - quantite: 8.0 == 8.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[4] (DEPOSE DES VOLETS EXTERIEURS U) :
+        - price_ht: 60.0 == 60.0 ✅
+        - quantite: 12.0 == 12.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[5] (DEPOSE DES BANDEAUX BOIS ML) :
+        - price_ht: 18.0 == 18.0 ✅
+        - quantite: 30.0 == 30.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[6] (OUVERTURE A CREER FENETRE COTE OUEST PREPARATION, DEMOLITION, REPRISE LINTEAUX, EVACUATION DES GRAVATS, RACCORD ET ENDUITS DES TABLEAUX ET FACADES, FF) :
+        - price_ht: 790.0 == 790.0 ✅
+        - quantite: 4.0 == 4.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[7] (DEMOLITION MUR FACADE AU DROIT DE L EXTENSION SOUBASSEMENT ET POTEAUX M2) :
+        - price_ht: 80.0 == 80.0 ✅
+        - quantite: 16.0 == 16.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[8] (DEMOLITION ALLEGE POUR PORTE FENETRE CUISINE FF) :
+        - price_ht: 360.0 == 360.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[9] (DEPOSE INSTALLATION ELECTRIQUE CHAUFFAGE ET BALLON ECS FF) :
+        - price_ht: 1460.0 == 1460.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.ELECTRICITE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[10] (DEPOSE DES SANITAIRES U) :
+        - price_ht: 80.0 == 80.0 ✅
+        - quantite: 4.0 == 4.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.SANITAIRE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[11] (DEPOSE DU RESEAU PLOMBERIE ALIM CUIVRE + EVAC PVC FF) :
+        - price_ht: 695.0 == 695.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.SANITAIRE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[12] (DEMOLITION DE LA MEZZANINE + SOUS FACE FF) :
+        - price_ht: 880.0 == 880.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[13] (DEMOLITION STRUCTURE BOIS / BRIQUE EN COURBE SOUS MEZZANINE FF) :
+        - price_ht: 726.0 == 726.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[14] (DEPOS ESCALIER ACCES MEZZANINE FF) :
+        - price_ht: 310.0 == 310.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[15] (DEMOLITION DES CLOISONS ESXISTANTES SUIVANT PLAN FF) :
+        - price_ht: 820.0 == 820.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[16] (DEMOLITION PLANCHER GRENIER AU DESSUS SDB ET CUISINE M2) :
+        - price_ht: 37.0 == 37.0 ✅
+        - quantite: 15.0 == 15.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[17] (DEMOLITION TOTALE CUISINE FF) :
+        - price_ht: 620.0 == 620.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[18] (OUVERTURE A CREER DANS MUR DE REFEND AVEC PREPARATION, DEMOLITION, REPRISE LINTEAUX, EVACUATION DES GRAVATS, RACCORD ETC FF) :
+        - price_ht: 980.0 == 980.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[19] (DEMOLITION MUR ENTRE CHAMBRES AVEC ETAIEMENT M2) :
+        - price_ht: 55.0 == 55.0 ✅
+        - quantite: 7.0 == 7.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[20] (DEPOSE DU CARRELAGE MURS FF) :
+        - price_ht: 420.0 == 420.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.CARRELAGE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[21] (DEPOSE BLOC PORTE INTERIEURS U) :
+        - price_ht: 80.0 == 80.0 ✅
+        - quantite: 6.0 == 6.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.MENUISERIE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[22] (DEPOSE DU DOUBLAGE SURRAMPANTS ISOLATION COMPRIS M2) :
+        - price_ht: 24.6 == 24.6 ✅
+        - quantite: 120.0 == 120.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.PLATRERIE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[23] (DEPOSE DES DOUBLAGES LAMBRIS MURAUX AVEC ISOLANTS EN FACADE NORD ET OUEST FF) :
+        - price_ht: 1620.0 == 1620.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.PLATRERIE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[24] (DEPOSE DE LINSERT FF) :
+        - price_ht: 420.0 == 420.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[25] (DEMOLITION DE LA MACONNERIE EN PARTIE BASSE CHEMINEE + CONDUITE FF POULAILLER) :
+        - price_ht: 1125.0 == 1125.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[26] (DEPOSE DE LA TOITURE TUILES MECANIQUES + CHARPENTE FF) :
+        - price_ht: 890.0 == 890.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.CHARPENTE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[27] (DEPOSE DES MURS BOIS COMPRIS PORTE FF) :
+        - price_ht: 820.0 == 820.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[28] (DEMOLITION DES 2 MURS EN MACONNERIE FF GRANGE) :
+        - price_ht: 780.0 == 780.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[29] (DECOUPAGE DU BARDAGE BOIS EN FACADE AU DROIT DES NOUVELLES OUVERTURES FF) :
+        - price_ht: 890.0 == 890.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[30] (DEPOSE DES HUISSERIES BOIS ET BAIE ALU FF) :
+        - price_ht: 120.0 == 120.0 ✅
+        - quantite: 4.0 == 4.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.MENUISERIE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[31] (OUVERTURE A CREER EN FACDE AU DROIT DE FUTURE PORTE VERS EXTENTION SOUBASSEMENT MACONNERIE + MUR BOIS AVEC PREPARATION, DEMOLITION, EVACUATION DES GRAVATS, RACCORD , FF) :
+        - price_ht: 890.0 == 890.0 ✅
+        - quantite: 3.0 == 3.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[32] (DEPOSE INSTALLATION ELECTRIQUE + APPAREIL CHAUFFAGE + BALLON ECS FF) :
+        - price_ht: 980.0 == 980.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.ELECTRICITE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[33] (DEPOSE DES SANITAIRES U) :
+        - price_ht: 80.0 == 80.0 ✅
+        - quantite: 3.0 == 3.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.SANITAIRE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[34] (DEPOSE DU RESEAU PLOMBERIE ALIM CUIVRE + EVC PVC FF) :
+        - price_ht: 595.0 == 595.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.SANITAIRE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[35] (DEMOLITION DES CLOISONNEMENT INTERIEURS FF) :
+        - price_ht: 320.0 == 320.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[36] (DEPOSE DES BLOCS PORTES INTERIEUR U) :
+        - price_ht: 80.0 == 80.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.MENUISERIE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[37] (DEPOSE DES DOUBLAGES SUR RAMPANTS COMPRIS ISOLANTS M2) :
+        - price_ht: 24.6 == 24.6 ✅
+        - quantite: 40.0 == 40.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.PLATRERIE ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[38] (DEPOSE KITCHENETTE FF) :
+        - price_ht: 380.0 == 380.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[39] (DEPOSE PARQUETS + SOLIVES M2) :
+        - price_ht: 35.0 == 35.0 ✅
+        - quantite: 30.0 == 30.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.REVETEMENT_DE_SOL ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[40] (DEPOSE DE LA MEZZANINE DESSUS CUISINE FF) :
+        - price_ht: 792.0 == 792.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION == Lot.DEMOLITION ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[41] (EVACUATION ET MISE EN DECHETTERIE FF TERRASSEMENT) :
+        - price_ht: 1920.0 == 1920.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.ASSAINISSEMENT ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[42] (INSTALLATION + IMPLANTATION FF RESEAUX) :
+        - price_ht: 895.0 == 895.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.ASSAINISSEMENT ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[43] (REALISATION DE TRANCHEES DE LA MAISON AL EGOUT ML) :
+        - price_ht: 12.0 == 12.0 ✅
+        - quantite: 64.0 == 64.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.ASSAINISSEMENT ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[44] (FOURNITURE ET POSE DES RESEAUX ET GAINES SUIVANT BESOIN FF PARKING + VOIE) :
+        - price_ht: 6048.0 == 6048.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.ASSAINISSEMENT ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[45] (TERASSEMENT EN PLEINE MASSE + DEBLAI DES TERRES M3) :
+        - price_ht: 22.0 == 22.0 ✅
+        - quantite: 80.0 == 80.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.DEMOLITION != Lot.ASSAINISSEMENT ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[46] (REALISATION EMPIERREMENT + COMPACTAGE M2 EXTENTION) :
+        - price_ht: 25.5 != 18.0 ❌
+        - quantite: 430.0 != 18.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE != Lot.ASSAINISSEMENT ❌
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[47] (TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3) :
+        - price_ht: 22.0 != 98.0 ❌
+        - quantite: 25.0 != 13.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[48] (FOUILLE EN RIGOLE POUR FONDATIONS ML ANNEXE) :
+        - price_ht: 18.0 != 880.0 ❌
+        - quantite: 18.0 != 1.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[49] (TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3) :
+        - price_ht: 22.0 != 105.1 ❌
+        - quantite: 14.0 != 20.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[50] (FOUILLE EN RIGOLE POUR FONDATIONS ML PISCINE) :
+        - price_ht: 18.0 != 28.0 ❌
+        - quantite: 25.0 != 12.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[51] (TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3 BASSIN) :
+        - price_ht: 22.0 != 17038.0 ❌
+        - quantite: 85.0 != 1.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[52] (TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3 TERRASSE EXT) :
+        - price_ht: 22.0 != 16.0 ❌
+        - quantite: 11.0 != 25.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[53] (TERRASSEMENT AU DROIT DE LA FUTURE EXTENTION AVEC DEBLAI DES TERRES M3) :
+        - price_ht: 22.0 != 332.0 ❌
+        - quantite: 40.0 != 3.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[54] (EVACUATION DES TERRES EXCEDENTAIRES FF) :
+        - price_ht: 18.0 != 98.0 ❌
+        - quantite: 185.75 != 10.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[55] (Frai de taxes pour decheterie t MACONNERIE GO) :
+        - price_ht: 15.0 != 99.0 ❌
+        - quantite: 185.75 != 115.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[56] (INSTALLATION + IMPLANTATION FF EXTENTION) :
+        - price_ht: 1220.0 != 1495.0 ❌
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[57] (SEMELLES FILANTES M3) :
+        - price_ht: 329.9 != 15.0 ❌
+        - quantite: 7.0 != 101.0 ❌
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE != Lot.ETANCHEITE ❌
+        - sous_produits count: 0 == 0 ✅
+
+📊 Résumé des métriques :
+  - Entités totales           : 81
+  - Entités comparées         : 59 (72.84%) ❌
+  - Prix OK                   : 47/59 (79.66%) ❌
+  - Quantité OK               : 48/59 (81.36%) ❌
+  - TVA OK                    : 59/59 (100.0%) ✅
+  - Lot OK                    : 36/59 (61.02%) ❌
+  - Sous-produits count OK    : 58/59 (98.31%) ❌

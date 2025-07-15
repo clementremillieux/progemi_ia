@@ -1,0 +1,590 @@
+{
+  "devis_total_ht": 13826.81,
+  "devis_total_ttc": 16592.17,
+  "devis_total_tva": 2765.36,
+  "devis_coup_additionnel": null,
+  "devis_produits": [
+    {
+      "label": "TUBAGE SANITAIRES",
+      "description": "TUBAGE SANITAIRES",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "Tuyau de ventilation primaire",
+          "description": "Tuyau de ventilation primaire",
+          "quantite": 1.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 135.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Alimentation eau chaude eau froide et evacuation pour un appareil sanitaire en attente",
+          "description": "Alimentation eau chaude eau froide et evacuation pour un appareil sanitaire en attente",
+          "quantite": 3.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 259.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Alimentation générale avec régulateur de pression et robinet de coupure",
+          "description": "Alimentation générale avec régulateur de pression et robinet de coupure",
+          "quantite": 1.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 115.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Robinet de puisage avec raccord au nez",
+          "description": "Robinet de puisage avec raccord au nez",
+          "quantite": 1.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 62.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Alimentation et évacuation lave linge / lave vaiselle",
+          "description": "Alimentation et évacuation lave linge / lave vaiselle",
+          "quantite": 2.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 64.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "SANITAIRE"
+        }
+      ],
+      "lot": "SANITAIRE"
+    },
+    {
+      "label": "WC",
+      "description": "WC",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "RDC et étage",
+          "description": "RDC et étage",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "ARDOSA 2 CUVETTE SUSPENDUE SANS BRIDE NOIR MAT",
+              "description": "ARDOSA 2 CUVETTE SUSPENDUE SANS BRIDE NOIR MAT",
+              "quantite": 2.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 412.5,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "ARDOSA 2 ABATTANT FREIN DE CHUTE DÉCLIPSABLE NOIR",
+              "description": "ARDOSA 2 ABATTANT FREIN DE CHUTE DÉCLIPSABLE NOIR",
+              "quantite": 2.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 108.33,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "BATI-SUPPORT DUOFIX UP320 AUTOPORTANT",
+              "description": "BATI-SUPPORT DUOFIX UP320 AUTOPORTANT",
+              "quantite": 2.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 390.83,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Plaque de declenchement SIGMA01 noir foncé",
+              "description": "Plaque de declenchement SIGMA01 noir foncé",
+              "quantite": 2.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 102.7,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Forfait prestation pose et fourniture alimentation eau froide / evacuation",
+              "description": "Forfait prestation pose et fourniture alimentation eau froide / evacuation",
+              "quantite": 2.0,
+              "unitee_quantite": "F",
+              "price_unitaire_ht": 214.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Lave mains",
+          "description": "Lave mains",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "Lave mains Lulu laqué, vasque céramique noire",
+              "description": "Lave mains Lulu laqué, vasque céramique noire",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 525.8,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Coloris champagne 006MA poignées chromées",
+              "description": "Coloris champagne 006MA poignées chromées",
+              "quantite": 0.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 0.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Mitigeur Lavabo minimal vidage chromé",
+              "description": "Mitigeur Lavabo minimal vidage chromé",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 90.83,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Forfait prestation pose et fourniture alimentation eau froide / evacuation",
+              "description": "Forfait prestation pose et fourniture alimentation eau froide / evacuation",
+              "quantite": 1.0,
+              "unitee_quantite": "F",
+              "price_unitaire_ht": 214.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        }
+      ],
+      "lot": "SANITAIRE"
+    },
+    {
+      "label": "Salle de bain étage",
+      "description": "Salle de bain étage",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "Meuble",
+          "description": "Meuble",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "BENTO - Caisson meuble vasque H75 - L80 - tiroirs - Poignée BANDEAU CHROMÉE",
+              "description": "BENTO - Caisson meuble vasque H75 - L80 - tiroirs - Poignée BANDEAU CHROMÉE",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 1185.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "COLORIS DU MEUBLE TAUPE EXTRA MAT 050",
+              "description": "COLORIS DU MEUBLE TAUPE EXTRA MAT 050",
+              "quantite": 0.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 0.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Plan vasque LUNA L80 Céramique Blanc brillant",
+              "description": "Plan vasque LUNA L80 Céramique Blanc brillant",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 251.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "SPERANZA mitigeur lavabo bas chromé sans vidage",
+              "description": "SPERANZA mitigeur lavabo bas chromé sans vidage",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 145.83,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Bonde lavabo avec trop plein chromé",
+              "description": "Bonde lavabo avec trop plein chromé",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 36.67,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "MIROIR LED RING D.60",
+              "description": "MIROIR LED RING D.60",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 249.17,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "ACCESSOIRE WALL PORTE SECHE CHEVEUX",
+              "description": "ACCESSOIRE WALL PORTE SECHE CHEVEUX",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 46.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Forfait prestation",
+              "description": "Forfait prestation",
+              "quantite": 1.0,
+              "unitee_quantite": "F",
+              "price_unitaire_ht": 362.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Douche",
+          "description": "Douche",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "LUNA RECEVEUR 140X90 BLANC",
+              "description": "LUNA RECEVEUR 140X90 BLANC",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 516.67,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Bonde grand débit",
+              "description": "Bonde grand débit",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 42.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Ensemble de pieds réglables",
+              "description": "Ensemble de pieds réglables",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 76.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "PAROI ARTY SOLO DOUCHE OUVERTE 140 VT PROFILE ARGENT SATIN",
+              "description": "PAROI ARTY SOLO DOUCHE OUVERTE 140 VT PROFILE ARGENT SATIN",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 548.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE",
+              "description": "DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 582.5,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA",
+              "description": "SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA",
+              "quantite": 2.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 86.84,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Forfait prestation",
+              "description": "Forfait prestation",
+              "quantite": 1.0,
+              "unitee_quantite": "F",
+              "price_unitaire_ht": 470.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        }
+      ],
+      "lot": "SANITAIRE"
+    },
+    {
+      "label": "Salle de bain rdc",
+      "description": "Salle de bain rdc",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "Douche",
+          "description": "Douche",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "LUNA RECEVEUR 180X90 BLANC",
+              "description": "LUNA RECEVEUR 180X90 BLANC",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 695.83,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Bonde grand débit",
+              "description": "Bonde grand débit",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 42.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Ensemble de pieds réglables",
+              "description": "Ensemble de pieds réglables",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 104.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE",
+              "description": "DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 582.5,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA",
+              "description": "SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA",
+              "quantite": 2.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 86.84,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Forfait prestation",
+              "description": "Forfait prestation",
+              "quantite": 1.0,
+              "unitee_quantite": "F",
+              "price_unitaire_ht": 455.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Meuble",
+          "description": "Meuble",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 0.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "Caisson meuble vasque BENTO L100 centré - tiroirs - POIGNEE BANDEAU CHROMÉE COLORIS DU MEUBLE LAQUE EXTRA MAT TAUPE 050",
+              "description": "Caisson meuble vasque BENTO L100 centré - tiroirs - POIGNEE BANDEAU CHROMÉE COLORIS DU MEUBLE LAQUE EXTRA MAT TAUPE 050",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 1273.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Plan vasque LUNA BLANC P46 L102 céramique",
+              "description": "Plan vasque LUNA BLANC P46 L102 céramique",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 308.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "SPERANZA mitigeur lavabo bas chromé sans vidage",
+              "description": "SPERANZA mitigeur lavabo bas chromé sans vidage",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 145.43,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "BONDE LAVABO AVEC TROP-PLEIN CHROMÉ",
+              "description": "BONDE LAVABO AVEC TROP-PLEIN CHROMÉ",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 36.67,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Miroir LED RING D.100",
+              "description": "Miroir LED RING D.100",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 390.83,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "ACCESSOIRE WALL PORTE SECHE CHEVEUX",
+              "description": "ACCESSOIRE WALL PORTE SECHE CHEVEUX",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 46.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Forfait prestation",
+              "description": "Forfait prestation",
+              "quantite": 1.0,
+              "unitee_quantite": "F",
+              "price_unitaire_ht": 385.0,
+              "tva": "TVA 20%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        }
+      ],
+      "lot": "SANITAIRE"
+    }
+  ]
+}

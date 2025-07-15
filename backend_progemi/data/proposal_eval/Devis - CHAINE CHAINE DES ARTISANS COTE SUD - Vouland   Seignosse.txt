@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "checked": 5,
+    "ok": 5,
+    "nok": 0,
+    "details": {
+      "devis_id": "✅",
+      "devis_date": "✅",
+      "devis_total_ht": "✅",
+      "devis_total_ttc": "✅",
+      "devis_total_tva": "✅"
+    }
+  },
+  "entities": {
+    "total_actual": 17,
+    "total_compared": 17,
+    "price_ok": 16,
+    "quantity_ok": 17,
+    "vat_ok": 17,
+    "lot_ok": 16,
+    "subcount_ok": 17,
+    "percent_entities_compared": 100.0,
+    "percent_price_ok": 94.12,
+    "percent_quantity_ok": 100.0,
+    "percent_vat_ok": 100.0,
+    "percent_lot_ok": 94.12,
+    "percent_subcount_ok": 100.0
+  }
+}
+
+=== LOGS ===
+🔎 Vérification des métadonnées :
+  devis_id: DC1358 == DC1358 ✅
+  devis_date: 11/12/2024 == 11/12/2024 ✅
+  devis_total_ht: 7509.55 == 7509.55 ✅
+  devis_total_ttc: 9011.46 == 9011.46 ✅
+  devis_total_tva: 1501.91 == 1501.91 ✅
+
+📦 Comparaison des produits :
+  ▶ Produit[0] (CHANTIER VOULAND A SEIGNOSSE) :
+    - price_ht: 0.0 != 7509.55 ❌
+    - quantite: 1.0 == 1.0 ✅
+    - tva: TVA 20% == TVA 20% ✅
+    - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+    - sous_produits count: 16 == 16 ✅
+      ▶ Produit[0] (INSTALLATION CHANTIER FF) :
+        - price_ht: 150.0 == 150.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[1] (DEPOSE SOUCHE + CHAPEAU DE CHEMINEE FF) :
+        - price_ht: 320.0 == 320.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[2] (PROTECTION + CAMOUFLAGE TERRASSE ET ALENTOUR POUR DEMOLITION FF) :
+        - price_ht: 410.0 == 410.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[3] (DEMOLITION PIGNON EXISTANT AVEC EVACUATION ET NETTOYAGE ET ECHAFFAUDAGE U) :
+        - price_ht: 596.6 == 596.6 ✅
+        - quantite: 3.0 == 3.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[4] (DEMOLITION DES COTES SABLIERES U) :
+        - price_ht: 320.0 == 320.0 ✅
+        - quantite: 2.0 == 2.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[5] (PREPARATION DES SUPPORTS FF) :
+        - price_ht: 420.0 == 420.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[6] (ARASE AU MEME NIVEAU EN PERIPHERIE CHAINAGE DE 20 M3) :
+        - price_ht: 865.0 == 865.0 ✅
+        - quantite: 1.35 == 1.35 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[7] (SCIAGE DRESSAGE DES DEMI PIGNONS A CONSERVER FF) :
+        - price_ht: 560.0 == 560.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[8] (RACCORD ENDUIT CONTRE MUR EN BOIS U) :
+        - price_ht: 94.0 == 94.0 ✅
+        - quantite: 4.0 == 4.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[9] (Frai de taxes pour decheterie t) :
+        - price_ht: 26.0 == 26.0 ✅
+        - quantite: 15.0 == 15.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[10] (SOCLE EN BETON POUR DEPART ESCALIER FF) :
+        - price_ht: 180.0 == 180.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[11] (SONDAGE REPERAGE DU RESEAU EU EXISTANT FF) :
+        - price_ht: 210.0 == 210.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[12] (CANALISATION PVC DE 100 POUR EVAC.EAUX USEES ML) :
+        - price_ht: 18.0 == 18.0 ✅
+        - quantite: 12.0 == 12.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[13] (RACCORDEMENT sur réseau EXISTANT F) :
+        - price_ht: 180.0 == 180.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[14] (TRANCHEE + GAINES EN 90 DU COMPTEUR VERS ANGLE MAISON FF) :
+        - price_ht: 390.0 == 390.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.MACONNERIE == Lot.MACONNERIE ✅
+        - sous_produits count: 0 == 0 ✅
+      ▶ Produit[15] (NETTOYAGE FIN DE CHANTIER) :
+        - price_ht: 110.0 == 110.0 ✅
+        - quantite: 1.0 == 1.0 ✅
+        - tva: TVA 20% == TVA 20% ✅
+        - lot: Lot.NETTOYAGE != Lot.MACONNERIE ❌
+        - sous_produits count: 0 == 0 ✅
+
+📊 Résumé des métriques :
+  - Entités totales           : 17
+  - Entités comparées         : 17 (100.0%) ✅
+  - Prix OK                   : 16/17 (94.12%) ❌
+  - Quantité OK               : 17/17 (100.0%) ✅
+  - TVA OK                    : 17/17 (100.0%) ✅
+  - Lot OK                    : 16/17 (94.12%) ❌
+  - Sous-produits count OK    : 17/17 (100.0%) ✅

@@ -1,0 +1,200 @@
+{
+  "groupes_produits": [
+    {
+      "nom": "Menuiseries et accessoires",
+      "sous_groupes_produits": [
+        {
+          "nom": "SEJOUR",
+          "sous_groupes_produits": [
+            {
+              "nom": "Menuiserie ALU gamme Tentation 2 coulissant bi-rails - Châssis coulissant 2 vantaux",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (SEJOUR)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Menuiserie ALU gamme Tentation 2 coulissant bi-rails - Baie coulissante 2 vantaux",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (SEJOUR Baie)",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "CUISINE",
+          "sous_groupes_produits": [
+            {
+              "nom": "Menuiserie ALU gamme Tentation 2 coulissant bi-rails - Châssis coulissant 2 vantaux",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (CUISINE)",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "RDC",
+          "sous_groupes_produits": [
+            {
+              "nom": "SDE - Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 1 vantail OB",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (SDE)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "CH1 - Menuiserie ALU gamme Tentation 2 coulissant bi-rails - Baie coulissante 2 vantaux",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (CH1 ALU)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "WC 1 - Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 1 vantail OB",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (WC 1)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "CELLIER - Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 1 vantail OB",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (CELLIER)",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "R+1",
+          "sous_groupes_produits": [
+            {
+              "nom": "CH2 - Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 2 vantaux",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (CH2)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "CH3 - Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 2 vantaux",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (CH3)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "CH4 - Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 2 vantaux",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (CH4)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "CH4 - VARIANTE Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 2 vantaux OB (Qté 0)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (CH4 VARIANTE) (Qté 0)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "SDB - Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 1 vantail",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (SDB)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "SDB - VARIANTE Menuiserie PVC gamme Kyoto droite (70 mm) - Châssis 1 vantail OB (Qté 0)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (SDB VARIANTE) (Qté 0)",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "Accessoires volets roulants",
+          "sous_groupes_produits": [
+            {
+              "nom": "PIECE DE VIE",
+              "sous_groupes_produits": [
+                {
+                  "nom": "Volets roulants 1050x2000 (2)",
+                  "sous_groupes_produits": null
+                }
+              ]
+            },
+            {
+              "nom": "CH1",
+              "sous_groupes_produits": [
+                {
+                  "nom": "Volets roulants 2150(+50)x1600 (1)",
+                  "sous_groupes_produits": null
+                }
+              ]
+            },
+            {
+              "nom": "PIECE DE VIE (bis)",
+              "sous_groupes_produits": [
+                {
+                  "nom": "Volets roulants 2150(+50)x3000 (1)",
+                  "sous_groupes_produits": null
+                }
+              ]
+            },
+            {
+              "nom": "CH2/CH3/CH4",
+              "sous_groupes_produits": [
+                {
+                  "nom": "Volets roulants 1050x1600 (3)",
+                  "sous_groupes_produits": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "PE (porte d'entrée)",
+          "sous_groupes_produits": [
+            {
+              "nom": "Porte d'entrée acier modèle ELECTRO (GERVAIS), 1 vantail",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (PE)",
+              "sous_groupes_produits": null
+            }
+          ]
+        },
+        {
+          "nom": "GARAGE",
+          "sous_groupes_produits": [
+            {
+              "nom": "Porte de garage enroulement ALU ROLLE 75 NC (2)",
+              "sous_groupes_produits": null
+            },
+            {
+              "nom": "Eco-contribution (GARAGE)",
+              "sous_groupes_produits": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

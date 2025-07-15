@@ -1,0 +1,88 @@
+Devis n° OF9206
+Date : 04/02/25
+
+╔══ ELECTRICITE ══╗
+  • salon (x1.0) — 955,19 € HT | TVA 20%
+    • SIMPLE ALLUMAGE (x2.0) — 0,00 € HT | TVA 20%
+      SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)
+    • LIGNE POUR LAMPE SUPPLEMENTAIRE (x1.0) — 0,00 € HT | TVA 20%
+      LIGNE POUR LAMPE SUPPLEMENTAIRE
+    • PRISE DE COURANT 2 POLES+TERRE (x11.0) — 0,00 € HT | TVA 20%
+      PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)
+    • PRISE RJ45- CAT6 (grade 3) (x1.0) — 0,00 € HT | TVA 20%
+      PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)
+  • entrée (x1.0) — 86,79 € HT | TVA 20%
+    • VA ET VIENT ENCASTRE APPAREILLAGE BLANC (x1.0) — 0,00 € HT | TVA 20%
+      VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)
+  • sas (x1.0) — 69,95 € HT | TVA 20%
+    • SIMPLE ALLUMAGE (x1.0) — 0,00 € HT | TVA 20%
+      SIMPLE ALLUMAGE (appareillage encastre blanc type dooxie)
+  • cuisine (x1.0) — 988,80 € HT | TVA 20%
+    • SIMPLE ALLUMAGE (x2.0) — 0,00 € HT | TVA 20%
+      SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)
+    • PRISE DE COURANT 2 POLES+TERRE (x8.0) — 0,00 € HT | TVA 20%
+      PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)
+    • PRISE RJ45- CAT6 (grade 3) (x1.0) — 0,00 € HT | TVA 20%
+      PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)
+    • PRISE 2P+T SPECIALISEE (x2.0) — 0,00 € HT | TVA 20%
+      PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)
+    • SORTIE DE CABLE 32 A MONO. (x1.0) — 0,00 € HT | TVA 20%
+      SORTIE DE CABLE 32 A MONO.(cuisson)
+  • bain (x1.0) — 565,74 € HT | TVA 20%
+    • SIMPLE ALLUMAGE (x2.0) — 0,00 € HT | TVA 20%
+      SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)
+    • LIGNE POUR LAMPE SUPPLEMENTAIRE (x3.0) — 0,00 € HT | TVA 20%
+      LIGNE POUR LAMPE SUPPLEMENTAIRE
+    • PRISE DE COURANT 2 POLES+TERRE (x2.0) — 0,00 € HT | TVA 20%
+      PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)
+    • PRISE 2P+T SPECIALISEE (x2.0) — 0,00 € HT | TVA 20%
+      PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)
+  • chambre 2 (x1.0) — 543,35 € HT | TVA 20%
+    • VA ET VIENT ENCASTRE APPAREILLAGE BLANC (x1.0) — 0,00 € HT | TVA 20%
+      VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)
+    • PRISE DE COURANT 2 POLES+TERRE (x6.0) — 0,00 € HT | TVA 20%
+      PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)
+    • PRISE RJ45- CAT6 (grade 3) (x1.0) — 0,00 € HT | TVA 20%
+      PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)
+  • chambre 1 (x1.0) — 605,78 € HT | TVA 20%
+    • VA ET VIENT ENCASTRE APPAREILLAGE BLANC (x1.0) — 0,00 € HT | TVA 20%
+      VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)
+    • PRISE DE COURANT 2 POLES+TERRE (x7.0) — 0,00 € HT | TVA 20%
+      PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)
+    • PRISE RJ45- CAT6 (grade 3) (x1.0) — 0,00 € HT | TVA 20%
+      PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)
+  • cave (x1.0) — 150,24 € HT | TVA 20%
+    • remplacement réglette en réglette led (x1.0) — 0,00 € HT | TVA 20%
+      remplacement réglette en réglette led
+  • garage (x1.0) — 150,24 € HT | TVA 20%
+    • remplacement réglette en réglette led (x1.0) — 0,00 € HT | TVA 20%
+      remplacement réglette en réglette led
+  • vmc (x1.0) — 1 266,42 € HT | TVA 20%
+    • VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture (x1.0) — 0,00 € HT | TVA 20%
+      VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture (non compris caisson d'habillage si besoin) 1WC+1BAIN+1CUISINE Puissance max : 48 W Niveau sonore à la bouche cuisine (PV) : Lw : 33 dB(A) Lp (2m) : 19 dB(A) ErP : Classe B it Hygrocosy BC 2 - VMC hygroréglable basse conso - Hygro B T3-T- rejet existant en facade
+    • FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B (x3.0) — 0,00 € HT | TVA 20%
+      FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B (non compris trou dans menuiserie)
+  • divers (x1.0) — 2 776,24 € HT | TVA 20%
+    • Tableau de communication Grade 3 TV e RJ45 (x1.0) — 0,00 € HT | TVA 20%
+      Tableau de communication Grade 3 TV e RJ45, a La zone attenante permet d'installer tous types d'actifs tels que box internet, box domotique
+    • TABLEAU ELECTRIQUE DE PROTECTION (x1.0) — 0,00 € HT | TVA 20%
+      TABLEAU ELECTRIQUE DE PROTECTION COMPRENANT DISJONCTEUR MODULAIRE ET PROTECTION DIFFERENTIELLE
+    • LIAISON EQUIPOTENTIELLE PRINCIPALE (x1.0) — 0,00 € HT | TVA 20%
+      LIAISON EQUIPOTENTIELLE PRINCIPALE
+    • LIGNE CHAUFFE EAU (x1.0) — 0,00 € HT | TVA 20%
+      LIGNE CHAUFFE EAU (monophasé)
+
+╔══ CHAUFFAGE ECS ══╗
+  • chauffage (x1.0) — 4 327,68 € HT | TVA 20%
+    • ALIMENTATION +SECHE SERVIETTES DE TYPE ADELIS 750W BLC BRILLANT (x1.0) — 0,00 € HT | TVA 20%
+      ALIMENTATION +SECHE SERVIETTES DE TYPE ADELIS 750W BLC BRILLANT
+    • LIGNE + PANNEAU RAYONNANT (x4.0) — 0,00 € HT | TVA 20%
+      LIGNE + PANNEAU RAYONNANT Radiateur Agilia horizontal blanc
+
+╔══ COOPERATIVE ══╗
+  • pour la coop (x1.0) — 0,00 € HT | TVA 20%
+    *** POUR LA COOP NE PAS MODIFER NOTRE OFFRE ***
+
+Total TVA : 2 497,28 €
+Total HT  : 12 486,42 €
+Total TTC : 14 983,70 €

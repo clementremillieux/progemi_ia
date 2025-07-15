@@ -1,0 +1,785 @@
+<figure>
+
+I.T.S
+
+</figure>
+
+
+SARL ITS
+Installations Thermiques et Sanitaires
+Siège 8 Rue du Rocher
+44500 LA BAULE ESCOUBLAC
+Tél : 06 07 75 20 85
+Mail: bureau.its@gmail.com
+
+DEVIS nº3287 du 22/07/2024
+
+Durée de validité du devis : 1 mois
+
+Durée de rétractation : 14 jours
+
+Lieu d'intervention :
+M SADQI
+5 avenue de la mousette
+44500 LA BAULE ESCOUBLAC
+
+Nº client : SAD02
+
+M SADQI
+5 avenue de la mousette
+44500 LA BAULE ESCOUBLAC
+
+Sous réserve de travaux supplémentaires
+
+J
+
+
+<table>
+<tr>
+<th colspan="6"></th>
+</tr>
+<tr>
+<th>Désignation</th>
+<th>Quantité</th>
+<th>Unit</th>
+<th>Prix Unitaire Net H</th>
+<th>Montant Total H.</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>TUBAGE SANITAIRES :</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tuyau de ventilation primaire</td>
+<td>1,00</td>
+<td>U</td>
+<td>135,00</td>
+<td>135,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td rowspan="2">Alimentation eau chaude eau froide et evacuation pour un appareil sanitaire en attente</td>
+<td>3,00</td>
+<td>U</td>
+<td>259,00</td>
+<td>777,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Alimentation générale avec régulateur de pression et robinet de coupure</td>
+<td>1,00</td>
+<td>U</td>
+<td rowspan="2">115,00</td>
+<td>115,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Robinet de puisage avec raccord au nez</td>
+<td>1,00</td>
+<td>U</td>
+<td>62,00</td>
+<td>62,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Alimentation et évacuation lave linge / lave vaiselle</td>
+<td>2,00</td>
+<td>U</td>
+<td>64,00</td>
+<td>128,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>WC :</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RDC et étage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ARDOSA 2 CUVETTE SUSPENDUE SANS BRIDE NOIR MAT</td>
+<td>2,00</td>
+<td>U</td>
+<td>412,50</td>
+<td>825,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>ARDOSA 2 ABATTANT FREIN DE CHUTE DÉCLIPSABLE NOIR</td>
+<td>2,00</td>
+<td>U</td>
+<td>108,33</td>
+<td>216,66</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>BATI-SUPPORT DUOFIX UP320 AUTOPORTANT</td>
+<td>2,00</td>
+<td>U</td>
+<td>390,83</td>
+<td>781,66</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Plaque de declenchement SIGMA01 noir foncé</td>
+<td>2,00</td>
+<td>U</td>
+<td>102,70</td>
+<td>205,40</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Forfait prestation pose et fourniture alimentation eau froide / evacuation</td>
+<td>2,00</td>
+<td>F</td>
+<td>214,00</td>
+<td>428,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Lave mains</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Lave mains Lulu laqué, vasque céramique noire</td>
+<td>1,00</td>
+<td>U</td>
+<td>525,80</td>
+<td>525,80</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Coloris champagne 006MA poignées chromées</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mitigeur Lavabo minimal vidage chromé</td>
+<td>1,00</td>
+<td>U</td>
+<td>90,83</td>
+<td>90,83</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Forfait prestation pose et fourniture alimentation eau froide / evacuation</td>
+<td>1,00</td>
+<td>F</td>
+<td>214,00</td>
+<td>214,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Salle de bain étage :</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Meuble</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BENTO - Caisson meuble vasque H75 - L80 -</td>
+<td>1,00</td>
+<td rowspan="2"></td>
+<td rowspan="2">1 185,00</td>
+<td>1 185,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>tiroirs - Poignée BANDEAU CHROMÉE</td>
+<td></td>
+<td></td>
+<td rowspan="2"></td>
+</tr>
+<tr>
+<td>COLORIS DU MEUBLE TAUPE EXTRA MAT 050</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Plan vasque LUNA L80 Céramique Blanc brillant</td>
+<td>1,00</td>
+<td>U</td>
+<td>251,00</td>
+<td>251,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>SPERANZA mitigeur lavabo bas chromé sans vidage</td>
+<td>1,00</td>
+<td>U</td>
+<td>145,83</td>
+<td>145,83</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Bonde lavabo avec trop plein chromé</td>
+<td>1,00</td>
+<td>U</td>
+<td>36,67</td>
+<td>36,67</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>MIROIR LED RING D.60</td>
+<td>1,00</td>
+<td></td>
+<td>249,17</td>
+<td>249,17</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>ACCESSOIRE WALL PORTE SECHE CHEVEUX</td>
+<td>1,00</td>
+<td>U</td>
+<td>46,00</td>
+<td>46,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Forfait prestation</td>
+<td>1,00</td>
+<td>F</td>
+<td>362,00</td>
+<td>362,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Douche</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LUNA RECEVEUR 140X90 BLANC</td>
+<td>1,00</td>
+<td>U</td>
+<td>516,67</td>
+<td>516,67</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 1/3" -->
+
+
+<figure>
+
+QUALIBAT
+
+</figure>
+
+
+<!-- PageFooter="SARL au capital de 4550 € - Nº Siret : 81983865700016 - APE : 4322A - TVA intra : FR85 819838657 IBAN : FR76 1027 8362 1900 0111 9120 117 - BIC : CMCIFR2A Assurances Décennale et Multirisques des Professionnels : GROUPAMA Nº101421680003-Groupama Loire Bretagne - Souscription IARD - TSA 65017 - 35912 Rennes cedex 9 Nº QualiPAC : QPAC/65786 - Certifié RGE qualification n°5211 NºE161802- Rénovation de chaudière gaz/fioul en logement individuel" -->
+<!-- PageBreak -->
+
+DEVIS nº3287 du 22/07/2024
+
+
+<table>
+<tr>
+<th>Désignation</th>
+<th>Quantité</th>
+<th>Unit</th>
+<th>Prix Unitaire Net H</th>
+<th>Montant Total H.</th>
+<th>TVA</th>
+</tr>
+<tr>
+<td>Bonde grand débit</td>
+<td>1,00</td>
+<td>U</td>
+<td>42,00</td>
+<td>42,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Ensemble de pieds réglables</td>
+<td>1,00</td>
+<td>U</td>
+<td>76,00</td>
+<td>76,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>PAROI ARTY SOLO DOUCHE OUVERTE 140 VT PROFILE ARGENT</td>
+<td>1,00</td>
+<td rowspan="2">U</td>
+<td>548,00</td>
+<td>548,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>SATIN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE</td>
+<td>1,00</td>
+<td>U</td>
+<td>582,50</td>
+<td>582,50</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA</td>
+<td>2,00</td>
+<td>U</td>
+<td>86,84</td>
+<td>173,68</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Forfait prestation</td>
+<td>1,00</td>
+<td>F</td>
+<td>470,00</td>
+<td>470,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Salle de bain rdc :</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Douche</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LUNA RECEVEUR 180X90 BLANC</td>
+<td>1,00</td>
+<td>U</td>
+<td>695,83</td>
+<td>695,83</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Bonde grand débit</td>
+<td>1,00</td>
+<td>U</td>
+<td>42,00</td>
+<td>42,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Ensemble de pieds réglables</td>
+<td>1,00</td>
+<td>U</td>
+<td>104,00</td>
+<td>104,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>DELTA COLONNE DE DOUCHE THERMOSTATHIQUE CHROMÉE</td>
+<td>1,00</td>
+<td>U</td>
+<td>582,50</td>
+<td>582,50</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>SCH TABLETTE SHELF-E-S2 195X195MM ANTRA SES2D6TSDA</td>
+<td>2,00</td>
+<td>U</td>
+<td>86,84</td>
+<td>173,68</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Forfait prestation</td>
+<td>1,00</td>
+<td>F</td>
+<td>455,00</td>
+<td>455,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Meuble</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Caisson meuble vasque BENTO L100 centré - tiroirs - POIGNEE BANDEAU CHROMÉE COLORIS DU MEUBLE LAQUE EXTRA MAT TAUPE 050</td>
+<td rowspan="2">1,00</td>
+<td rowspan="2">U</td>
+<td>1 273,00</td>
+<td rowspan="2">1 273,00</td>
+<td rowspan="2">20 %</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td>Plan vasque LUNA BLANC P46 L102 céramique</td>
+<td>1,00</td>
+<td>U</td>
+<td>308,00</td>
+<td>308,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>SPERANZA mitigeur lavabo bas chromé sans vidage</td>
+<td>1,00</td>
+<td>U</td>
+<td>145,43</td>
+<td>145,43</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>BONDE LAVABO AVEC TROP-PLEIN CHROMÉ</td>
+<td>1,00</td>
+<td>U</td>
+<td>36,67</td>
+<td>36,67</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Miroir LED RING D.100</td>
+<td>1,00</td>
+<td>U</td>
+<td>390,83</td>
+<td>390,83</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>ACCESSOIRE WALL PORTE SECHE CHEVEUX</td>
+<td>1,00</td>
+<td>U</td>
+<td>46,00</td>
+<td>46,00</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Forfait prestation</td>
+<td>1,00</td>
+<td>F</td>
+<td>385,00</td>
+<td>385,00</td>
+<td>20 %</td>
+</tr>
+</table>
+
+
+Pour acceptation, prière de nous retourner 1 exemplaire
+signé ainsi qu'un acompte de 30% (par chèque ou virement).
+Le Solde à réception des travaux
+
+
+<table>
+<tr>
+<td colspan="2">Montants en Euros</td>
+</tr>
+<tr>
+<td>Total H.T.</td>
+<td>13 826,81</td>
+</tr>
+<tr>
+<td>Total T.V.A. 20%</td>
+<td>2 765,36</td>
+</tr>
+<tr>
+<td>Total T.T.C.</td>
+<td>16 592,17</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Acompte de 30 % à verser :</td>
+<td>4 977,65</td>
+</tr>
+</table>
+
+
+Notre devis est établi sur la base du taux de TVA applicable au moment de sa remise ; toute variation de ce découlant des dispositions législatives ou réglementaires à venir
+vous sera répercutée.
+
+Tout paiement tardif entraînera une pénalité d'un montant aquivalent à 7 fois le taux de l'intérêt légal.
+
+Délai d'execution : 6 mois
+
+Aucun escompte ne peut être appliqué en cas de paiement comptant.
+
+
+<table>
+<tr>
+<th>Signature du client précédé de la mention manuscrite</th>
+<th rowspan="2">Date et lieu de signature : 23 .07. 2024</th>
+</tr>
+<tr>
+<td>"devis reçu avant l'exécution des travaux" :</td>
+</tr>
+<tr>
+<td>devis reçu avant</td>
+<td>0 ☒</td>
+</tr>
+<tr>
+<td>l'exécution des Travaux</td>
+<td></td>
+</tr>
+</table>
+
+
+<!-- PageNumber="Page : 2/3" -->
+
+
+<figure>
+
+QUALIBAT
+
+</figure>
+
+
+<!-- PageFooter="SARL au capital de 4550 € - Nº Siret : 81983865700016 - APE : 4322A - TVA intra : FR85 819838657" -->
+<!-- PageFooter="IBAN : FR76 1027 8362 1900 0111 9120 117 - BIC : CMCIFR2A" -->
+<!-- PageFooter="Assurances Décennale et Multirisques des Professionnels : GROUPAMA Nº101421680003-Groupama Loire Bretagne - Souscription IARD - TSA 65017 - 35912 Rennes cedex 9 Nº QualiPAC : QPAC/65786 - Certifié RGE qualification nº5211 NºE161802- Rénovation de chaudière gaz/fioul en logement individuel" -->
+<!-- PageBreak -->
+
+
+# Formule simplifiée de conditions générales d'exécution de marchés privés de travaux à destination de clients particuliers
+
+Conditions générales d'exécution de marchés privés de travaux à destination de clients particuliers
+
+
+## 1. Objetet champ d'application
+
+Toute commande de travaux implique l'acceptation pleine et
+entière par le client des présentes conditions générales
+d'exécution et de règlement. Le devis et ses avenants
+constituent les conditions particulières des travaux à réaliser. Le
+contrat est soumis au droit français
+
+
+## 2. Durée de validité de l'offre
+
+L'offre de l'entreprise a une validité de 1 mois à compter de sa
+date de remise au client. Si avant l'acceptation de l'offre, le
+client y apporte des modifications, l'entreprise se réserve le
+droit de les refuser ou de proposer une nouvelle offre.
+
+
+## 3. Autorisations
+
+Le marché est conclu sous la condition suspensive d'obtention
+dans un délai de 1 mois des autorisations administratives ou de
+voisinage nécessaires à l'exécution du marché.
+
+
+## 4. Conditions d'exécution des travaux
+
+Les travaux sont réalisés conformément à la règlementation et
+aux règles de l'art en vigueur au jour de l'offre.
+
+L'entreprise se réserve le droit de refuser l'utilisation des
+matériaux ou produits fournis par le client.
+
+Lorsque le support révèle des sujétions imprévues, non
+décelables par l'entreprise, sauf au moment des travaux, un
+avenant devra être conclu entre les parties pour fixer les
+travaux supplémentaires et leur coût.
+
+
+## 5. Délai d'exécution
+
+Les travaux seront réalisés dans le délai précisé au devis.
+Le délai d'exécution est prolongé, le cas échéant, à raison des
+avenants au marché ou de la durée des retards dus au client. Le
+délai d'exécution est également prolongé en cas de force
+majeure, d'intempéries, de grève générale de la profession, à
+l'exception des jours de grève propres à l'entreprise en
+particulier.
+
+
+## 6. Modifications du marché - Avenants
+
+Toutes les modifications apportées au marché feront l'objet
+d'avenants chiffrés conclus entre l'entreprise et le client.
+
+
+### 7. Prix et règlements
+
+Le prix du marché est fixé par le devis, modifié le cas échéant
+par avenants. Dans le cas de modification des charges imposées
+par voie législative ou règlementaire, le prix sera ajusté des
+dépenses ou économies en résultant. Les parties conviennent
+qu'en cas de requalification fiscale sur le taux de TVA applicable
+aux travaux, le client s'engage à assumer la totalité de la
+régularisation (principal, pénalités et intérêts) et à rembourser
+l'entreprise rectifiée fiscalement des sommes versées par elle à
+ce titre.
+
+
+## 8. Recours à un prêt
+
+Lorsque le client recourt à un prêt pour financer tout ou partie
+des travaux, il en informe l'entreprise et le marché est conclu
+sous les conditions prévues par le code de la consommation.
+Une information spécifique est complétée et annexée au
+contrat.
+
+
+### 8.1. Crédit à la consommation
+
+(articles L.311-1 etsuivants du code de la
+consommation)
+
+En cas de recours à un crédit à la consommation, le client
+s'engage à informer l'entreprise par écrit dans un délai
+de 3 jours suivant l'expiration du délai de rétractation de
+14 jours de l'attribution définitive du prêt ou de son
+refus. Le contrat n'est définitivement conclu que si le
+client a obtenu le crédit et n'a pas exercé son droit de
+rétractation prévu par le code de la consommation.
+
+
+### 8.2. Crédit immobilier
+
+(articles L.312-1 et suivants du code de la consommation)
+En cas de recours à un crédit immobilier et que le client a
+manifesté son intention de recourir à un emprunt, le
+marché est conclu sous la condition suspensive
+d'obtention du prêt dans un délai précisé par le client à
+l'entreprise et qui ne peut pas être inférieur à un mois
+suivant la demande de prêt.
+
+Le client s'engage à informer l'entreprise par écrit de
+l'obtention du prêt ou de son refus, au plus tard dans un
+délai de 3 jours suivants l'expiration de ce délai.
+
+
+## 9. Conditions de règlement
+
+Le règlement des factures se fait à réception des travaux
+
+
+### 10. Assurance de responsabilité professionnelle
+
+L'entreprise a souscrit une assurance de responsabilité
+professionnelle GROUPAMA 10142168000300 Assurances
+Décennale et Multirisques des Professionnels
+
+
+### 11. Réception des travaux
+
+La réception des travaux, par laquelle le client déclare
+accepter l'ouvrage avec ou sans réserves, se fait en
+présence de l'entrepreneur et du client. Elle donne lieu à
+un procès-verbal signé des deux parties, à raison d'un
+exemplaire pour l'entreprise et d'un exemplaire pour le
+client.
+
+
+### 12. Résiliation du contrat
+
+En cas d'inexécution de ses obligations par l'une des
+parties, le contrat pourra être résilié par le créancier de
+l'obligation inexécutée, 8 jours après la mise en demeure
+par lettre recommandée avec accusé de réception restée
+sans effet, sans préjudice des dommages-intérêts qui
+pourraient être réclamés à la partie défaillante.
+
+
+### 13. Pénalité forfaitaire en cas de retard de paiement (seulement entre professionnels)
+
+Conformément aux articles L. 441-6 et D. 441-5 du code
+de commerce, tout retard de paiement entraine de plein
+droit, outre les pénalités de retard, une obligation pour le
+débiteur de payer une indemnité forfaitaire de 40 euros
+pour frais de recouvrement. Une indemnité
+complémentaire pourra être réclamée, sur justificatif,
+lorsque les frais de recouvrement exposés sont supérieurs
+au montant de l'indemnité forfaitaire.
+
+
+### 14. Protection des données
+
+Les informations recueillies vous concernant sont
+nécessaires pour le traitement de votre demande. Elles
+seront utilisées, exploitées et traitées à cette fin et dans le
+cadre de la relation commerciale qui peut en découler.
+Conformément à la loi « informatique et libertés » du 6
+janvier 1978 modifiée et du règlement Européen de
+Protection des Données UE 2016/679, vous bénéficiez
+d'un droit d'accès, de rectification, de portabilité,
+d'effacement de celles-ci ou une limitation du traitement
+pour les informations qui vous concernent. Vous pouvez
+vous opposer au traitement des données vous concernant
+personnellement et disposez du droit de retirer votre
+consentement à tout moment en vous adressant à
+bureau.its@gmail.com.
+
+<!-- PageNumber="Page : 3/3" -->
+
+
+<figure>
+
+QUALELAT
+
+</figure>
+
+
+<!-- PageFooter="SARL au capital de 4550 € - Nº Siret : 81983865700016 - APE : 4322A - TVA intra : FR85 819838657" -->
+<!-- PageFooter="IBAN : FR76 1027 8362 1900 0111 9120 117 - BIC : CMCIFR2A" -->
+<!-- PageFooter="Assurances Décennale et Multirisques des Professionnels : GROUPAMA Nº101421680003-Groupama Loire Bretagne - Souscription IARD - TSA 65017 - 35912 Rennes cedex 9 N° QualiPAC : QPAC/65786 - Certifié RGE qualification nº5211 NºE161802- Rénovation de chaudière gaz/fioul en logement individuel" -->

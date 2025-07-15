@@ -1,0 +1,192 @@
+{
+  "groupes_produits": [
+    {
+      "nom": "1 salon",
+      "sous_groupes_produits": [
+        {
+          "nom": "1.1 SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "1.2 LIGNE POUR LAMPE SUPPLEMENTAIRE",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "1.3 PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "1.4 PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "2 entrée",
+      "sous_groupes_produits": [
+        {
+          "nom": "2.1 VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "3 sas",
+      "sous_groupes_produits": [
+        {
+          "nom": "3.1 SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "4 cuisine",
+      "sous_groupes_produits": [
+        {
+          "nom": "4.1 SIMPLE ALLUMAGE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "4.2 PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "4.3 PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "4.4 PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "4.5 SORTIE DE CABLE 32 A MONO.(cuisson)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "5 bain",
+      "sous_groupes_produits": [
+        {
+          "nom": "5.4 SIMPLE ALLUMAGE (appareillage encastré blanc type douxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "5.2 LIGNE POUR LAMPE SUPPLEMENTAIRE",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "5.3 PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "5.4 PRISE 2P+T SPECIALISEE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "6 chambre 2",
+      "sous_groupes_produits": [
+        {
+          "nom": "6.1 VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "6.2 PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "6.3 PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "7 chambre 1",
+      "sous_groupes_produits": [
+        {
+          "nom": "7.1 VA ET VIENT ENCASTRE APPAREILLAGE BLANC (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "7.2 PRISE DE COURANT 2 POLES+TERRE (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "7.3 PRISE RJ45- CAT6 (grade 3) (appareillage encastré blanc type dooxie)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "8 cave",
+      "sous_groupes_produits": [
+        {
+          "nom": "8.1 remplacement réglette en réglette led",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "9 garage",
+      "sous_groupes_produits": [
+        {
+          "nom": "9.1 remplacement réglette en réglette led",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "10 vmc",
+      "sous_groupes_produits": [
+        {
+          "nom": "10.1 VMC HYGROREGLABLE+ ALIMENTATION 220V+T + évacuation sur toiture (non compris caisson d'habillage si besoin) 1WC+1BAIN+1CUISINE Puissance max : 48 W Niveau sonore à la bouche cuisine (PV) : Lw : 33 dB(A) Lp (2m) : 19 dB(A) ErP : Classe B it Hygrocosy BC 2 - VMC hygroréglable basse conso - Hygro B T3-T- rejet existant en facade",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "10.2 FOURNITURE ET POSE ENTREE AIR BLANCHE HYGRO.B ( non compris trou dans menuiserie)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "11 chauffage",
+      "sous_groupes_produits": [
+        {
+          "nom": "11.1 ALIMENTATION +SECHE SERVIETTES DE TYPE ADELIS 750W BLC BRILLANT",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "11.2 LIGNE + PANNEAU RAYONNANT Radiateur Agilia horizontal blanc",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "12 divers",
+      "sous_groupes_produits": [
+        {
+          "nom": "12.1 Tableau de communication Grade 3 TV e RJ45, a La zone attenante permet d'installer tous types d'actifs tels que box internet, box domotique",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "12.2 TABLEAU ELECTRIQUE DE PROTECTION COMPRENANT DISJONCTEUR MODULAIRE ET PROTECTION DIFFERENTIELLE",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "12.3 LIAISON EQUIPOTENTIELLE PRINCIPALE",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "12.4 LIGNE CHAUFFE EAU (monophasé)",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "13 pour la coop",
+      "sous_groupes_produits": null
+    }
+  ]
+}

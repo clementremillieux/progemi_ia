@@ -1,0 +1,264 @@
+{
+  "groupes_produits": [
+    {
+      "nom": "Entrée",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte circulaire",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Cellier",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Dégagement 2",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Salle de musique",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Dégagement 1",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CHASSIS ECLISSE 95",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "GARNITURE SANS SERRURE",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Toilettes 2",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox BCC",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Dressing",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Chambre 1",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Chambre 2",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Salle d'eau 1",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox BCC",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Bureau",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CHASSIS ECLISSE 95",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "GARNITURE SERRURE L",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Toilettes 3",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox BCC",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Salle d'eau 2",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox BCC",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Chambre 4",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Chambre 3",
+      "sous_groupes_produits": [
+        {
+          "nom": "Porte Plane Kreation - Ame pleine",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "CLYPSO KREATION pour mur de 71 à 98 mm (n°1)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Béquille B01 Inox PDDT",
+          "sous_groupes_produits": null
+        }
+      ]
+    },
+    {
+      "nom": "Pose",
+      "sous_groupes_produits": [
+        {
+          "nom": "CHASSIS CIRCULAIRE: HABILLAGES - FINITIONS (mis en place par le plaquiste)",
+          "sous_groupes_produits": null
+        },
+        {
+          "nom": "Pose des huisseries et des portes en fin de chantier avec pose des poignées et réglage",
+          "sous_groupes_produits": null
+        }
+      ]
+    }
+  ]
+}

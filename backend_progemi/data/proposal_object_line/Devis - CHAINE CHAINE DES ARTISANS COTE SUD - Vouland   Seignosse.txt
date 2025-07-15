@@ -1,0 +1,21 @@
+arraybcimunnm = [
+    "|    PACK    |   TVA   |                                  LABEL                                  |                DESCRIPTION                 | QTY  | UNIT | UNIT_PRICE_HT | TOTAL_HT |",
+    "|------------|---------|-------------------------------------------------------------------------|--------------------------------------------|------|------|---------------|----------|",
+    "| MACONNERIE | TVA 20% |                       CHANTIER VOULAND A SEIGNOSSE                      | Travaux de maçonnerie et démolition divers |  1   |      |    7509.55    | 7509.55  |",
+    "| MACONNERIE | TVA 20% |                          INSTALLATION CHANTIER                          |                                            |  1   |      |     150.00    |  150.00  |",
+    "| MACONNERIE | TVA 20% |                   DEPOSE SOUCHE + CHAPEAU DE CHEMINEE                   |                                            |  1   |      |     320.00    |  320.00  |",
+    "| MACONNERIE | TVA 20% |       PROTECTION + CAMOUFLAGE TERRASSE ET ALENTOUR POUR DEMOLITION      |                                            |  1   |      |     410.00    |  410.00  |",
+    "| MACONNERIE | TVA 20% | DEMOLITION PIGNON EXISTANT AVEC EVACUATION ET NETTOYAGE ET ECHAFFAUDAGE |                                            |  3   |      |     596.60    | 1789.80  |",
+    "| MACONNERIE | TVA 20% |                      DEMOLITION DES COTES SABLIERES                     |                                            |  2   |      |     320.00    |  640.00  |",
+    "| MACONNERIE | TVA 20% |                         PREPARATION DES SUPPORTS                        |                                            |  1   |      |     420.00    |  420.00  |",
+    "| MACONNERIE | TVA 20% |           ARASE AU MEME NIVEAU EN PERIPHERIE CHAINAGE DE 20 M3          |                                            | 1.35 |      |     865.00    | 1167.75  |",
+    "| MACONNERIE | TVA 20% |               SCIAGE DRESSAGE DES DEMI PIGNONS A CONSERVER              |                                            |  1   |      |     560.00    |  560.00  |",
+    "| MACONNERIE | TVA 20% |                    RACCORD ENDUIT CONTRE MUR EN BOIS                    |                                            |  4   |      |     94.00     |  376.00  |",
+    "| MACONNERIE | TVA 20% |                      Frai de taxes pour decheterie                      |                                            |  15  |      |     26.00     |  390.00  |",
+    "| MACONNERIE | TVA 20% |                   SOCLE EN BETON POUR DEPART ESCALIER                   |                                            |  1   |      |     180.00    |  180.00  |",
+    "| MACONNERIE | TVA 20% |                  SONDAGE REPERAGE DU RESEAU EU EXISTANT                 |                                            |  1   |      |     210.00    |  210.00  |",
+    "| MACONNERIE | TVA 20% |               CANALISATION PVC DE 100 POUR EVAC.EAUX USEES              |                                            |  12  |      |     18.00     |  216.00  |",
+    "| MACONNERIE | TVA 20% |                     RACCORDEMENT sur réseau EXISTANT                    |                                            |  1   |      |     180.00    |  180.00  |",
+    "| MACONNERIE | TVA 20% |          TRANCHEE + GAINES EN 90 DU COMPTEUR VERS ANGLE MAISON          |                                            |  1   |      |     390.00    |  390.00  |",
+    "| MACONNERIE | TVA 20% |                        NETTOYAGE FIN DE CHANTIER                        |                                            |  1   |      |     110.00    |  110.00  |"
+]

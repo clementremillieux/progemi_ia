@@ -1,0 +1,992 @@
+{
+  "devis_total_ht": 15030.65,
+  "devis_total_ttc": 16540.69,
+  "devis_total_tva": 1503.07,
+  "devis_coup_additionnel": 6.97,
+  "devis_produits": [
+    {
+      "label": "TRAVAUX SANITAIRES",
+      "description": "Travaux sanitaires principaux",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 6824.9,
+      "tva": "TVA 10%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "Préparation",
+          "description": "Préparation des installations sanitaires",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 1395.0,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "Mise en sécurité et pose d'un robinet de chantier.",
+              "description": "Mise en sécurité et pose d'un robinet de chantier.",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 135.0,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Dépose de la chaudière et de 13 radiateurs et mise en décharge. Découpe des alimentations départs et retours à fleur de cloison.",
+              "description": "Dépose de la chaudière et de 13 radiateurs et mise en décharge. Découpe des alimentations départs et retours à fleur de cloison.",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 1260.0,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Production d'eau chaude",
+          "description": "Production d'eau chaude sanitaire",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 1124.17,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "CHAUFFE EAU ELECTRIQUE",
+              "description": "Chauffe eau électrique ATLANTIC stable 300L blindé",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 1124.17,
+              "tva": "TVA 10%",
+              "cout_additionnel": 5.01,
+              "sous_produits": [
+                {
+                  "label": "Chauffe-eau électrique CHAUFFEO 300 litres à résistance blindée vertical sur socle monophasé classe énergétique C 22130 réf. 022130",
+                  "description": "Chauffe-eau électrique CHAUFFEO 300 litres à résistance blindée vertical sur socle monophasé classe énergétique C 22130 réf. 022130",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 648.99,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": 5.0,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Groupe de sécurité coudé Sider",
+                  "description": "Groupe de sécurité coudé Sider",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 31.2,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": 0.01,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Siphon de groupe de sécurité avec déflecteur 26x34 Réf 887718",
+                  "description": "Siphon de groupe de sécurité avec déflecteur 26x34 Réf 887718",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 3.98,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Main d'oeuvre déplacement et garantie",
+                  "description": "Main d'oeuvre déplacement et garantie",
+                  "quantite": 1.0,
+                  "unitee_quantite": "H",
+                  "price_unitaire_ht": 440.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Buanderie",
+          "description": "Alimentation eau froide et évacuation machine à laver avec siphon.",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 126.7,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "LAVE-LINGE",
+              "description": "Alimentation eau froide et évacuation machine à laver avec siphon.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 126.7,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Robinet machine à laver.",
+                  "description": "Robinet machine à laver.",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 6.37,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Té laiton à souder 14-1/2 femelle",
+                  "description": "Té laiton à souder 14-1/2 femelle",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 2.32,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Siphon machine à laver simple, sortie horizontale.",
+                  "description": "Siphon machine à laver simple, sortie horizontale.",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 8.01,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Main d'oeuvre alimentation robinet machine à laver",
+                  "description": "Main d'oeuvre alimentation robinet machine à laver",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 110.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "WC 1",
+          "description": "WC 1 : toilettes et lave-mains",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 1593.24,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "TOILETTES",
+              "description": "Alimentation eau froide, évacuation et raccordement d'un wc suspendu y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 886.57,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Bâti-support RAPID SL, pour WC, autoportant avec pieds renforcés, hauteur 1,13 m, réf. 38340001",
+                  "description": "Bâti-support RAPID SL, pour WC, autoportant avec pieds renforcés, hauteur 1,13 m, réf. 38340001",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 248.9,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Plaque de commande WC SKATE AIR, double touche ou interrompable, pour mécanisme pneumatique, montage vertical, 156 x 197 mm, en ABS, blanc alpin Réf. 38505SHO",
+                  "description": "Plaque de commande WC SKATE AIR, double touche ou interrompable, pour mécanisme pneumatique, montage vertical, 156 x 197 mm, en ABS, blanc alpin Réf. 38505SHO",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 48.77,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Pack WC suspendu sans bride à sortie horizontale Alterna Concerto 3",
+                  "description": "Pack WC suspendu sans bride à sortie horizontale Alterna Concerto 3",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 193.9,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement toilettes",
+                  "description": "Raccordement toilettes",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 395.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "LAVE-MAINS",
+              "description": "Alimentation eau froide, eau chaude, évacuation et raccordement d'un lave-mains y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 706.67,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Ensemble PICCOLO lave-mains en céramique sur meuble 235x425",
+                  "description": "Ensemble PICCOLO lave-mains en céramique sur meuble 235x425",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 174.67,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Mitigeur GROHE Eurosmart taille M",
+                  "description": "Mitigeur GROHE Eurosmart taille M",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 92.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement meuble",
+                  "description": "Raccordement meuble",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 440.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Cuisine",
+          "description": "Cuisine : évier et lave-vaisselle",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 1091.67,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "EVIER",
+              "description": "Alimentation eau froide, eau chaude, évacuation suivant plan de cuisine. SANS raccordement de l'évier et du mitigeur.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 385.0,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Main d'oeuvre",
+                  "description": "Main d'oeuvre",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 385.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "LAVE-VAISSELLE",
+              "description": "Alimentation eau froide, eau chaude, évacuation et raccordement d'un lave-mains y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 706.67,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Ensemble PICCOLO lave-mains en céramique sur meuble 235x425",
+                  "description": "Ensemble PICCOLO lave-mains en céramique sur meuble 235x425",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 174.67,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Mitigeur GROHE Eurosmart taille M",
+                  "description": "Mitigeur GROHE Eurosmart taille M",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 92.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement meuble",
+                  "description": "Raccordement meuble",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 440.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Garage",
+          "description": "Garage : évier",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 385.0,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "EVIER",
+              "description": "Alimentation eau froide, eau chaude, évacuation suivant plan de cuisine SANS raccordement de l'évier et du mitigeur.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 385.0,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Main d'oeuvre",
+                  "description": "Main d'oeuvre",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 385.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "WC étage",
+          "description": "WC étage : toilettes",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 1109.12,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "TOILETTES",
+              "description": "Alimentation eau froide, évacuation et raccordement d'un wc suspendu y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 1109.12,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Bâti-support RAPID SL, pour WC, autoportant avec pieds renforcés, hauteur 82 cm, largeur 50 cm, réf. 38587000",
+                  "description": "Bâti-support RAPID SL, pour WC, autoportant avec pieds renforcés, hauteur 82 cm, largeur 50 cm, réf. 38587000",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 471.46,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Plaque de commande WC SKATE AIR, double touche ou interrompable, pour mécanisme pneumatique, montage vertical, 156 x 197 mm, en ABS, blanc alpin Réf. 38505SHO",
+                  "description": "Plaque de commande WC SKATE AIR, double touche ou interrompable, pour mécanisme pneumatique, montage vertical, 156 x 197 mm, en ABS, blanc alpin Réf. 38505SHO",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 48.77,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Pack WC suspendu sans bride à sortie horizontale Alterna Concerto 3",
+                  "description": "Pack WC suspendu sans bride à sortie horizontale Alterna Concerto 3",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 193.9,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement toilettes",
+                  "description": "Raccordement toilettes",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 395.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        }
+      ],
+      "lot": "SANITAIRE"
+    },
+    {
+      "label": "TRAVAUX SANITAIRES STUDIO",
+      "description": "Travaux sanitaires pour le studio",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 8205.75,
+      "tva": "TVA 10%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "Alimentation d'eau principale",
+          "description": "Alimentation en eau de l'alimentation existante jusqu'au studio (hors tranchée)",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 495.1,
+          "tva": "TVA 10%",
+          "cout_additionnel": 1.25,
+          "sous_produits": [
+            {
+              "label": "Robinet 1/4 de tour Huot F20X27-PE25",
+              "description": "Robinet 1/4 de tour Huot F20X27-PE25",
+              "quantite": 2.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 13.88,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Tube polyéthylène bande bleue Ø25",
+              "description": "Tube polyéthylène bande bleue Ø25",
+              "quantite": 5.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 2.61,
+              "tva": "TVA 10%",
+              "cout_additionnel": 0.25,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Réducteur de pression Isobar 20/27",
+              "description": "Réducteur de pression Isobar 20/27",
+              "quantite": 1.0,
+              "unitee_quantite": "U",
+              "price_unitaire_ht": 69.29,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "Main d'oeuvre déplacement et garantie",
+              "description": "Main d'oeuvre déplacement et garantie",
+              "quantite": 1.0,
+              "unitee_quantite": "H",
+              "price_unitaire_ht": 385.0,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": null,
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Production d'eau chaude",
+          "description": "Production d'eau chaude sanitaire studio",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 1285.43,
+          "tva": "TVA 10%",
+          "cout_additionnel": 0.04,
+          "sous_produits": [
+            {
+              "label": "CHAUFFE EAU ELECTRIQUE",
+              "description": "Chauffe eau électrique ATLANTIC plat 80 litres stéatite",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 965.6,
+              "tva": "TVA 10%",
+              "cout_additionnel": 0.02,
+              "sous_produits": [
+                {
+                  "label": "Chauffe électrique ATLANTIC Linéo plat 80 litres",
+                  "description": "Chauffe électrique ATLANTIC Linéo plat 80 litres",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 449.02,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Groupe de sécurité droit SFR",
+                  "description": "Groupe de sécurité droit SFR",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 19.81,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": 0.02,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Siphon de groupe de sécurité avec déflecteur 26x34 Réf 887718",
+                  "description": "Siphon de groupe de sécurité avec déflecteur 26x34 Réf 887718",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 3.98,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Trepied universel quadripode de 50 à 200 L réf. 009231",
+                  "description": "Trepied universel quadripode de 50 à 200 L réf. 009231",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 47.21,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Fixations chauffe-eau 10X120",
+                  "description": "Fixations chauffe-eau 10X120",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 5.58,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Main d'oeuvre déplacement et garantie",
+                  "description": "Main d'oeuvre déplacement et garantie",
+                  "quantite": 1.0,
+                  "unitee_quantite": "H",
+                  "price_unitaire_ht": 440.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "COLLECTEUR SANITAIRE",
+              "description": "Création et mise en place d'un collecteur EAU FROIDE sanitaire équipé de vannes d'arrêt afin de pouvoir isoler chaque appareil sanitaire.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 166.41,
+              "tva": "TVA 10%",
+              "cout_additionnel": 0.02,
+              "sous_produits": [
+                {
+                  "label": "Collecteur sanitaire MF3/4 - 5 sorties 1/2",
+                  "description": "Collecteur sanitaire MF3/4 - 5 sorties 1/2",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 49.91,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": 0.02,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccord PER à sertir Ø16 écrou libre 1/2",
+                  "description": "Raccord PER à sertir Ø16 écrou libre 1/2",
+                  "quantite": 5.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 1.3,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Main d'oeuvre déplacement et garantie",
+                  "description": "Main d'oeuvre déplacement et garantie",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 110.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "COLLECTEUR SANITAIRE",
+              "description": "Création et mise en place d'un collecteur EAU CHAUDE sanitaire équipé de vannes d'arrêt afin de pouvoir isoler chaque appareil sanitaire.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 153.42,
+              "tva": "TVA 10%",
+              "cout_additionnel": 0.02,
+              "sous_produits": [
+                {
+                  "label": "Collecteur sanitaire MF3/4 - 4 sorties 1/2",
+                  "description": "Collecteur sanitaire MF3/4 - 4 sorties 1/2",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 38.22,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": 0.02,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccord PER à sertir Ø16 écrou libre 1/2",
+                  "description": "Raccord PER à sertir Ø16 écrou libre 1/2",
+                  "quantite": 4.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 1.3,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Main d'oeuvre déplacement et garantie",
+                  "description": "Main d'oeuvre déplacement et garantie",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 110.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        },
+        {
+          "label": "Salle de bain",
+          "description": "Salle de bain du studio",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 5058.79,
+          "tva": "TVA 10%",
+          "cout_additionnel": null,
+          "sous_produits": [
+            {
+              "label": "TOILETTES",
+              "description": "Alimentation eau froide, évacuation et raccordement d'un wc suspendu y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 886.57,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Bâti-support RAPID SL, pour WC, autoportant avec pieds renforcés, hauteur 1,13 m, réf. 38340001",
+                  "description": "Bâti-support RAPID SL, pour WC, autoportant avec pieds renforcés, hauteur 1,13 m, réf. 38340001",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 248.9,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Plaque de commande WC SKATE AIR, double touche ou interrompable, pour mécanisme pneumatique, montage vertical, 156 x 197 mm, en ABS, blanc alpin Réf. 38505SHO",
+                  "description": "Plaque de commande WC SKATE AIR, double touche ou interrompable, pour mécanisme pneumatique, montage vertical, 156 x 197 mm, en ABS, blanc alpin Réf. 38505SHO",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 48.77,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Pack WC suspendu sans bride à sortie horizontale Alterna Concerto 3",
+                  "description": "Pack WC suspendu sans bride à sortie horizontale Alterna Concerto 3",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 193.9,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement toilettes",
+                  "description": "Raccordement toilettes",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 395.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "MEUBLE VASQUE",
+              "description": "Alimentation eau froide, eau chaude, évacuation et raccordement d'un meuble double vasque y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 2157.08,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Meuble CONCERTO 120 cm double vasques, 2 tiroirs laqué blanc. Plan céramique centré. RENFORT A PREVOIR PAR LE PLAQUISTE",
+                  "description": "Meuble CONCERTO 120 cm double vasques, 2 tiroirs laqué blanc. Plan céramique centré. RENFORT A PREVOIR PAR LE PLAQUISTE",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 1127.33,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Mitigeur lavabo GROHE Eurosmart taille M",
+                  "description": "Mitigeur lavabo GROHE Eurosmart taille M",
+                  "quantite": 2.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 92.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Miroir BRUGES 120x70. Double éclairage LED 30cm.",
+                  "description": "Miroir BRUGES 120x70. Double éclairage LED 30cm.",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 295.75,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement meuble",
+                  "description": "Raccordement meuble",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 550.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "BAIGNOIRE",
+              "description": "Alimentation eau froide, eau chaude, évacuation et raccordement d'une baignoire y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 1135.69,
+              "tva": "TVA 10%",
+              "cout_additionnel": 0.02,
+              "sous_produits": [
+                {
+                  "label": "Baignoire rectangulaire CONCERTO 3 170x70 acrylique blanc",
+                  "description": "Baignoire rectangulaire CONCERTO 3 170x70 acrylique blanc",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 266.15,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Mitigeur thermostatique bain/douche GROHE Grotherm 800",
+                  "description": "Mitigeur thermostatique bain/douche GROHE Grotherm 800",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 196.3,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Barre de douche GROHE Tempesta 100",
+                  "description": "Barre de douche GROHE Tempesta 100",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 90.19,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Vidage de baignoire Hansgrohe Flexaplus",
+                  "description": "Vidage de baignoire Hansgrohe Flexaplus",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 88.05,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": 0.02,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement baignoire",
+                  "description": "Raccordement baignoire",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 495.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            },
+            {
+              "label": "DOUCHE",
+              "description": "Alimentation eau froide, eau chaude, évacuation et raccordement d'une douche à l'italienne y compris raccords.",
+              "quantite": 1.0,
+              "unitee_quantite": null,
+              "price_unitaire_ht": 879.45,
+              "tva": "TVA 10%",
+              "cout_additionnel": null,
+              "sous_produits": [
+                {
+                  "label": "Siphon de sol 150x150 à hauteur réglable jusqu'à 85mm grille inox corps PVC Réf : 683001",
+                  "description": "Siphon de sol 150x150 à hauteur réglable jusqu'à 85mm grille inox corps PVC Réf : 683001",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 103.18,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Mitigeur thermostatique de douche GROHE Grotherm 800",
+                  "description": "Mitigeur thermostatique de douche GROHE Grotherm 800",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 196.3,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Barre de douche GROHE Tempesta 100",
+                  "description": "Barre de douche GROHE Tempesta 100",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 84.95,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                },
+                {
+                  "label": "Raccordement douche",
+                  "description": "Raccordement douche",
+                  "quantite": 1.0,
+                  "unitee_quantite": "U",
+                  "price_unitaire_ht": 495.0,
+                  "tva": "TVA 10%",
+                  "cout_additionnel": null,
+                  "sous_produits": null,
+                  "lot": "SANITAIRE"
+                }
+              ],
+              "lot": "SANITAIRE"
+            }
+          ],
+          "lot": "SANITAIRE"
+        }
+      ],
+      "lot": "SANITAIRE"
+    },
+    {
+      "label": "Fournitures",
+      "description": "Accessoires de fixations, tuyauteries, raccords, saignées et rebouchages",
+      "quantite": 1.0,
+      "unitee_quantite": "U",
+      "price_unitaire_ht": 1366.43,
+      "tva": "TVA 10%",
+      "cout_additionnel": null,
+      "sous_produits": null,
+      "lot": "SANITAIRE"
+    }
+  ]
+}

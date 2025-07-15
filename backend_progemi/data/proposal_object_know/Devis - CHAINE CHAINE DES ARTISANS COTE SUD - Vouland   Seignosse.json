@@ -1,0 +1,198 @@
+{
+  "devis_id": "DC1358",
+  "devis_date": "11/12/2024",
+  "devis_total_ht": 7509.55,
+  "devis_total_ttc": 9011.46,
+  "devis_total_tva": 1501.91,
+  "devis_coup_additionnel": null,
+  "devis_produits": [
+    {
+      "label": "CHANTIER VOULAND A SEIGNOSSE",
+      "description": "Travaux sur le chantier Vouland à Seignosse",
+      "quantite": 1.0,
+      "unitee_quantite": null,
+      "price_unitaire_ht": 0.0,
+      "tva": "TVA 20%",
+      "cout_additionnel": null,
+      "sous_produits": [
+        {
+          "label": "INSTALLATION CHANTIER FF",
+          "description": "Installation du chantier",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 150.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "DEPOSE SOUCHE + CHAPEAU DE CHEMINEE FF",
+          "description": "Dépose souche et chapeau de cheminée",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 320.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "PROTECTION + CAMOUFLAGE TERRASSE ET ALENTOUR POUR DEMOLITION FF",
+          "description": "Protection et camouflage de la terrasse et alentours pour démolition",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 410.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "DEMOLITION PIGNON EXISTANT AVEC EVACUATION ET NETTOYAGE ET ECHAFFAUDAGE U",
+          "description": "Démolition du pignon existant avec évacuation, nettoyage et échafaudage",
+          "quantite": 3.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 596.6,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "DEMOLITION DES COTES SABLIERES U",
+          "description": "Démolition des côtés sablières",
+          "quantite": 2.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 320.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "PREPARATION DES SUPPORTS FF",
+          "description": "Préparation des supports",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 420.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "ARASE AU MEME NIVEAU EN PERIPHERIE CHAINAGE DE 20 M3",
+          "description": "Arase au même niveau en périphérie, chainage de 20 m3",
+          "quantite": 1.35,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 865.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "SCIAGE DRESSAGE DES DEMI PIGNONS A CONSERVER FF",
+          "description": "Sciage et dressage des demi-pignons à conserver",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 560.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "RACCORD ENDUIT CONTRE MUR EN BOIS U",
+          "description": "Raccord enduit contre mur en bois",
+          "quantite": 4.0,
+          "unitee_quantite": "U",
+          "price_unitaire_ht": 94.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "Frai de taxes pour decheterie t",
+          "description": "Frais de taxes pour déchèterie",
+          "quantite": 15.0,
+          "unitee_quantite": "t",
+          "price_unitaire_ht": 26.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "SOCLE EN BETON POUR DEPART ESCALIER FF",
+          "description": "Socle en béton pour départ escalier",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 180.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "SONDAGE REPERAGE DU RESEAU EU EXISTANT FF",
+          "description": "Sondage et repérage du réseau EU existant",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 210.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "CANALISATION PVC DE 100 POUR EVAC.EAUX USEES ML",
+          "description": "Canalisation PVC de 100 pour évacuation eaux usées",
+          "quantite": 12.0,
+          "unitee_quantite": "ML",
+          "price_unitaire_ht": 18.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "RACCORDEMENT sur réseau EXISTANT F",
+          "description": "Raccordement sur réseau existant",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 180.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "TRANCHEE + GAINES EN 90 DU COMPTEUR VERS ANGLE MAISON FF",
+          "description": "Tranchée et gaines en 90 du compteur vers angle maison",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 390.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "MACONNERIE"
+        },
+        {
+          "label": "NETTOYAGE FIN DE CHANTIER",
+          "description": "Nettoyage fin de chantier",
+          "quantite": 1.0,
+          "unitee_quantite": null,
+          "price_unitaire_ht": 110.0,
+          "tva": "TVA 20%",
+          "cout_additionnel": null,
+          "sous_produits": null,
+          "lot": "NETTOYAGE"
+        }
+      ],
+      "lot": "MACONNERIE"
+    }
+  ]
+}
