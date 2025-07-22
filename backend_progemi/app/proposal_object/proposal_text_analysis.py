@@ -1,12 +1,8 @@
 """Proposal Text Analysis Module."""
 
-from typing import List, Optional, Type
+from typing import Optional, Type
 
-from langchain.schema import BaseMessage, HumanMessage, SystemMessage
-
-from openai.types.chat.chat_completion_prediction_content_param import (
-    ChatCompletionPredictionContentParam,
-)
+from openai import AsyncOpenAI
 
 from app.agent.agent import Agent
 
@@ -27,13 +23,15 @@ PROPOSAL_ANALYZER_SYSTEM_PROMPT = (
     "3 - Respectez la structure originale du devis, ne tentez pas de fusionner des lignes. "
     "4 - Ne comptez pas les nouvelles pages comme une nouvelle section. "
     "5 - N'inventez aucune ligne. "
+    "6 - Si un produit n'a pas de prix unitaire mettez 0 au prix total et ne calculez pas."
+    "Voici le format attendu :\n\n{proposal_schemas}\n\n"
 )
 
 
 class ProposalTextAnalyzer:
     """Proposal text analyzer"""
 
-    def __init__(self, cost_tracker: CostTracker) -> None:
+    def __init__(self, cost_tracker: CostTracker, file_base64: str) -> None:
         """Initialize the proposal analyzer with the OpenAI API key and model."""
 
         self.model = "gpt-4.1"
@@ -50,35 +48,66 @@ class ProposalTextAnalyzer:
             reasoning_effort="high",
         )
 
+        self.client = AsyncOpenAI(api_key=env_param.OPENAI_API_KEY)
+
         self.cost_tracker: CostTracker = cost_tracker
 
-    async def analyze(
-        self, chat_historic: List[BaseMessage], devis_model: Type[Devis]
-    ) -> Optional[Devis]:
-        """Structure the proposal"""
-
-        proposal_structured: Optional[Devis] = await self.agent.run(
-            response_format=devis_model, chat_historic=chat_historic
-        )
-
-        return proposal_structured
+        self.file_base64: str = file_base64
 
     async def structure_proposal(
         self, raw_proposal: str, section_analysis: str, devis_model: Type[Devis]
     ) -> Optional[Devis]:
         """Check if the client is spam"""
 
-        chat_historic = [
-            SystemMessage(content=PROPOSAL_ANALYZER_SYSTEM_PROMPT),
-            HumanMessage(
-                "Voici un premier analyse de la sturcutre du devis :\n\n"
-                + section_analysis
-            ),
-            HumanMessage(content=raw_proposal),
-        ]
+        completion = await self.client.chat.completions.parse(
+            model=self.model,
+            messages=[
+                {
+                    "role": "system",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": PROPOSAL_ANALYZER_SYSTEM_PROMPT.format(
+                                proposal_schemas=devis_model.model_json_schema()
+                            ),
+                        }
+                    ],
+                },
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "file",
+                            "file": {
+                                "filename": "devis.pdf",
+                                "file_data": f"data:application/pdf;base64,{self.file_base64}",
+                            },
+                        },
+                        {
+                            "type": "text",
+                            "text": "# Voici une première analyse de la structure du devis :\n\n"
+                            + section_analysis
+                            + "\n\n# Voici le texte brut du devis :\n\n"
+                            + raw_proposal,
+                        },
+                    ],
+                },
+            ],
+            tools=[],
+            store=False,
+            response_format=devis_model,
+            temperature=0.0,
+        )
 
-        proposal_structured: Optional[Devis] = await self.analyze(
-            chat_historic=chat_historic, devis_model=devis_model
+        proposal_structured: Optional[devis_model] = completion.choices[
+            0
+        ].message.parsed
+
+        self.cost_tracker.add_openai_query(
+            model=self.model,
+            nb_input_token=completion.usage.prompt_tokens,
+            nb_output_token=completion.usage.completion_tokens,
+            function_name="proposal_section_analyzer",
         )
 
         if proposal_structured is None:

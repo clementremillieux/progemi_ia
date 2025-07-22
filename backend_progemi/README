@@ -8,6 +8,10 @@
 6- install package : poetry install
 7- install mongodb : brew install mongodb-community (installer mongodb pour python)
 8- sh scripts/run_mongo_db_mac_os.sh 
-9- poetry run uvicorn app.app:app --host 127.0.0.1 --port 8000 --workers 4
+9- sh scripts/run.sh
+
+Pour reset la base de données : sh scripts/clear_mongo_db.sh
 
 
+URL accès frontend : 
+http://localhost:3000/api/auth/callback?token=gw35W3tRrHHNRQTCkn7LIfnqZ7mC8KSzgQRWPelRGn-9C4XNqu0YWYJEewNyWHlZewStJJpJwQ4hR0V-7MuR1457wjR_&ip_client=1.1.1.1&idholding=1&idsociete=1&idagence=1

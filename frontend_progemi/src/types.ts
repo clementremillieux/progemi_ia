@@ -73,7 +73,16 @@ export type ProjectStatus = "valide" | "en_cours" | "en_attente";
 export interface Project {
   id: string;
   title: string;
+  packsCount: number;
+  isPackToChoose: boolean;
   description: string;
-  status: ProjectStatus;
+  status: ProjectStatus
   devisCount: number;
+}
+
+/** Réponse brute de l’API */
+export interface UserProjectOutput {
+  project_name: string;
+  packs_names: string[];
+  is_pack_to_choose: boolean;
 }

@@ -12,7 +12,6 @@ from pydantic import (
     BaseModel,
     ConfigDict,
     Field,
-    EmailStr,
     PlainSerializer,
     PlainValidator,
 )
@@ -20,6 +19,8 @@ from pydantic import (
 from beanie import Document
 
 from beanie.odm.fields import PydanticObjectId
+
+from app.progemi_api.schemas import PackProgemi
 
 from app.proposal_object.schemas import ProposalWithPolygonAndValidation
 
@@ -102,6 +103,11 @@ class ProposalInfos(BaseModel):
         description="ID of the PDF file associated with the proposal",
     )
 
+    packs: List[str] = Field(
+        ...,
+        description="List of pack names associated with the proposal",
+    )
+
 
 class Proposal(ProposalInfos):
     """Proposal schema."""
@@ -132,9 +138,14 @@ class Project(BaseModel):
         description="List of proposals associated with the project",
     )
 
-    packs: List[str] = Field(
+    project_packs: List[PackProgemi] = Field(
         ...,
         description="List of pack names associated with the project",
+    )
+
+    is_pack_to_choose: bool = Field(
+        default=True,
+        description="Indicates if the project has packs to choose from",
     )
 
     model_config = ConfigDict(arbitrary_types_allowed=True)
@@ -149,7 +160,12 @@ class User(Document):
 
     name: str = Field(..., description="Name of the user")
 
-    email: EmailStr = Field(..., description="Email of the user")
+    user_id: str = Field(..., description="ID of the user")
+
+    user_packs: List[PackProgemi] = Field(
+        ...,
+        description="List of all pack names associated with the user",
+    )
 
     projects: List[Project] = Field(
         default_factory=list, description="List of projects associated with the user"
@@ -166,25 +182,25 @@ class NewUserInput(BaseModel):
 
     user_name: str = Field(..., description="Name of the new user")
 
-    user_email: EmailStr = Field(..., description="Email of the new user")
+    user_id: str = Field(..., description="ID of the new user")
+
+    user_packs: List[PackProgemi] = Field(
+        ...,
+        description="List of pack names associated with the new user",
+    )
 
 
-class GetUserInput(BaseModel):
-    """Parameters for getting a user."""
+class GetUsersPacksNamesOutput(BaseModel):
+    """Output schema for user packs names."""
 
-    user_email: EmailStr = Field(..., description="Email of the user to retrieve")
-
-
-class DeleteUserInput(BaseModel):
-    """Parameters for deleting a user."""
-
-    user_email: EmailStr = Field(..., description="Email of the user to delete")
+    packs_names: List[str] = Field(
+        ...,
+        description="List of pack names associated with the user",
+    )
 
 
 class NewProjectInput(BaseModel):
     """Parameters for creating a new project."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the new project")
 
@@ -196,31 +212,17 @@ class NewProjectInput(BaseModel):
 class DeleteProjectInput(BaseModel):
     """Parameters for deleting a project."""
 
-    user_email: EmailStr = Field(..., description="Email of the user")
-
     project_name: str = Field(..., description="Name of the project to delete")
-
-
-class GetAllProjectsInput(BaseModel):
-    """Parameters for getting all projects of a user."""
-
-    user_email: EmailStr = Field(
-        ..., description="Email of the user to retrieve projects for"
-    )
 
 
 class UploadProposalInput(BaseModel):
     """Parameters for uploading a proposal."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the project")
 
 
 class GetProposalInput(BaseModel):
     """Parameters for getting a proposal."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the project")
 
@@ -233,15 +235,11 @@ class GetProposalInput(BaseModel):
 class GetAllProposalsInput(BaseModel):
     """Parameters for getting all proposals of a project."""
 
-    user_email: EmailStr = Field(..., description="Email of the user")
-
     project_name: str = Field(..., description="Name of the project")
 
 
 class DeleteProposalInput(BaseModel):
     """Parameters for deleting a proposal."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the project")
 
@@ -251,10 +249,27 @@ class DeleteProposalInput(BaseModel):
     )
 
 
+class UserProjectOutput(BaseModel):
+    """Output schema for user projects."""
+
+    project_name: str = Field(
+        ...,
+        description="Name of the project associated with the user",
+    )
+
+    packs_names: List[str] = Field(
+        ...,
+        description="List of pack names associated with the project",
+    )
+
+    is_pack_to_choose: bool = Field(
+        ...,
+        description="Indicates if the project has packs to choose from",
+    )
+
+
 class GetProjectPacksInput(BaseModel):
     """Parameters for getting all packs of a project."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the project")
 
@@ -262,19 +277,15 @@ class GetProjectPacksInput(BaseModel):
 class UpdateProjectPacksInput(BaseModel):
     """Parameters for updating the project packs."""
 
-    user_email: EmailStr = Field(..., description="Email of the user")
-
     project_name: str = Field(..., description="Name of the project")
 
-    packs: List[str] = Field(
+    packs_name: List[str] = Field(
         ..., description="List of new pack names associated with the project"
     )
 
 
 class GetProposalExtractedObjectInput(BaseModel):
     """Parameters for getting a structured proposal object."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the project")
 
@@ -286,8 +297,6 @@ class GetProposalExtractedObjectInput(BaseModel):
 
 class SetProposalExtractedObjectInput(BaseModel):
     """Parameters for setting a structured proposal object."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the project")
 
@@ -305,8 +314,6 @@ class SetProposalExtractedObjectInput(BaseModel):
 class CreateProposalObjectInput(BaseModel):
     """Parameters for getting a structured proposal object."""
 
-    user_email: EmailStr = Field(..., description="Email of the user")
-
     project_name: str = Field(..., description="Name of the project")
 
     proposal_title: str = Field(
@@ -318,8 +325,6 @@ class CreateProposalObjectInput(BaseModel):
 class GetProposalObjectValidationInput(BaseModel):
     """Parameters for getting a proposal object validation."""
 
-    user_email: EmailStr = Field(..., description="Email of the user")
-
     project_name: str = Field(..., description="Name of the project")
 
     proposal_title: str = Field(
@@ -330,8 +335,6 @@ class GetProposalObjectValidationInput(BaseModel):
 
 class CreateProposalObjectValidationInput(BaseModel):
     """Parameters for creating a proposal object validation."""
-
-    user_email: EmailStr = Field(..., description="Email of the user")
 
     project_name: str = Field(..., description="Name of the project")
 

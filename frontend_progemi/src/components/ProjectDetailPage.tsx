@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { ProjectHeader } from "./ProjectHeader";
 import JsonEditor  from "./JsonEditor";
@@ -21,15 +21,20 @@ import {
   Upload,
 } from "lucide-react";
 import type { DevisData, ProjectStatus, ValidationError } from "@/types";
+import { apiFetch } from "@/lib/apiFetch";
+import { X, Trash2 } from "lucide-react";
+import { deleteProposal } from "@/lib/projectProposals";
+
 
 /* ------------------------------------------------------------------ */
 /* Types locaux                                                       */
 /* ------------------------------------------------------------------ */
 
 interface ProposalInfos {
-  title: string;
+  title : string;
   status: "pending" | "processed" | "accepted";
   pdf_id?: string | null;
+  packs  : string[]; 
 }
 
 interface Proposal extends ProposalInfos {
@@ -37,6 +42,7 @@ interface Proposal extends ProposalInfos {
   pdfUrl: string;             // blob URL
   extractedObject?: DevisData | null;
   validationReport?: ValidationReport | null;
+  packs: string[];                 
 }
 
 interface ValidationReport {
@@ -48,28 +54,7 @@ interface ValidationReport {
   errors: ValidationError[];
 }
 
-/* ------------------------------------------------------------------ */
-/* Helpers API                                                        */
-/* ------------------------------------------------------------------ */
-
-async function apiFetch<T>(url: string, options: RequestInit = {}): Promise<T> {
-  const res = await fetch(url, options);
-  if (!res.ok) throw new Error(`${res.status}`);
-
-  if (res.status === 204 || res.status === 205) return null as unknown as T;
-
-  const txt = await res.text();
-  if (!txt) return null as unknown as T;
-
-  try {
-    return JSON.parse(txt) as T;
-  } catch {
-    return txt as unknown as T;
-  }
-}
-
 async function fetchAllProposalsInfos(
-  email: string,
   projectName: string,
 ): Promise<ProposalInfos[]> {
   return apiFetch<ProposalInfos[]>(
@@ -78,7 +63,6 @@ async function fetchAllProposalsInfos(
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        user_email: email,
         project_name: projectName,
       }),
     },
@@ -95,6 +79,10 @@ interface Props {
   initialTitle: string;
   initialStatus: ProjectStatus;
 }
+
+
+
+
 
 export default function ProjectDetailPage({
   projectId,
@@ -123,6 +111,75 @@ export default function ProjectDetailPage({
   const [editedObject, setEditedObject] = useState<DevisData | null>(null);
   const [isSaving, setIsSaving] = useState(false);
 
+  const [projectPacks, setProjectPacks] = useState<string[]>([]);
+
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const packs = await apiFetch<string[]>(
+          `${process.env.NEXT_PUBLIC_API_BASE}/api/users/get_project_packs_names`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ project_name: initialTitle }),
+          },
+        );
+        console.log("[PACKS] reçus depuis l’API ⇒", packs); 
+        setProjectPacks(packs.length ? packs : ["Autre"]);
+      } catch {
+        setProjectPacks(["Autre"]);
+      }
+    })();
+  }, [initialTitle]);
+
+  /** supprime accents, double‐espaces, casse, etc. */
+  const clean = (s: string) =>
+    s
+      .normalize("NFD")                  // décompose les accents
+      .replace(/[\u0300-\u036f]/g, "")   // enlève les accents
+      .replace(/\s*\/\s*/g, "/")         // espace(s) autour du « / »
+      .replace(/\s+/g, " ")              // réduit les espaces multiples
+      .trim()                            // enlève début/fin
+      .toLowerCase();                    // casse insensible
+
+
+
+  const mainLot = (p: Proposal) => {
+    const packs = p.packs ?? [];             // ← évite undefined
+    if (packs.length) {
+      for (const raw of packs) {
+        const lotClean = clean(raw);
+        if (projectPacks.some(lp => clean(lp) === lotClean)) {
+          return lotClean;
+        }
+      }
+      return clean(packs[0]);                // premier pack nettoyé
+    }
+    return "autre";                          // aucun pack
+  };
+
+
+
+  // Map clé = libellé nettoyé    valeur = { label: original, items: Proposal[] }
+  /* ---------- regroupement ---------- */
+  const grouped = useMemo(() => {
+    const map = new Map<string, { label: string; items: Proposal[] }>();
+
+    projectPacks.forEach(lbl => map.set(clean(lbl), { label: lbl, items: [] }));
+    if (!map.has("autre")) map.set("autre", { label: "Autre", items: [] });
+
+    proposals.forEach(p => {
+      const key = mainLot(p);
+      if (!map.has(key)) map.set(key, { label: p.extractedObject?.lots?.[0] ?? "Autre", items: [] });
+      map.get(key)!.items.push(p);
+    });
+
+    return [...map.values()];        //  ← UN TABLEAU, plus de .entries()
+  }, [proposals, projectPacks]);
+
+
+
   /* rectangle rouge */
 type Highlight = { polygon: number[]; page: number };
 const [highlight, setHighlight] = useState<Highlight | null>(null);
@@ -131,11 +188,13 @@ const [highlight, setHighlight] = useState<Highlight | null>(null);
   useEffect(() => {
     (async () => {
       try {
-        const infos = await fetchAllProposalsInfos("test_email@test.fr", project.title);
+        const infos = await fetchAllProposalsInfos(project.title);
+        console.log("[DEVIS] infos brutes:", infos);  
         setProposals(
           infos.map((inf) => ({
             ...inf,
             id: crypto.randomUUID(),
+            packs: inf.packs ?? [],
             pdfUrl: "",
           })),
         );
@@ -169,6 +228,7 @@ const [highlight, setHighlight] = useState<Highlight | null>(null);
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ ...payloadBase, proposal_id: prop.pdf_id }),
+            credentials: "include",
           },
         ).then((r) => r.blob());
         pdfUrl = URL.createObjectURL(blob);
@@ -215,6 +275,7 @@ const [highlight, setHighlight] = useState<Highlight | null>(null);
       title: file.name,
       status: "pending",
       pdfUrl: url,
+      packs: [],    
     };
     setProposals((prev) => [...prev, prop]);
     setSelectedId(prop.id);
@@ -354,25 +415,65 @@ const handleSave = async () => {
               onAction={() => setShowUploader(true)}
             />
           ) : (
-            <ul className="space-y-2">
-              {proposals.map((p) => (
-                <li key={p.id}>
-                  <button
-                    onClick={() => handleSelect(p.id)}
-                    className={`w-full flex items-center justify-between rounded-lg p-2 text-left ${
-                      p.id === selectedId
-                        ? "bg-primary-50 text-primary-700"
-                        : "hover:bg-neutral-100"
-                    }`}
-                  >
-                    <span className="truncate pr-2">{p.title}</span>
-                    {p.status === "pending"   && <CircleDot   className="w-4 h-4 text-neutral-400" />}
-                    {p.status === "processed" && <Scan        className="w-4 h-4 text-amber-500" />}
-                    {p.status === "accepted"  && <CheckCircle className="w-4 h-4 text-green-600" />}
-                  </button>
-                </li>
-              ))}
-            </ul>
+            <ul className="space-y-4">
+              {grouped.map(({ label, items }) => (      
+                <li key={label}>
+                  <h3 className="text-sm font-medium text-neutral-500 flex items-center gap-1 mb-1">
+                    <span className="truncate">{label}</span>
+                    <span className="text-xs text-neutral-400">({items.length})</span>
+                  </h3>
+
+                {/* ── liste des devis du lot ─────────────────────────────── */}
+                <ul className="space-y-2">
+                  {items.map(p => (                                   // ← items, pas list
+                    <li key={p.id}>
+                      <div
+                        className={`rounded-lg p-2 ${
+                          p.id === selectedId
+                            ? "bg-primary-50 text-primary-700"
+                            : "hover:bg-neutral-100"
+                        }`}
+                      >
+                        {/* bouton sélection */}
+                        <button
+                          onClick={() => handleSelect(p.id)}
+                          className="w-full flex items-center justify-between"
+                        >
+                          <span className="truncate pr-2 max-w-[150px]">{p.title}</span>
+                          {p.status === "pending"   && <CircleDot   className="w-4 h-4 text-neutral-400" />}
+                          {p.status === "processed" && <Scan        className="w-4 h-4 text-amber-500" />}
+                          {p.status === "accepted"  && <CheckCircle className="w-4 h-4 text-green-600" />}
+                        </button>
+
+                        {/* poubelle */}
+                        <button
+                          aria-label="Supprimer"
+                          className="mt-1 ml-auto flex items-center text-neutral-400 hover:text-red-600"
+                          onClick={async () => {
+                            if (!confirm(`Supprimer le devis « ${p.title} » ?`)) return;
+                            try {
+                              await deleteProposal(project.title, p.title);
+                              setProposals(prev => prev.filter(pr => pr.id !== p.id));
+                              if (p.id === selectedId) {
+                                setSelectedId(null);
+                                setEditedObject(null);
+                              }
+                            } catch (err) {
+                              console.error("Erreur suppression :", err);
+                              alert("La suppression a échoué.");
+                            }
+                          }}
+                        >
+                          <Trash2 className="w-4 h-4" />
+                        </button>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+
           )}
         </aside>
 

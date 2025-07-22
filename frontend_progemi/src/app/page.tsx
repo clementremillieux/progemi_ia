@@ -8,33 +8,32 @@ import { TextField } from "@/components/ui/TextField";
 import { Button } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ProjectCard } from "@/components/ProjectCard";
-import type { Project } from "@/types";
+import type { UserProjectOutput, Project } from "@/types";
 import { Plus } from "lucide-react";
+import { EditProjectPacksModal } from "@/components/EditProjectPacksModal";
+import { apiFetch } from "@/lib/apiFetch";
 
 /** ----------------------------------------------------------------
  *  Constantes & helpers
  *  ---------------------------------------------------------------- */
 const STORAGE_KEY = "mes_projets";
 
-async function fetchProjectNames(userEmail: string): Promise<string[]> {
-  const res = await fetch(
-    process.env.NEXT_PUBLIC_API_BASE + "/api/users/get_all_projects",
-    {
-      method: "POST",                       // ⬅️  POST, plus GET
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ user_email: "test_email@test.fr" }),
-    },
+
+export async function fetchProjects(): Promise<UserProjectOutput[]> {
+  return apiFetch<UserProjectOutput[]>(
+    `${process.env.NEXT_PUBLIC_API_BASE}/api/users/get_all_projects`,
+    { method: "POST", body: JSON.stringify({}) },
   );
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.json();
 }
 
-function toProject(name: string): Project {
+function toProject(o: UserProjectOutput): Project {
   return {
-    id: name,                 // l’API ne renvoie qu’un nom ; on l’utilise comme id
-    title: name,
+    id: o.project_name,
+    title: o.project_name,
+    packsCount: o.packs_names.length,
+    isPackToChoose: o.is_pack_to_choose,
     description: "",
-    status: "en_attente",
+    status: "en_cours",
     devisCount: 0,
   };
 }
@@ -56,11 +55,16 @@ export default function HomePage({ userEmail }: Props) {
   const [showForm, setShowForm] = useState(false);
   const [packs, setPacks] = useState<string[]>([""]); // au moins 1 champ
 
+  const [editingProject, setEditingProject] = useState<string | null>(null);
+
+
   const addPack    = () => setPacks((p) => [...p, ""]);
   const deletePack = (idx: number) =>
     setPacks((p) => p.filter((_, i) => i !== idx));
   const changePack = (idx: number, val: string) =>
     setPacks((p) => p.map((v, i) => (i === idx ? val : v)));
+
+
 
   /** ------------------------- chargement initial ------------------------ */
   useEffect(() => {
@@ -68,9 +72,9 @@ export default function HomePage({ userEmail }: Props) {
 
     (async () => {
       try {
-        const names = await fetchProjectNames(userEmail);
+        const apiData = await fetchProjects();
         if (cancelled) return;
-        const list = names.map(toProject);
+        const list = apiData.map(toProject);
         setProjects(list);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
       } catch {
@@ -116,7 +120,7 @@ export default function HomePage({ userEmail }: Props) {
       id,
       title: newTitle.trim(),
       description: newDesc.trim(),
-      status: "en_attente",
+      status: "en_cours",
       devisCount: 0,
     };
     const updated = [...projects, proj];
@@ -129,42 +133,7 @@ export default function HomePage({ userEmail }: Props) {
     router.push(`/projects/${id}?title=${encodeURIComponent(proj.title)}&status=${proj.status}`);
   };
 
-  const handleDuplicateProject = (id: string) => {
-    const orig = projects.find((p) => p.id === id);
-    if (!orig) return;
-    const newProj = { ...orig, id: crypto.randomUUID(), title: `${orig.title} (copie)` };
-    const updated = [...projects, newProj];
-    setProjects(updated);
-    saveProjects(updated);
-  };
 
-  const handleDeleteProject = async (id: string) => {
-    
-    const proj = projects.find((p) => p.id === id);
-    if (!proj) return;
-   
-    try {
-      await fetch(
-        process.env.NEXT_PUBLIC_API_BASE + "/api/users/delete_project",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            user_email: "test_email@test.fr",       
-            project_name: proj.title,    
-          }),
-      },
-     );
-    } catch (err) {
-      console.error("Erreur suppression backend :", err);
-
-    }
-
-
-    const updated = projects.filter((p) => p.id !== id);
-    setProjects(updated);
-    saveProjects(updated);
-  };
   /** ------------------------------ render ------------------------------- */
   return (
     <div className="min-h-screen bg-[var(--color-neutral-99)]">
@@ -180,9 +149,7 @@ export default function HomePage({ userEmail }: Props) {
         {/* ---------- modal création ---------- */}
         <Modal isOpen={showForm} onClose={() => setShowForm(false)}>
           <div className="p-4 space-y-6">
-            <h2 className="text-xl font-semibold text-[var(--color-foreground)]">
-              Nouveau projet
-            </h2>
+
 
             {/* ---- Nom + description ---- */}
             <div className="space-y-4">
@@ -270,13 +237,22 @@ export default function HomePage({ userEmail }: Props) {
                 title={p.title}
                 status={p.status}
                 devisCount={p.devisCount}
-
-                onDuplicate={handleDuplicateProject}
-                onDelete={handleDeleteProject}
+                packsCount={p.packsCount}
+                isPackToChoose={p.isPackToChoose}
+                onEditPacks={setEditingProject}
               />
             ))}
           </div>
         )}
+
+      <EditProjectPacksModal
+        projectName={editingProject ?? ""}
+        isOpen={editingProject !== null}
+        onClose={() => {
+          setEditingProject(null);     
+          router.refresh();          
+        }}
+      />
       </main>
     </div>
   );

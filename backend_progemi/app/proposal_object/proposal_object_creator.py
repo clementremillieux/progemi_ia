@@ -1,6 +1,7 @@
 """Proposal Object Creator Module."""
 
-from typing import Optional, Tuple, Type
+import base64
+from typing import List, Optional, Tuple, Type
 
 from azure.ai.documentintelligence.models import (
     AnalyzeResult,
@@ -47,11 +48,14 @@ class ProposalObjectCreator:
             file_binary=self.proposal_bytes
         )
 
+        file_base64: str = base64.b64encode(self.proposal_bytes).decode("utf-8")
+
         proposal_sections: Optional[
             StructureProduitsDevis
         ] = await ProposalSectionAnalysis(
             cost_tracker=self.cost_tracker,
             proposal_str=proposal_str,
+            file_base64=file_base64,
         ).get_sections()
 
         if not proposal_sections:
@@ -62,7 +66,7 @@ class ProposalObjectCreator:
             raise ProposalObjectNotCreated()
 
         proposal_object: Optional[Devis] = await ProposalTextAnalyzer(
-            cost_tracker=self.cost_tracker,
+            cost_tracker=self.cost_tracker, file_base64=file_base64
         ).analyze_and_structure(
             raw_proposal=proposal_str,
             section_analysis=proposal_sections.model_dump_json(indent=2),

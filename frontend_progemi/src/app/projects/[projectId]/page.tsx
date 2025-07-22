@@ -13,7 +13,7 @@ export default function ProjectPageWrapper() {
 
   const sp = useSearchParams();
   const initialTitle  = sp.get("title")  || "";            // vaudra ce que tu as encodé dans le push
-  const initialStatus = (sp.get("status") as ProjectStatus) || "en_attente";
+  const initialStatus = (sp.get("status") as ProjectStatus) || "en_cours";
 
   // Debug : affiche en console pour vérifier
   console.log("Wrapper ▶︎ projectId:", projectId);

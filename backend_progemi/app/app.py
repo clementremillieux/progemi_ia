@@ -24,7 +24,7 @@ app: FastAPI = create_app()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -35,7 +35,7 @@ app.include_router(user_router)
 
 
 @app.exception_handler(Exception)
-async def full_traceback_exception_handler(request: Request, exc: Exception):
+async def full_traceback_exception_handler(_: Request, exc: Exception):
     """Handle unhandled exceptions and return a full traceback."""
 
     tb = "".join(traceback.format_exception(type(exc), exc, exc.__traceback__))

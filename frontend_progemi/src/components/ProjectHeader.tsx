@@ -14,7 +14,7 @@ interface Props {
   onBack: () => void;
   onImport: () => void;
   onValidate: () => void;
-  onEdit: () => void; // renommé depuis onDuplicate
+  onEdit: () => void;
   onDelete: () => void;
 }
 

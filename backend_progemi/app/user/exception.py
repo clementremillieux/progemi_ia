@@ -17,14 +17,14 @@ class UserAlreadyExists(HTTPException):
 class UserNotExists(HTTPException):
     """Exception raised when a user does not exist."""
 
-    status_code = status.HTTP_404_NOT_FOUND
+    status_code = status.HTTP_400_BAD_REQUEST
 
-    detail = "User {user_email} does not exist"
+    detail = "User {user_id} does not exist"
 
-    def __init__(self, user_email: str) -> None:
+    def __init__(self, user_id: str) -> None:
         super().__init__(
             status_code=self.status_code,
-            detail=self.detail.format(user_email=user_email),
+            detail=self.detail.format(user_id=user_id),
         )
 
 
@@ -42,7 +42,7 @@ class FileNameMissing(HTTPException):
 class ProjectNotFound(HTTPException):
     """Exception raised when a project is not found."""
 
-    status_code = status.HTTP_404_NOT_FOUND
+    status_code = status.HTTP_400_BAD_REQUEST
 
     detail = "Project {project_name} does not exist"
 
@@ -56,7 +56,7 @@ class ProjectNotFound(HTTPException):
 class ProposalNotFound(HTTPException):
     """Exception raised when a proposal is not found."""
 
-    status_code = status.HTTP_404_NOT_FOUND
+    status_code = status.HTTP_400_BAD_REQUEST
 
     detail = "Proposal {proposal_id} does not exist"
 
@@ -70,7 +70,7 @@ class ProposalNotFound(HTTPException):
 class ProposalNotExtracted(HTTPException):
     """Exception raised when a proposal is not extracted."""
 
-    status_code = status.HTTP_404_NOT_FOUND
+    status_code = status.HTTP_400_BAD_REQUEST
 
     detail = "Proposal {proposal_title} has not been extracted"
 
@@ -120,4 +120,18 @@ class ProposalValidationNotCreated(HTTPException):
         super().__init__(
             status_code=self.status_code,
             detail=self.detail.format(proposal_title=proposal_title),
+        )
+
+
+class PacksNameNotExists(HTTPException):
+    """Exception raised when a pack name does not exist."""
+
+    status_code = status.HTTP_400_BAD_REQUEST
+
+    detail = "Pack name '{pack_name}' does not exist"
+
+    def __init__(self, pack_name: str) -> None:
+        super().__init__(
+            status_code=self.status_code,
+            detail=self.detail.format(pack_name=pack_name),
         )
