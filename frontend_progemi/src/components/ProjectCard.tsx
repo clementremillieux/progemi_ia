@@ -2,81 +2,84 @@
 
 import React from "react";
 import Link from "next/link";
-import { Copy, Trash2 } from "lucide-react";
-import type { ProjectStatus } from "@/types";
 import { StatusBadge } from "./ui/StatusBadge";
 import { MenuDropdown, MenuItem } from "./ui/MenuDropdown";
+import { Edit2 } from "lucide-react";
 
 interface Props {
   projectId: string;
   title: string;
-  status: ProjectStatus;
+  packsCount: number;
+  isPackToChoose: boolean;
+  status: string;
   devisCount: number;
-  onDuplicate?: (projectId: string) => void;
-  onDelete?: (projectId: string) => void;
+  onEditPacks: (projectId: string) => void;
 }
 
 export const ProjectCard: React.FC<Props> = ({
   projectId,
   title,
+  packsCount,
+  isPackToChoose,
   status,
   devisCount,
-  onDuplicate = () => {},
-  onDelete = () => {},
+  onEditPacks,              // ✅ extrait maintenant
 }) => {
-  const formatAmt = (n: number) =>
-    new Intl.NumberFormat("fr-FR", {
-      style: "currency",
-      currency: "EUR",
-      minimumFractionDigits: 0,
-    }).format(n);
-
   const href = `/projects/${projectId}?title=${encodeURIComponent(
-    title
+    title,
   )}&status=${status}`;
+
+  const lotsLabel = packsCount === 1 ? "Lot" : "Lots";
 
   const menuItems: MenuItem[] = [
     {
-      label: "Dupliquer le projet",
-      icon: <Copy size={16} />,
-      onClick: () => onDuplicate(projectId),
-    },
-    {
-      label: "Supprimer le projet",
-      icon: <Trash2 size={16} />,
-      className: "text-red-600",
-      onClick: () => onDelete(projectId),
+      label: "Modifier les lots",
+      icon: <Edit2 className="w-4 h-4" /> ,
+      onClick: () => onEditPacks(projectId),
     },
   ];
 
   return (
-    <div className="relative bg-white rounded-2xl border border-[var(--color-border)] p-6 hover:shadow-sm transition">
-      {/* Top: Status badge + menu dropdown */}
-      <div className="flex items-center justify-between">
+    <article className="relative bg-white rounded-2xl border border-[var(--color-border)] p-6 hover:shadow-sm transition">
+      {/* En‑tête : badge + menu */}
+      <div className="flex justify-between">
         <StatusBadge status={status} />
-        <MenuDropdown
-          items={menuItems}
-          className="z-10"
-          triggerVariant="tonal"
-          triggerFlavor="neutral"
-        />
+        <MenuDropdown items={menuItems} triggerVariant="tonal" triggerFlavor="neutral" />
       </div>
 
-      {/* Main content with link */}
-      <Link href={href} className="block mt-4">
+      {/* Contenu cliquable */}
+      <Link href={href} className="block mt-4 space-y-4">
+        {/* Titre */}
         <h2 className="text-lg font-semibold text-[var(--color-foreground)] truncate">
           {title}
         </h2>
-        <hr className="border-t border-[var(--color-border)] my-4 -mx-6" />
-        <div className="flex justify-between">
-          <div>
-            <p className="text-sm text-[var(--color-neutral-60)]">Devis</p>
+
+        <hr className="border-t border-[var(--color-border)] -mx-6" />
+
+        {/* Infos devis / lots */}
+        <div className="flex justify-between text-sm text-[var(--color-neutral-60)]">
+          <div className="space-y-1">
+            <p>Devis</p>
             <p className="text-xl font-semibold text-[var(--color-foreground)]">
               {devisCount}
             </p>
           </div>
+
+          <div className="space-y-1 text-right">
+            <p>{lotsLabel}</p>
+            <p className="text-xl font-semibold text-[var(--color-foreground)]">
+              {packsCount}
+            </p>
+          </div>
         </div>
+
+        {/* Badge “Lot(s) à configurer” */}
+        {isPackToChoose && (
+          <span className="inline-block rounded-full bg-orange-100 text-orange-800 text-xs px-3 py-0.5">
+            {packsCount === 1 ? "Lot à configurer" : "Lots à configurer"}
+          </span>
+        )}
       </Link>
-    </div>
+    </article>
   );
 };

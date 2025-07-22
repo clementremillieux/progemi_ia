@@ -13,15 +13,102 @@
         "summary": "New User",
         "description": "Create a new user with the provided user ID.",
         "operationId": "new_user_api_users_new_user_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/NewUserInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -56,16 +143,93 @@
         "summary": "Get User",
         "description": "Retrieve user information based on the provided user ID.",
         "operationId": "get_user_api_users_get_user_get",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/GetUserInput"
-              }
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
             }
           },
-          "required": true
-        },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful Response",
@@ -73,6 +237,128 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "User does not exist"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_user_packs_names": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get User Packs Names",
+        "description": "Retrieve user information based on the provided user ID.",
+        "operationId": "get_user_packs_names_api_users_get_user_packs_names_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetUsersPacksNamesOutput"
                 }
               }
             }
@@ -101,16 +387,93 @@
         "summary": "Delete User",
         "description": "Delete a user based on the provided user ID.",
         "operationId": "delete_user_api_users_delete_user_post",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteUserInput"
-              }
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
             }
           },
-          "required": true
-        },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful Response",
@@ -141,15 +504,102 @@
         "summary": "New Project",
         "description": "Create a new project for the given user.",
         "operationId": "new_project_api_users_new_project_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/NewProjectInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -181,15 +631,102 @@
         "summary": "Delete Project",
         "description": "Delete a project for the given user.",
         "operationId": "delete_project_api_users_delete_project_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/DeleteProjectInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -221,26 +758,103 @@
         "summary": "Get All Projects",
         "description": "Retrieve all projects name associated with a user.",
         "operationId": "get_all_projects_api_users_get_all_projects_post",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/GetAllProjectsInput"
-              }
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
             }
           },
-          "required": true
-        },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful Response",
             "content": {
               "application/json": {
                 "schema": {
-                  "items": {
-                    "type": "string"
-                  },
                   "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProjectOutput"
+                  },
                   "title": "Response Get All Projects Api Users Get All Projects Post"
                 }
               }
@@ -267,15 +881,102 @@
         "summary": "Upload Proposal",
         "description": "Upload a proposal file for the given user & project.",
         "operationId": "upload_proposal_api_users_upload_proposal_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "multipart/form-data": {
               "schema": {
                 "$ref": "#/components/schemas/Body_upload_proposal_api_users_upload_proposal_post"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -307,15 +1008,102 @@
         "summary": "Get Proposal",
         "description": "Return a proposal file for the given user & project.",
         "operationId": "get_proposal_api_users_get_proposal_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/GetProposalInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -347,15 +1135,102 @@
         "summary": "Delete Proposal",
         "description": "Delete a proposal for the given user & project.",
         "operationId": "delete_proposal_api_users_delete_proposal_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/DeleteProposalInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -387,15 +1262,102 @@
         "summary": "Get All Proposals",
         "description": "Retrieve all proposals associated with a project for a user.",
         "operationId": "get_all_proposals_api_users_get_all_proposals_infos_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/GetAllProposalsInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -403,10 +1365,10 @@
             "content": {
               "application/json": {
                 "schema": {
+                  "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/ProposalInfos"
                   },
-                  "type": "array",
                   "title": "Response Get All Proposals Api Users Get All Proposals Infos Post"
                 }
               }
@@ -433,15 +1395,102 @@
         "summary": "Get Project Packs",
         "description": "Retrieve all packs associated with a project for a user.",
         "operationId": "get_project_packs_api_users_get_project_packs_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/GetProjectPacksInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -449,11 +1498,144 @@
             "content": {
               "application/json": {
                 "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PackProgemi"
+                  },
+                  "title": "Response Get Project Packs Api Users Get Project Packs Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/get_project_packs_names": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get Project Packs Names",
+        "description": "Retrieve all pack names associated with a project for a user.",
+        "operationId": "get_project_packs_names_api_users_get_project_packs_names_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProjectPacksInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
                   "items": {
                     "type": "string"
                   },
-                  "type": "array",
-                  "title": "Response Get Project Packs Api Users Get Project Packs Get"
+                  "title": "Response Get Project Packs Names Api Users Get Project Packs Names Post"
                 }
               }
             }
@@ -479,15 +1661,102 @@
         "summary": "Update Project Packs",
         "description": "Update the packs associated with a project for a user.",
         "operationId": "update_project_packs_api_users_update_project_packs_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/UpdateProjectPacksInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -519,15 +1788,102 @@
         "summary": "Get Proposal Extracted Object",
         "description": "Retrieve the structured proposal object for a given proposal title.",
         "operationId": "get_proposal_extracted_object_api_users_get_proposal_extracted_object_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/GetProposalExtractedObjectInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -561,15 +1917,102 @@
         "summary": "Set Proposal Extracted Object",
         "description": "Set the structured proposal object for a given proposal title.",
         "operationId": "set_proposal_extracted_object_api_users_set_proposal_extracted_object_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/SetProposalExtractedObjectInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -603,15 +2046,102 @@
         "summary": "Get Proposal Object",
         "description": "Retrieve a structured proposal object for a given proposal title.",
         "operationId": "get_proposal_object_api_users_get_proposal_object_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/CreateProposalObjectInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -645,15 +2175,102 @@
         "summary": "Create Proposal Object Validation",
         "description": "Retrieve the validation report for a given proposal title.",
         "operationId": "create_proposal_object_validation_api_users_create_proposal_object_validation_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/CreateProposalObjectValidationInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -687,15 +2304,102 @@
         "summary": "Get Proposal Object Validation",
         "description": "Retrieve the validation report for a given proposal title.",
         "operationId": "get_proposal_object_validation_api_users_get_proposal_object_validation_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "access_token",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Access Token"
+            }
+          },
+          {
+            "name": "ip_client",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ip Client"
+            }
+          },
+          {
+            "name": "idholding",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idholding"
+            }
+          },
+          {
+            "name": "idsociete",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idsociete"
+            }
+          },
+          {
+            "name": "idagence",
+            "in": "cookie",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idagence"
+            }
+          }
+        ],
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/GetProposalObjectValidationInput"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -726,11 +2430,6 @@
     "schemas": {
       "Body_upload_proposal_api_users_upload_proposal_post": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name"
@@ -743,7 +2442,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "file"
         ],
@@ -751,12 +2449,6 @@
       },
       "CreateProposalObjectInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -770,7 +2462,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "proposal_title"
         ],
@@ -779,12 +2470,6 @@
       },
       "CreateProposalObjectValidationInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -798,7 +2483,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "proposal_title"
         ],
@@ -807,12 +2491,6 @@
       },
       "DeleteProjectInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -821,7 +2499,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name"
         ],
         "title": "DeleteProjectInput",
@@ -829,12 +2506,6 @@
       },
       "DeleteProposalInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -848,53 +2519,14 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "proposal_title"
         ],
         "title": "DeleteProposalInput",
         "description": "Parameters for deleting a proposal."
       },
-      "DeleteUserInput": {
-        "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user to delete"
-          }
-        },
-        "type": "object",
-        "required": [
-          "user_email"
-        ],
-        "title": "DeleteUserInput",
-        "description": "Parameters for deleting a user."
-      },
-      "GetAllProjectsInput": {
-        "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user to retrieve projects for"
-          }
-        },
-        "type": "object",
-        "required": [
-          "user_email"
-        ],
-        "title": "GetAllProjectsInput",
-        "description": "Parameters for getting all projects of a user."
-      },
       "GetAllProposalsInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -903,7 +2535,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name"
         ],
         "title": "GetAllProposalsInput",
@@ -911,12 +2542,6 @@
       },
       "GetProjectPacksInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -925,7 +2550,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name"
         ],
         "title": "GetProjectPacksInput",
@@ -933,12 +2557,6 @@
       },
       "GetProposalExtractedObjectInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -952,7 +2570,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "proposal_title"
         ],
@@ -961,12 +2578,6 @@
       },
       "GetProposalInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -979,7 +2590,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "proposal_id"
         ],
@@ -988,12 +2598,6 @@
       },
       "GetProposalObjectValidationInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -1007,28 +2611,29 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "proposal_title"
         ],
         "title": "GetProposalObjectValidationInput",
         "description": "Parameters for getting a proposal object validation."
       },
-      "GetUserInput": {
+      "GetUsersPacksNamesOutput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user to retrieve"
+          "packs_names": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Packs Names",
+            "description": "List of pack names associated with the user"
           }
         },
         "type": "object",
         "required": [
-          "user_email"
+          "packs_names"
         ],
-        "title": "GetUserInput",
-        "description": "Parameters for getting a user."
+        "title": "GetUsersPacksNamesOutput",
+        "description": "Output schema for user packs names."
       },
       "HTTPValidationError": {
         "properties": {
@@ -1060,12 +2665,6 @@
       },
       "NewProjectInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -1082,7 +2681,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "packs"
         ],
@@ -1096,20 +2694,55 @@
             "title": "User Name",
             "description": "Name of the new user"
           },
-          "user_email": {
+          "user_id": {
             "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the new user"
+            "title": "User Id",
+            "description": "ID of the new user"
+          },
+          "user_packs": {
+            "items": {
+              "$ref": "#/components/schemas/PackProgemi"
+            },
+            "type": "array",
+            "title": "User Packs",
+            "description": "List of pack names associated with the new user"
           }
         },
         "type": "object",
         "required": [
           "user_name",
-          "user_email"
+          "user_id",
+          "user_packs"
         ],
         "title": "NewUserInput",
         "description": "Parameters for creating a new user."
+      },
+      "PackProgemi": {
+        "properties": {
+          "codelot": {
+            "type": "string",
+            "title": "Codelot",
+            "description": "Code of the pack"
+          },
+          "idlot": {
+            "type": "integer",
+            "title": "Idlot",
+            "description": "ID of the pack"
+          },
+          "libellelot": {
+            "type": "string",
+            "title": "Libellelot",
+            "description": "Name of the pack"
+          }
+        },
+        "type": "object",
+        "required": [
+          "codelot",
+          "idlot",
+          "libellelot"
+        ],
+        "title": "PackProgemi",
+        "description": "Schema for the packs retrieved from the Progemi API."
       },
       "ProductWithPolygonAndValidation-Input": {
         "properties": {
@@ -1350,19 +2983,25 @@
             "title": "Proposals",
             "description": "List of proposals associated with the project"
           },
-          "packs": {
+          "project_packs": {
             "items": {
-              "type": "string"
+              "$ref": "#/components/schemas/PackProgemi"
             },
             "type": "array",
-            "title": "Packs",
+            "title": "Project Packs",
             "description": "List of pack names associated with the project"
+          },
+          "is_pack_to_choose": {
+            "type": "boolean",
+            "title": "Is Pack To Choose",
+            "description": "Indicates if the project has packs to choose from",
+            "default": true
           }
         },
         "type": "object",
         "required": [
           "name",
-          "packs"
+          "project_packs"
         ],
         "title": "Project",
         "description": "Project schema."
@@ -1389,6 +3028,14 @@
               }
             ],
             "description": "ID of the PDF file associated with the proposal"
+          },
+          "packs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Packs",
+            "description": "List of pack names associated with the proposal"
           },
           "proposal_str": {
             "anyOf": [
@@ -1427,7 +3074,8 @@
         },
         "type": "object",
         "required": [
-          "title"
+          "title",
+          "packs"
         ],
         "title": "Proposal",
         "description": "Proposal schema."
@@ -1454,11 +3102,20 @@
               }
             ],
             "description": "ID of the PDF file associated with the proposal"
+          },
+          "packs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Packs",
+            "description": "List of pack names associated with the proposal"
           }
         },
         "type": "object",
         "required": [
-          "title"
+          "title",
+          "packs"
         ],
         "title": "ProposalInfos",
         "description": "Proposal information schema."
@@ -1676,12 +3333,6 @@
       },
       "SetProposalExtractedObjectInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
@@ -1699,7 +3350,6 @@
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
           "title",
           "extracted_object"
@@ -1721,31 +3371,24 @@
       },
       "UpdateProjectPacksInput": {
         "properties": {
-          "user_email": {
-            "type": "string",
-            "format": "email",
-            "title": "User Email",
-            "description": "Email of the user"
-          },
           "project_name": {
             "type": "string",
             "title": "Project Name",
             "description": "Name of the project"
           },
-          "packs": {
+          "packs_name": {
             "items": {
               "type": "string"
             },
             "type": "array",
-            "title": "Packs",
+            "title": "Packs Name",
             "description": "List of new pack names associated with the project"
           }
         },
         "type": "object",
         "required": [
-          "user_email",
           "project_name",
-          "packs"
+          "packs_name"
         ],
         "title": "UpdateProjectPacksInput",
         "description": "Parameters for updating the project packs."
@@ -1767,11 +3410,18 @@
             "title": "Name",
             "description": "Name of the user"
           },
-          "email": {
+          "user_id": {
             "type": "string",
-            "format": "email",
-            "title": "Email",
-            "description": "Email of the user"
+            "title": "User Id",
+            "description": "ID of the user"
+          },
+          "user_packs": {
+            "items": {
+              "$ref": "#/components/schemas/PackProgemi"
+            },
+            "type": "array",
+            "title": "User Packs",
+            "description": "List of all pack names associated with the user"
           },
           "projects": {
             "items": {
@@ -1785,10 +3435,41 @@
         "type": "object",
         "required": [
           "name",
-          "email"
+          "user_id",
+          "user_packs"
         ],
         "title": "User",
         "description": "User schema."
+      },
+      "UserProjectOutput": {
+        "properties": {
+          "project_name": {
+            "type": "string",
+            "title": "Project Name",
+            "description": "Name of the project associated with the user"
+          },
+          "packs_names": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Packs Names",
+            "description": "List of pack names associated with the project"
+          },
+          "is_pack_to_choose": {
+            "type": "boolean",
+            "title": "Is Pack To Choose",
+            "description": "Indicates if the project has packs to choose from"
+          }
+        },
+        "type": "object",
+        "required": [
+          "project_name",
+          "packs_names",
+          "is_pack_to_choose"
+        ],
+        "title": "UserProjectOutput",
+        "description": "Output schema for user projects."
       },
       "ValidationError": {
         "properties": {
@@ -1867,6 +3548,12 @@
         ],
         "title": "ValidationReport",
         "description": "Report the results of the proposal object validation."
+      }
+    },
+    "securitySchemes": {
+      "HTTPBearer": {
+        "type": "http",
+        "scheme": "bearer"
       }
     }
   }

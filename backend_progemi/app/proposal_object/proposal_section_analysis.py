@@ -4,10 +4,6 @@ from typing import Optional, List
 
 from openai import AsyncOpenAI
 
-from openai.types.chat.chat_completion_prediction_content_param import (
-    ChatCompletionPredictionContentParam,
-)
-
 from pydantic import BaseModel, Field
 
 from app.cost.cost import CostTracker
@@ -56,11 +52,15 @@ class StructureProduitsDevis(BaseModel):
 class ProposalSectionAnalysis:
     """Class to handle proposal section analysis."""
 
-    def __init__(self, proposal_str: str, cost_tracker: CostTracker) -> None:
+    def __init__(
+        self, proposal_str: str, cost_tracker: CostTracker, file_base64: str
+    ) -> None:
         """Initialize with the path to the proposal."""
         self.proposal_str = proposal_str
 
         self.cost_tracker = cost_tracker
+
+        self.file_base64 = file_base64
 
         self.model = "gpt-4.1"
 
@@ -91,6 +91,13 @@ class ProposalSectionAnalysis:
                 {
                     "role": "user",
                     "content": [
+                        {
+                            "type": "file",
+                            "file": {
+                                "filename": "devis.pdf",
+                                "file_data": f"data:application/pdf;base64,{self.file_base64}",
+                            },
+                        },
                         {"type": "text", "text": self.proposal_str},
                     ],
                 },

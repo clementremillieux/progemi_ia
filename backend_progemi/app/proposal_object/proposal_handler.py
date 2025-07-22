@@ -12,6 +12,7 @@ from azure.ai.documentintelligence.models import (
     AnalyzeResult,
 )
 
+from app.cost import cost
 from app.cost.cost import CostTracker
 
 from app.proposal_object.proposal_retry import ProposalRetry
@@ -96,6 +97,8 @@ class ProposalHandler:
         Create and return a structured proposal object from the proposal bytes.
         """
 
+        cost_tracker = CostTracker()
+
         devis_model = self.inject_lot_enum(
             packs=packs,
             produit_model=Produit,
@@ -104,7 +107,7 @@ class ProposalHandler:
 
         proposal_object_creator = ProposalObjectCreator(
             proposal_bytes=proposal_bytes,
-            cost_tracker=CostTracker(),
+            cost_tracker=cost_tracker,
         )
 
         (
@@ -113,10 +116,10 @@ class ProposalHandler:
             analyze_result,
         ) = await proposal_object_creator.create(devis_model=devis_model)
 
-        logger.info(
-            "PROPOSAL HANDLER => Proposal object: %s",
-            proposal_object.model_dump_json(indent=2),
-        )
+        # logger.info(
+        #     "PROPOSAL HANDLER => Proposal object: %s",
+        #     proposal_object.model_dump_json(indent=2),
+        # )
 
         proposal_object, report = await self.validate_proposal_object(
             proposal_object=proposal_object
@@ -128,12 +131,21 @@ class ProposalHandler:
         )
 
         if len(report.errors) > 0:
+            logger.warning(
+                "PROPOSAL HANDLER => Proposal object has errors, retrying creation."
+            )
+
             proposal_object, report = await self.check_and_retry_proposal_object(
                 analyze_result=analyze_result,
                 proposal_str=proposal_str,
                 proposal_object=proposal_object,
                 proposal_validation=report,
             )
+
+        logger.info(
+            "PROPOSAL HANDLER => Final cost: %s",
+            cost_tracker.cost.model_dump_json(indent=2),
+        )
 
         return proposal_object, report, proposal_str
 
@@ -160,6 +172,7 @@ class ProposalHandler:
             logger.error(
                 "PROPOSAL HANDLER => Failed to create a valid proposal object after retry."
             )
+
             raise ValueError("Failed to create a valid proposal object after retry.")
 
         new_proposal_with_polygon: ProposalWithPolygonAndValidation = (
@@ -170,6 +183,11 @@ class ProposalHandler:
         )
         new_proposal_object, new_report = await self.validate_proposal_object(
             proposal_object=new_proposal_with_polygon
+        )
+
+        logger.info(
+            "PROPOSAL HANDLER => New proposal report after retry: %s",
+            new_report.model_dump_json(indent=2),
         )
 
         return new_proposal_object, new_report

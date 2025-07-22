@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Uploader } from "./Uploader";         // ton composant drag & drop
+import { Uploader } from "./Uploader";      // drag‑and‑drop ou input
 
 interface Props {
   userEmail: string;
@@ -22,11 +22,15 @@ export const DevisUploader: React.FC<Props> = ({
 
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_API_BASE}/api/users/upload_proposal`,
-      { method: "POST", body: form },
+      {
+        method: "POST",
+        body: form,
+        credentials: "include",   // ← indispensable
+      },
     );
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    onDone(file);                 // on laisse ProjectDetailPage gérer l’état
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    onDone(file);                 // ProjectDetailPage met à jour l’état
   };
 
   return <Uploader onFileSelect={handleFile} accept=".pdf" />;

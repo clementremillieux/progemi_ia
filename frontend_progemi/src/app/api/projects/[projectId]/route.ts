@@ -11,7 +11,7 @@ export async function GET(
     id:         params.projectId,
     title:      `Projet #${params.projectId}`,
     description:"",
-    status:     "en_attente",
+    status:     "en_cours",
     devisCount: 0,
     totalAmount:0,
   };

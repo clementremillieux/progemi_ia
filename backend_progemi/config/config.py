@@ -178,12 +178,6 @@ class EnvParam:
 
     OPENAI_API_KEY: str = str(load_param_env_file(name="OPENAI_API_KEY"))
 
-    META_APP_ID: str = str(load_param_env_file(name="META_APP_ID"))
-
-    META_APP_SECRET: str = str(load_param_env_file(name="META_APP_SECRET"))
-
-    META_APP_ACCESS_TOKEN: str = str(load_param_env_file(name="META_APP_ACCESS_TOKEN"))
-
     AZURE_DI_URL: str = str(load_param_env_file(name="AZURE_DI_URL"))
 
     AZURE_DI_KEY: str = str(load_param_env_file(name="AZURE_DI_KEY"))
@@ -191,6 +185,10 @@ class EnvParam:
     MONGO_DB_URI: str = str(load_param_env_file(name="MONGO_DB_URI"))
 
     USER_DB_NAME: str = str(load_param_env_file(name="USER_DB_NAME"))
+
+    PROGEMI_API_BASE_URL: str = str(load_param_env_file(name="PROGEMI_API_BASE_URL"))
+
+    PROGEMI_API_VERSION: str = str(load_param_env_file(name="PROGEMI_API_VERSION"))
 
 
 env_param = EnvParam()

@@ -58,7 +58,7 @@ const demoDevis: Devis = {
   id: "devis-001",
   fileName: "devis_maçonnerie.pdf",
   status: "completed",
-  validationStatus: "en_attente",
+  validationStatus: "en_cours",
   uploadDate: new Date("2024-06-01"),
   fournisseur: "Entreprise MaçonPro",
   data: {
